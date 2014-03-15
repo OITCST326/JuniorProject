@@ -1,0 +1,69 @@
+c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.dll.config
+c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.dll
+c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.pdb
+c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Client.Entities\bin\Debug\Newtonsoft.Json.dll
+c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.dll
+c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.dll
+c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Client.Entities\bin\Debug\Newtonsoft.Json.xml
+c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.pdb
+c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.xml
+c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.pdb
+c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.xml
+c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.csprojResolveAssemblyReference.cache
+c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.dll
+c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.pdb
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.dll.config
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.pdb
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.pdb
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.pdb
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.dll.config
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.pdb
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.dll.config
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.pdb
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.pdb
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.pdb
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.pdb
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.dll.config
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.pdb
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.pdb
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.pdb
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.pdb

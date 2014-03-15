@@ -1,0 +1,353 @@
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\AIM.Web.Admin.dll.config
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\AIM.Web.Admin.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\AIM.Web.Admin.pdb
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Antlr3.Runtime.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\EntityFramework.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\EntityFramework.SqlServer.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Owin.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Owin.Security.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Newtonsoft.Json.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Owin.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Net.Http.Formatting.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Web.Helpers.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Web.Http.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Web.Http.WebHost.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Web.Mvc.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Web.Optimization.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Web.Razor.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Web.WebPages.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Web.WebPages.Razor.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\WebGrease.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Antlr3.Runtime.pdb
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\EntityFramework.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\EntityFramework.SqlServer.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Owin.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Owin.Security.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Newtonsoft.Json.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Net.Http.Formatting.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Web.Helpers.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Web.Http.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Web.Http.WebHost.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Web.Mvc.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Web.Optimization.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Web.Razor.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Web.WebPages.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\System.Web.WebPages.Razor.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\obj\Debug\AIM.Web.Admin.csprojResolveAssemblyReference.cache
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\obj\Debug\AIM.Web.Admin.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM.Web.Admin\AIM.Web.Admin\obj\Debug\AIM.Web.Admin.pdb
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Web.Admin.dll.config
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Web.Admin.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Web.Admin.pdb
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Service.Core.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Service.Entities.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Antlr3.Runtime.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\EntityFramework.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\EntityFramework.SqlServer.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Newtonsoft.Json.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Owin.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Net.Http.Formatting.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Helpers.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Http.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Http.WebHost.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Mvc.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Optimization.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Razor.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.Razor.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.Common.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\WebGrease.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\WebMatrix.Data.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.EF.6.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Service.Core.pdb
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Service.Entities.pdb
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Antlr3.Runtime.pdb
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\EntityFramework.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\EntityFramework.SqlServer.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Newtonsoft.Json.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Net.Http.Formatting.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Helpers.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Http.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Http.WebHost.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Mvc.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Optimization.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Razor.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.Razor.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.Common.pdb
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.Common.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\WebMatrix.Data.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.EF.6.pdb
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.EF.6.xml
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\obj\Debug\AIM.Web.Admin.csprojResolveAssemblyReference.cache
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\obj\Debug\AIM.Web.Admin.dll
+C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Web.Admin\obj\Debug\AIM.Web.Admin.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\obj\Debug\AIM.Web.Admin.csprojResolveAssemblyReference.cache
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Web.Admin.dll.config
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Web.Admin.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Web.Admin.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Service.Core.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Service.Entities.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Antlr3.Runtime.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\EntityFramework.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\EntityFramework.SqlServer.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Newtonsoft.Json.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Owin.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Net.Http.Formatting.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Helpers.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Http.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Http.WebHost.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Mvc.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Optimization.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Razor.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.Razor.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.Common.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\WebGrease.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\WebMatrix.Data.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.EF.6.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Service.Core.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Service.Entities.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Antlr3.Runtime.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\EntityFramework.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\EntityFramework.SqlServer.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Newtonsoft.Json.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Net.Http.Formatting.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Helpers.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Http.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Http.WebHost.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Mvc.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Optimization.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Razor.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.Razor.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.Common.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.Common.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\WebMatrix.Data.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.EF.6.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.EF.6.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\obj\Debug\AIM.Web.Admin.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\obj\Debug\AIM.Web.Admin.pdb
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Web.Admin.dll.config
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Web.Admin.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Web.Admin.pdb
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Service.Core.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Service.Entities.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Antlr3.Runtime.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\EntityFramework.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\EntityFramework.SqlServer.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Newtonsoft.Json.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Owin.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Net.Http.Formatting.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Helpers.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Http.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Http.WebHost.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Mvc.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Optimization.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Razor.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.Razor.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.Common.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\WebGrease.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\WebMatrix.Data.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.EF.6.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Service.Core.pdb
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Service.Entities.pdb
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Antlr3.Runtime.pdb
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\EntityFramework.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\EntityFramework.SqlServer.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Newtonsoft.Json.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Net.Http.Formatting.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Helpers.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Http.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Http.WebHost.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Mvc.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Optimization.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Razor.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.Razor.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.Common.pdb
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.Common.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\WebMatrix.Data.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.EF.6.pdb
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.EF.6.xml
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\obj\Debug\AIM.Web.Admin.csprojResolveAssemblyReference.cache
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\obj\Debug\AIM.Web.Admin.dll
+C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\obj\Debug\AIM.Web.Admin.pdb
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Web.Admin.dll.config
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Web.Admin.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Web.Admin.pdb
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Service.Core.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Service.Entities.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Antlr3.Runtime.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\EntityFramework.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\EntityFramework.SqlServer.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Newtonsoft.Json.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Owin.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Net.Http.Formatting.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Helpers.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Http.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Http.WebHost.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Mvc.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Optimization.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Razor.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.Razor.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.Common.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\WebGrease.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\WebMatrix.Data.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.EF.6.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Service.Core.pdb
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\AIM.Service.Entities.pdb
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Antlr3.Runtime.pdb
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\EntityFramework.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\EntityFramework.SqlServer.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Newtonsoft.Json.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Net.Http.Formatting.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Helpers.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Http.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Http.WebHost.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Mvc.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Optimization.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.Razor.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\System.Web.WebPages.Razor.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.Common.pdb
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.Common.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\WebMatrix.Data.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.EF.6.pdb
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.EF.6.xml
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\obj\Debug\AIM.Web.Admin.csprojResolveAssemblyReference.cache
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\obj\Debug\AIM.Web.Admin.dll
+C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Web.Admin\obj\Debug\AIM.Web.Admin.pdb

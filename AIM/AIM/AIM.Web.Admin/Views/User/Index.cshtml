@@ -1,0 +1,118 @@
+﻿@model IEnumerable<AIM.Service.Entities.Models.User>
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<!-- This view's content starts HERE-->
+<div>
+    <ul class="breadcrumb">
+        <li>
+            <a href="@Url.Action("Index", "Home")">Home</a><span class="divider">/</span>
+        </li>
+        <li>
+            <a href="@Url.Action("Index", "User")">Users</a>
+        </li>
+    </ul>
+</div>
+
+<div class="row-fluid">
+    <div class="box span12">
+        <div class="box-header well">
+            <h2><i class="icon-info-sign"></i> USERS</h2>
+            <div class="box-icon">
+                <a href="#" class="btn btn-setting btn-round"><i class="icon-cog"></i></a>
+                <a href="#" class="btn btn-minimize btn-round"><i class="icon-chevron-up"></i></a>
+                <a href="#" class="btn btn-close btn-round"><i class="icon-remove"></i></a>
+            </div>
+        </div>
+        <div class="box-content">
+            <h2>User Index</h2>
+
+
+            <p>
+                @Html.ActionLink("Create New", "Create")
+            </p>
+            <table class="table">
+                <tr>
+                    @*<th>
+                            @Html.DisplayNameFor(model => model.Applicant.applicantId)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Employee.employeeId)
+                        </th>*@
+                    @*<th>
+                        @Html.DisplayNameFor(model => model.PersonalInfo.alias)
+                    </th>*@
+                    <th>
+                        @Html.DisplayNameFor(model => model.firstName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.middleName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.lastName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.email)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.socialSecurityNumber)
+                    </th>
+                    @*<th>
+                        @Html.DisplayNameFor(model => model.socialSecurityNumberCoder)
+                    </th>*@
+                    @*<th>
+                            @Html.DisplayNameFor(model => model.applicationId)
+                        </th>*@
+                    <th></th>
+                </tr>
+
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        @*<td>
+                                @Html.DisplayFor(modelItem => item.Applicant.applicantId)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Employee.employeeId)
+                            </td>*@
+                        @*<td>
+                            @Html.DisplayFor(modelItem => item.PersonalInfo.alias)
+                        </td>*@
+                        <td>
+                            @Html.DisplayFor(modelItem => item.firstName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.middleName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.lastName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.email)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.socialSecurityNumber)
+                        </td>
+                        @*<td>
+                            @Html.DisplayFor(modelItem => item.socialSecurityNumberCoder)
+                        </td>*@
+                        @*<td>
+                                @Html.DisplayFor(modelItem => item.applicationId)
+                            </td>*@
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.userId }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.userId }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.userId })
+                        </td>
+                    </tr>
+                }
+
+            </table>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>

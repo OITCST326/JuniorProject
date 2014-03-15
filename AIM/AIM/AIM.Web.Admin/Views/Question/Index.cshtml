@@ -1,0 +1,74 @@
+﻿@model IEnumerable<AIM.Service.Entities.Models.Question>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<!-- This view's content starts HERE-->
+<div>
+    <ul class="breadcrumb">
+        <li>
+            <a href="@Url.Action("Index", "Home")">Home</a><span class="divider">/</span>
+        </li>
+        <li>
+            <a href="@Url.Action("Index", "Question")">Questions</a>
+        </li>
+    </ul>
+</div>
+
+<div class="row-fluid">
+    <div class="box span12">
+        <div class="box-header well">
+            <h2><i class="icon-info-sign"></i> QUESTIONS</h2>
+            <div class="box-icon">
+                <a href="#" class="btn btn-setting btn-round"><i class="icon-cog"></i></a>
+                <a href="#" class="btn btn-minimize btn-round"><i class="icon-chevron-up"></i></a>
+                <a href="#" class="btn btn-close btn-round"><i class="icon-remove"></i></a>
+            </div>
+        </div>
+        <div class="box-content">
+            <h2>Question Index</h2>
+            <p>
+                @Html.ActionLink("Create New", "Create")
+            </p>
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.qJsonProperties)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.questionnaireId)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.interviewQuestionsId)
+                    </th>
+                    <th></th>
+                </tr>
+
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.qJsonProperties)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.questionnaireId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.interviewQuestionsId)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.questionId }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.questionId }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.questionId })
+                        </td>
+                    </tr>
+                }
+            </table>
+
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
