@@ -1,153 +1,22 @@
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\bin\Debug\AIM.Service.Core.dll.config
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\bin\Debug\AIM.Service.Core.dll
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\bin\Debug\AIM.Service.Core.pdb
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\bin\Debug\AIM.Service.Entities.dll
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\bin\Debug\EntityFramework.dll
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\bin\Debug\EntityFramework.SqlServer.dll
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\bin\Debug\Newtonsoft.Json.dll
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\bin\Debug\TrackableEntities.Common.dll
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\bin\Debug\TrackableEntities.EF.6.dll
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\bin\Debug\AIM.Service.Entities.pdb
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\bin\Debug\EntityFramework.xml
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\bin\Debug\EntityFramework.SqlServer.xml
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\bin\Debug\Newtonsoft.Json.xml
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\bin\Debug\TrackableEntities.Common.pdb
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\bin\Debug\TrackableEntities.Common.xml
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\bin\Debug\TrackableEntities.EF.6.pdb
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\bin\Debug\TrackableEntities.EF.6.xml
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\obj\Debug\AIM.Service.Administrative.csprojResolveAssemblyReference.cache
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\obj\Debug\AIM.Service.Core.dll
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.Service.Core\obj\Debug\AIM.Service.Core.pdb
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.dll.config
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.dll
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.pdb
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Entities.dll
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.dll
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.dll
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.dll
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Entities.pdb
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.xml
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.pdb
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.xml
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.pdb
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.xml
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Administrative.csprojResolveAssemblyReference.cache
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Core.dll
-C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Core.pdb
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.dll.config
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.dll
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.pdb
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Entities.dll
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.dll
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\System.Net.Http.Formatting.dll
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.dll
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.dll
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Entities.pdb
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.xml
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\System.Net.Http.Formatting.xml
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.pdb
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.xml
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.pdb
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.xml
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Administrative.csprojResolveAssemblyReference.cache
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Core.dll
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Core.pdb
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Administrative.csprojResolveAssemblyReference.cache
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.dll.config
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.pdb
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Entities.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\System.Net.Http.Formatting.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Entities.pdb
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\System.Net.Http.Formatting.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.pdb
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.pdb
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Core.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Core.pdb
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.dll.config
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.dll
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.pdb
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Entities.dll
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.dll
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\System.Net.Http.Formatting.dll
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.dll
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.dll
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Entities.pdb
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.xml
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\System.Net.Http.Formatting.xml
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.pdb
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.xml
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.pdb
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.xml
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Administrative.csprojResolveAssemblyReference.cache
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Core.dll
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Core.pdb
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.dll.config
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.dll
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.pdb
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Entities.dll
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.dll
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\System.Net.Http.Formatting.dll
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.dll
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.dll
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Entities.pdb
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.xml
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\System.Net.Http.Formatting.xml
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.pdb
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.xml
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.pdb
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.xml
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Administrative.csprojResolveAssemblyReference.cache
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Core.dll
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Core.pdb
-<<<<<<< HEAD
-=======
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.dll.config
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.dll
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.pdb
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Entities.dll
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.dll
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\Newtonsoft.Json.dll
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\System.Net.Http.Formatting.dll
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.dll
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.dll
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Entities.pdb
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.xml
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\Newtonsoft.Json.xml
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\System.Net.Http.Formatting.xml
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.pdb
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.xml
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.pdb
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.xml
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Administrative.csprojResolveAssemblyReference.cache
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Core.dll
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Core.pdb
->>>>>>> 594e5664945f07e50a481030482ff4ab82c86ede
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.dll.config
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Core.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Entities.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\AIM.Service.Entities.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.Common.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Debug\TrackableEntities.EF.6.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Administrative.csprojResolveAssemblyReference.cache
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Core.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\obj\Debug\AIM.Service.Core.pdb

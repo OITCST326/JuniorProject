@@ -1,154 +1,27 @@
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.exe.config
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.exe
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.pdb
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Client.Entities.dll
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.dll
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.dll
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Client.Entities.pdb
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.pdb
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.xml
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.pdb
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.xml
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.csprojResolveAssemblyReference.cache
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.exe
-c:\users\chase\documents\visual studio 2013\Projects\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.pdb
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.exe.config
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.exe
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.pdb
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Client.Entities.dll
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Core.dll
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\System.Net.Http.Formatting.dll
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.dll
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.dll
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Entities.dll
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\EntityFramework.dll
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.EF.6.dll
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Client.Entities.pdb
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Core.pdb
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\System.Net.Http.Formatting.xml
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.pdb
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.xml
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.pdb
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.xml
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Entities.pdb
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\EntityFramework.xml
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.EF.6.pdb
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.EF.6.xml
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.csprojResolveAssemblyReference.cache
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.exe
-C:\Users\Chase\SkyDrive\Visual Studios\AIM WCF\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.pdb
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.csprojResolveAssemblyReference.cache
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.exe.config
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.exe
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.pdb
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Client.Entities.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Core.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\System.Net.Http.Formatting.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Entities.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\EntityFramework.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.EF.6.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Client.Entities.pdb
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Core.pdb
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\System.Net.Http.Formatting.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.pdb
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.pdb
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Entities.pdb
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\EntityFramework.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.EF.6.pdb
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.EF.6.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.exe
-C:\Users\Chase\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.pdb
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.exe.config
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.exe
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.pdb
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Client.Entities.dll
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Core.dll
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\System.Net.Http.Formatting.dll
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.dll
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.dll
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Entities.dll
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\EntityFramework.dll
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.EF.6.dll
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Client.Entities.pdb
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Core.pdb
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\System.Net.Http.Formatting.xml
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.pdb
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.xml
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.pdb
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.xml
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Entities.pdb
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\EntityFramework.xml
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.EF.6.pdb
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.EF.6.xml
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.csprojResolveAssemblyReference.cache
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.exe
-C:\Users\Chase\Google Drive\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.pdb
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.exe.config
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.exe
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.pdb
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Client.Entities.dll
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Core.dll
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\System.Net.Http.Formatting.dll
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.dll
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.dll
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Entities.dll
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\EntityFramework.dll
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.EF.6.dll
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Client.Entities.pdb
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Core.pdb
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\System.Net.Http.Formatting.xml
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.pdb
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.xml
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.pdb
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.xml
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Entities.pdb
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\EntityFramework.xml
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.EF.6.pdb
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.EF.6.xml
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.csprojResolveAssemblyReference.cache
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.exe
-C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.pdb
-<<<<<<< HEAD
-=======
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.exe.config
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.exe
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.pdb
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Client.Entities.dll
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Core.dll
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\System.Net.Http.Formatting.dll
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.dll
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.dll
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Entities.dll
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\EntityFramework.dll
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.EF.6.dll
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Client.Entities.pdb
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Core.pdb
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\System.Net.Http.Formatting.xml
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.pdb
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.xml
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.pdb
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.xml
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Entities.pdb
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\EntityFramework.xml
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.EF.6.pdb
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.EF.6.xml
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.csprojResolveAssemblyReference.cache
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.exe
-C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.pdb
->>>>>>> 594e5664945f07e50a481030482ff4ab82c86ede
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.exe.config
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.exe
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.ConsoleClient.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Client.Entities.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Core.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Entities.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\EntityFramework.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.EF.6.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Client.Entities.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Core.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Client.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.Common.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\AIM.Service.Entities.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\EntityFramework.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.EF.6.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Debug\TrackableEntities.EF.6.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.exe
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\obj\Debug\AIM.ConsoleClient.pdb
