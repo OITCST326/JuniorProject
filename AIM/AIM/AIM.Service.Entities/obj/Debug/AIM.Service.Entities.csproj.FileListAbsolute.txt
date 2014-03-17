@@ -73,3 +73,23 @@ C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Ser
 C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Entities\obj\Debug\AIM.Service.Entities.dll
 C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Entities\obj\Debug\AIM.Service.Entities.pdb
 C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Service.Entities\obj\Debug\AIM.Service.Entities.csprojResolveAssemblyReference.cache
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Debug\AIM.Service.Entities.dll.config
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Debug\AIM.Service.Entities.dll
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Debug\AIM.Service.Entities.pdb
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Debug\EntityFramework.dll
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Debug\TrackableEntities.Common.dll
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Debug\TrackableEntities.EF.6.dll
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Debug\EntityFramework.xml
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Debug\TrackableEntities.Common.pdb
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Debug\TrackableEntities.Common.xml
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Debug\TrackableEntities.EF.6.pdb
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Debug\TrackableEntities.EF.6.xml
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\obj\Debug\AIM.Service.Entities.csprojResolveAssemblyReference.cache
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\obj\Debug\AIM.Service.Entities.dll
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\obj\Debug\AIM.Service.Entities.pdb

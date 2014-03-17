@@ -67,3 +67,17 @@ C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Cli
 C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.csprojResolveAssemblyReference.cache
 C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.dll
 C:\Users\Jordan\Documents\GitHub\JuniorProject\Current - AIM WCF\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.pdb
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.dll.config
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.dll
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.pdb
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.dll
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.dll
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.pdb
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.xml
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.pdb
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.xml
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.csprojResolveAssemblyReference.cache
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.dll
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.pdb
