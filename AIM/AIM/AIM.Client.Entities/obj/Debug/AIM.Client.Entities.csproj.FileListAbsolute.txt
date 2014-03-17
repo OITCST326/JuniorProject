@@ -12,3 +12,17 @@ C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\De
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.csprojResolveAssemblyReference.cache
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.dll
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.pdb
+C:\Users\Josh\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.dll.config
+C:\Users\Josh\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.dll
+C:\Users\Josh\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.pdb
+C:\Users\Josh\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Josh\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.dll
+C:\Users\Josh\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.dll
+C:\Users\Josh\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Josh\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.pdb
+C:\Users\Josh\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.xml
+C:\Users\Josh\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.pdb
+C:\Users\Josh\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.xml
+C:\Users\Josh\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Josh\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.dll
+C:\Users\Josh\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.pdb
