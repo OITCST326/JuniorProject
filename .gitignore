@@ -5,3 +5,5 @@
 *.config
 *.pdb
 *.cache
+*.suo
+AIM/AIM.v12.suo
