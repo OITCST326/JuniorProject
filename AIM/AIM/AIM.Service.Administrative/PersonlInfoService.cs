@@ -2,64 +2,58 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
-using System.Linq;
 using System.ServiceModel;
 using System.Threading.Tasks;
-using AIM.Service.Entities.Models;
-using TrackableEntities.Common;
 using TrackableEntities.EF6;
+using TrackableEntities.Common;
+using AIM.Service.Entities.Models;
 
 namespace AIM.Service.Administrative
 {
     [ServiceContract(Namespace = "urn:trackable-entities:service")]
-    public interface IUserService
+    public interface IPersonlInfoService
     {
         [OperationContract]
-        Task<IEnumerable<User>> GetUsersList();
+        Task<IEnumerable<PersonalInfo>> GetPersonalInfoes();
 
         [OperationContract]
-        Task<User> GetUser(int id);
+        Task<PersonalInfo> GetPersonalInfo(int id);
 
         [OperationContract]
-        Task<User> UpdateUser(User entity);
+        Task<PersonalInfo> UpdatePersonalInfo(PersonalInfo entity);
 
         [OperationContract]
-        Task<User> CreateUser(User entity);
+        Task<PersonalInfo> CreatePersonalInfo(PersonalInfo entity);
 
         [OperationContract]
-        Task<bool> DeleteUser(int id);
+        Task<bool> DeletePersonalInfo(int id);
     }
 
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.PerCall)]
-    public class UserService : IUserService, IDisposable
+    public class PersonlInfoService : IPersonlInfoService, IDisposable
     {
         private readonly AIM_DBContext _dbContext;
 
-        public UserService()
+        public PersonlInfoService()
         {
             _dbContext = new AIM_DBContext();
         }
 
-        public async Task<IEnumerable<User>> GetUsersList()
+        public async Task<IEnumerable<PersonalInfo>> GetPersonalInfoes()
         {
-            IEnumerable<User> entities = await _dbContext.Users
-                .OrderBy(u => u.firstName)
-                .ThenBy(u => u.lastName)
-                .Include(u => u.Applicant)
-                .Include(u => u.Employee)
-                .Include(u => u.PersonalInfo)
+            IEnumerable<PersonalInfo> entities = await _dbContext.PersonalInfoes
                 .ToListAsync();
             return entities;
         }
 
-        public async Task<User> GetUser(int id)
+        public async Task<PersonalInfo> GetPersonalInfo(int id)
         {
-            User entity = await _dbContext.Users
-                .SingleOrDefaultAsync(x => x.userId == id);
+            PersonalInfo entity = await _dbContext.PersonalInfoes
+                .SingleOrDefaultAsync(x => x.PersonalInfoId == id);
             return entity;
         }
 
-        public async Task<User> UpdateUser(User entity)
+        public async Task<PersonalInfo> UpdatePersonalInfo(PersonalInfo entity)
         {
             try
             {
@@ -74,25 +68,26 @@ namespace AIM.Service.Administrative
             }
         }
 
-        public async Task<User> CreateUser(User entity)
+        public async Task<PersonalInfo> CreatePersonalInfo(PersonalInfo entity)
         {
-            _dbContext.Users.Add(entity);
+            _dbContext.PersonalInfoes.Add(entity);
             await _dbContext.SaveChangesAsync();
             entity.AcceptChanges();
+
             return entity;
         }
 
-        public async Task<bool> DeleteUser(int id)
+        public async Task<bool> DeletePersonalInfo(int id)
         {
-            User entity = await _dbContext.Users
-                .SingleOrDefaultAsync(x => x.userId == id);
+            PersonalInfo entity = await _dbContext.PersonalInfoes
+                .SingleOrDefaultAsync(x => x.PersonalInfoId == id);
             if (entity == null)
                 return false;
 
             try
             {
-                _dbContext.Users.Attach(entity);
-                _dbContext.Users.Remove(entity);
+                _dbContext.PersonalInfoes.Attach(entity);
+                _dbContext.PersonalInfoes.Remove(entity);
                 await _dbContext.SaveChangesAsync();
                 return true;
             }

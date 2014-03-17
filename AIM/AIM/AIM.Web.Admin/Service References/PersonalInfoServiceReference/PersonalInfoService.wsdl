@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="urn:trackable-entities:service" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:trackable-entities:service" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="urn:trackable-entities:service/Imports">
+      <xsd:import schemaLocation="http://localhost:12380/PersonalInfoService.svc?xsd=xsd0" namespace="urn:trackable-entities:service" />
+      <xsd:import schemaLocation="http://localhost:12380/PersonalInfoService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:12380/PersonalInfoService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" />
+      <xsd:import schemaLocation="http://localhost:12380/PersonalInfoService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:12380/PersonalInfoService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/TrackableEntities" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPersonlInfoService_GetPersonalInfoes_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPersonalInfoes" />
+  </wsdl:message>
+  <wsdl:message name="IPersonlInfoService_GetPersonalInfoes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPersonalInfoesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPersonlInfoService_GetPersonalInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPersonalInfo" />
+  </wsdl:message>
+  <wsdl:message name="IPersonlInfoService_GetPersonalInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPersonalInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPersonlInfoService_UpdatePersonalInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePersonalInfo" />
+  </wsdl:message>
+  <wsdl:message name="IPersonlInfoService_UpdatePersonalInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePersonalInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPersonlInfoService_CreatePersonalInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreatePersonalInfo" />
+  </wsdl:message>
+  <wsdl:message name="IPersonlInfoService_CreatePersonalInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreatePersonalInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPersonlInfoService_DeletePersonalInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePersonalInfo" />
+  </wsdl:message>
+  <wsdl:message name="IPersonlInfoService_DeletePersonalInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePersonalInfoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPersonlInfoService">
+    <wsdl:operation name="GetPersonalInfoes">
+      <wsdl:input wsaw:Action="urn:trackable-entities:service/IPersonlInfoService/GetPersonalInfoes" message="tns:IPersonlInfoService_GetPersonalInfoes_InputMessage" />
+      <wsdl:output wsaw:Action="urn:trackable-entities:service/IPersonlInfoService/GetPersonalInfoesResponse" message="tns:IPersonlInfoService_GetPersonalInfoes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPersonalInfo">
+      <wsdl:input wsaw:Action="urn:trackable-entities:service/IPersonlInfoService/GetPersonalInfo" message="tns:IPersonlInfoService_GetPersonalInfo_InputMessage" />
+      <wsdl:output wsaw:Action="urn:trackable-entities:service/IPersonlInfoService/GetPersonalInfoResponse" message="tns:IPersonlInfoService_GetPersonalInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePersonalInfo">
+      <wsdl:input wsaw:Action="urn:trackable-entities:service/IPersonlInfoService/UpdatePersonalInfo" message="tns:IPersonlInfoService_UpdatePersonalInfo_InputMessage" />
+      <wsdl:output wsaw:Action="urn:trackable-entities:service/IPersonlInfoService/UpdatePersonalInfoResponse" message="tns:IPersonlInfoService_UpdatePersonalInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreatePersonalInfo">
+      <wsdl:input wsaw:Action="urn:trackable-entities:service/IPersonlInfoService/CreatePersonalInfo" message="tns:IPersonlInfoService_CreatePersonalInfo_InputMessage" />
+      <wsdl:output wsaw:Action="urn:trackable-entities:service/IPersonlInfoService/CreatePersonalInfoResponse" message="tns:IPersonlInfoService_CreatePersonalInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePersonalInfo">
+      <wsdl:input wsaw:Action="urn:trackable-entities:service/IPersonlInfoService/DeletePersonalInfo" message="tns:IPersonlInfoService_DeletePersonalInfo_InputMessage" />
+      <wsdl:output wsaw:Action="urn:trackable-entities:service/IPersonlInfoService/DeletePersonalInfoResponse" message="tns:IPersonlInfoService_DeletePersonalInfo_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

@@ -2,14 +2,12 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
+using System.Linq;
 using System.ServiceModel;
 using System.Threading.Tasks;
 using AIM.Service.Entities.Models;
 using TrackableEntities.Common;
 using TrackableEntities.EF6;
-
-// NOTE: Add Trackable Entities EF Nuget package, then reference 
-// Trackable Service Entities project and System.ServiceModel.
 
 namespace AIM.Service.Administrative
 {
@@ -45,6 +43,7 @@ namespace AIM.Service.Administrative
         public async Task<IEnumerable<Job>> GetJobsList()
         {
             IEnumerable<Job> entities = await _dbContext.Jobs
+                .OrderBy(j => j.description)
                 .Include(j => j.Hour)
                 .Include(j => j.Questionnaire)
                 .ToListAsync();

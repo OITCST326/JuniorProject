@@ -79,7 +79,8 @@ namespace AIM.Web.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                _client.UpdateJob(job);
+                _client.DeleteJob(job.jobId);
+                _client.CreateJob(job);
                 return RedirectToAction("Index");
             }
 

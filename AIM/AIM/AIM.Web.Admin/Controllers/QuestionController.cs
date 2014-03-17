@@ -79,7 +79,8 @@ namespace AIM.Web.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                _client.UpdateQuestion(question);
+                _client.DeleteQuestion(question.questionId);
+                _client.CreateQuestion(question);
                 return RedirectToAction("Index");
             }
             return View(question);

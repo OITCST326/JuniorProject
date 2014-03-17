@@ -199,7 +199,6 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\Default1Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\JobController.cs" />
     <Compile Include="Controllers\QuestionController.cs" />
@@ -211,6 +210,11 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service References\JobServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\PersonalInfoServiceReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -245,7 +249,9 @@
     <Content Include="AIM.Service.Entities.Models.Question.datasource" />
     <Content Include="AIM.Service.Entities.Models.Questionnaire.datasource" />
     <Content Include="AIM.Service.Entities.Models.Job.datasource" />
+    <Content Include="AIM.Service.Entities.Models.PersonalInfo.datasource" />
     <None Include="Scripts\jquery-2.1.0.intellisense.js" />
+    <Content Include="PersonalInfoService.svc" />
     <Content Include="JobService.svc" />
     <Content Include="QuestionService.svc" />
     <Content Include="Scripts\bootstrap.js" />
@@ -281,6 +287,23 @@
     <None Include="Service References\JobServiceReference\JobService4.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService.wsdl" />
+    <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PersonalInfoServiceReference\PersonlInfoService.wsdl" />
     <None Include="Service References\QuestionServiceReference\QuestionService.wsdl" />
     <None Include="Service References\QuestionServiceReference\QuestionService.xsd">
       <SubType>Designer</SubType>
@@ -316,6 +339,13 @@
     <None Include="Service References\QuestionServiceReference\configuration91.svcinfo" />
     <None Include="Service References\QuestionServiceReference\configuration.svcinfo" />
     <None Include="Service References\QuestionServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService.disco" />
+    <None Include="Service References\PersonalInfoServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\PersonalInfoServiceReference\configuration.svcinfo" />
+    <None Include="Service References\PersonalInfoServiceReference\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
@@ -370,11 +400,6 @@
     <Content Include="Views\Job\Details.cshtml" />
     <Content Include="Views\Job\Edit.cshtml" />
     <Content Include="Views\Job\Index.cshtml" />
-    <Content Include="Views\Default1\Create.cshtml" />
-    <Content Include="Views\Default1\Delete.cshtml" />
-    <Content Include="Views\Default1\Details.cshtml" />
-    <Content Include="Views\Default1\Edit.cshtml" />
-    <Content Include="Views\Default1\Index.cshtml" />
     <Content Include="Views\User\Create.cshtml" />
     <Content Include="Views\User\Delete.cshtml" />
     <Content Include="Views\User\Details.cshtml" />
@@ -411,6 +436,7 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\JobServiceReference\" />
+    <WCFMetadataStorage Include="Service References\PersonalInfoServiceReference\" />
     <WCFMetadataStorage Include="Service References\QuestionServiceReference\" />
     <WCFMetadataStorage Include="Service References\UserServiceReference\" />
   </ItemGroup>

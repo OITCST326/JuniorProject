@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IPersonalInfoService.cs" />
     <Compile Include="IQuestionService.cs" />
     <Compile Include="IJobService.cs" />
     <Compile Include="IUserService.cs" />
