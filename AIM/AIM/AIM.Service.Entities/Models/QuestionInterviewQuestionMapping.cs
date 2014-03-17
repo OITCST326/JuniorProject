@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using TrackableEntities;
+using System.ComponentModel.DataAnnotations;
 
 namespace AIM.Service.Entities.Models
 {
@@ -11,14 +12,19 @@ namespace AIM.Service.Entities.Models
     public partial class QuestionInterviewQuestionMapping : ITrackable
     {
         [DataMember]
+        [Display(Name = "Question ID")]
         public int questionId { get; set; }
         [DataMember]
+        [Display(Name = "Interview Questions ID")]
         public int interviewQuestionsId { get; set; }
         [DataMember]
+        [Display(Name = "Number Of Questions")]
         public Nullable<int> numberOfQuestions { get; set; }
         [DataMember]
+        [Display(Name = "Interview Question")]
         public InterviewQuestion InterviewQuestion { get; set; }
         [DataMember]
+        [Display(Name = "Question")]
         public Question Question { get; set; }
 
         [DataMember]
