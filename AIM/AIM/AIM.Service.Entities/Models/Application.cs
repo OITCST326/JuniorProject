@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using TrackableEntities;
+using System.ComponentModel.DataAnnotations;
 
 namespace AIM.Service.Entities.Models
 {
@@ -11,20 +12,28 @@ namespace AIM.Service.Entities.Models
     public partial class Application : ITrackable
     {
         [DataMember]
+        [Display(Name = "Application ID")]
         public int applicationId { get; set; }
         [DataMember]
+        [Display(Name = "Applicant ID")]
         public Nullable<int> applicantId { get; set; }
         [DataMember]
+        [Display(Name = "Date Created")]
         public Nullable<System.DateTime> dateCreated { get; set; }
         [DataMember]
+        [Display(Name = "Pre-Employment Statement")]
         public string preEmploymentStatement { get; set; }
         [DataMember]
+        [Display(Name = "Job ID")]
         public Nullable<int> jobId { get; set; }
         [DataMember]
+        [Display(Name = "Status")]
         public int status { get; set; }
         [DataMember]
+        [Display(Name = "Applicant")]
         public Applicant Applicant { get; set; }
         [DataMember]
+        [Display(Name = "Job")]
         public Job Job { get; set; }
 
         [DataMember]

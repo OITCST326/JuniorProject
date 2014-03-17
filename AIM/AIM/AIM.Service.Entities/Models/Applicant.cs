@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using TrackableEntities;
+using System.ComponentModel.DataAnnotations;
 
 namespace AIM.Service.Entities.Models
 {
@@ -22,34 +23,48 @@ namespace AIM.Service.Entities.Models
         }
 
         [DataMember]
+        [Display(Name = "Applicant ID")]
         public int applicantId { get; set; }
         [DataMember]
+        [Display(Name = "Education ID")]
         public Nullable<int> educationId { get; set; }
         [DataMember]
+        [Display(Name = "Job History Id")]
         public Nullable<int> jobHistoryId { get; set; }
         [DataMember]
         public Nullable<int> referenceId { get; set; }
         [DataMember]
+        [Display(Name = "User ID")]
         public Nullable<int> userId { get; set; }
         [DataMember]
+        [Display(Name = "Application ID")]
         public Nullable<int> applicationId { get; set; }
         [DataMember]
+        [Display(Name = "Answer ID")]
         public Nullable<int> answerId { get; set; }
         [DataMember]
+        [Display(Name = "Hours ID")]
         public Nullable<int> hoursId { get; set; }
         [DataMember]
+        [Display(Name = "Applicant Question Answers")]
         public List<ApplicantQuestionAnswer> ApplicantQuestionAnswers { get; set; }
         [DataMember]
+        [Display(Name = "Applications")]
         public List<Application> Applications { get; set; }
         [DataMember]
+        [Display(Name = "Educations")]
         public List<Education> Educations { get; set; }
         [DataMember]
+        [Display(Name = "Job Histories")]
         public List<JobHistory> JobHistories { get; set; }
         [DataMember]
+        [Display(Name = "Hours")]
         public List<Hour> Hours { get; set; }
         [DataMember]
+        [Display(Name = "References")]
         public List<Reference> References { get; set; }
         [DataMember]
+        [Display(Name = "Users")]
         public List<User> Users { get; set; }
 
         [DataMember]
