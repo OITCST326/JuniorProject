@@ -1,15 +1,23 @@
 ﻿using System;
+using System.Data.Entity;
+using System.Data.Entity.Core.Objects;
 using System.Linq;
 using System.Net;
 using System.Web.Mvc;
 using AIM.Service.Entities.Models;
 using AIM.Web.Admin.UserServiceReference;
+using TrackableEntities.Common;
 
 namespace AIM.Web.Admin.Controllers
 {
     public class UserController : Controller
     {
-        private UserServiceClient _client = new UserServiceClient();
+        private readonly UserServiceClient _client;
+
+        public UserController()
+        {
+            _client = new UserServiceClient();
+        }
 
         // GET: /User/
         public ActionResult Index()
@@ -78,7 +86,8 @@ namespace AIM.Web.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                _client.UpdateUser(user);
+                _client.DeleteUser(user.userId);
+                _client.CreateUser(user);
                 return RedirectToAction("Index");
             }
             return View(user);

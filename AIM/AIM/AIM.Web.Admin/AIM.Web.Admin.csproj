@@ -199,7 +199,10 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+<<<<<<< HEAD
     <Compile Include="Controllers\Default1Controller.cs" />
+=======
+>>>>>>> 58457f6fceef8c11a5d729f0247e187832c46261
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\JobController.cs" />
     <Compile Include="Controllers\QuestionController.cs" />
@@ -210,11 +213,27 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+>>>>>>> 58457f6fceef8c11a5d729f0247e187832c46261
     <Compile Include="Service References\JobServiceReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="Service References\PersonalInfoServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+>>>>>>> 58457f6fceef8c11a5d729f0247e187832c46261
     <Compile Include="Service References\QuestionServiceReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -245,6 +264,7 @@
     <Content Include="AIM.Service.Entities.Models.Question.datasource" />
     <Content Include="AIM.Service.Entities.Models.Questionnaire.datasource" />
     <Content Include="AIM.Service.Entities.Models.Job.datasource" />
+<<<<<<< HEAD
     <Content Include="img\AIMTitlePageLogo.png" />
     <Content Include="misc\elfinder-connector\mime.types" />
     <None Include="Scripts\jquery-2.1.0.intellisense.js" />
@@ -432,6 +452,14 @@
     <Content Include="php-version\typography.php" />
     <Content Include="php-version\ui.php" />
     <Content Include="QuestionService.svc" />
+=======
+    <Content Include="AIM.Service.Entities.Models.PersonalInfo.datasource" />
+    <None Include="Scripts\jquery-2.1.0.intellisense.js" />
+    <Content Include="PersonalInfoService.svc" />
+    <Content Include="JobService.svc" />
+    <Content Include="QuestionService.svc" />
+    <None Include="Resources\AIMLogo.png" />
+>>>>>>> 58457f6fceef8c11a5d729f0247e187832c46261
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-2.1.0.js" />
@@ -465,6 +493,26 @@
     <None Include="Service References\JobServiceReference\JobService4.xsd">
       <SubType>Designer</SubType>
     </None>
+<<<<<<< HEAD
+=======
+    <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService.wsdl" />
+    <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\PersonalInfoServiceReference\PersonlInfoService.wsdl" />
+>>>>>>> 58457f6fceef8c11a5d729f0247e187832c46261
     <None Include="Service References\QuestionServiceReference\QuestionService.wsdl" />
     <None Include="Service References\QuestionServiceReference\QuestionService.xsd">
       <SubType>Designer</SubType>
@@ -503,6 +551,16 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+<<<<<<< HEAD
+=======
+    <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService.disco" />
+    <None Include="Service References\PersonalInfoServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\PersonalInfoServiceReference\configuration.svcinfo" />
+    <None Include="Service References\PersonalInfoServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+>>>>>>> 58457f6fceef8c11a5d729f0247e187832c46261
     <Content Include="UserService.svc" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -554,11 +612,14 @@
     <Content Include="Views\Job\Details.cshtml" />
     <Content Include="Views\Job\Edit.cshtml" />
     <Content Include="Views\Job\Index.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Default1\Create.cshtml" />
     <Content Include="Views\Default1\Delete.cshtml" />
     <Content Include="Views\Default1\Details.cshtml" />
     <Content Include="Views\Default1\Edit.cshtml" />
     <Content Include="Views\Default1\Index.cshtml" />
+=======
+>>>>>>> 58457f6fceef8c11a5d729f0247e187832c46261
     <Content Include="Views\User\Create.cshtml" />
     <Content Include="Views\User\Delete.cshtml" />
     <Content Include="Views\User\Details.cshtml" />
@@ -570,10 +631,17 @@
     <Content Include="Views\Question\Edit.cshtml" />
     <Content Include="Views\Question\Index.cshtml" />
     <Content Include="Views\Shared\_Layout_Account.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Shared\_Layout_Account_TopBar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+=======
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Views\App_LocalResources\" />
+>>>>>>> 58457f6fceef8c11a5d729f0247e187832c46261
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config">
@@ -596,9 +664,22 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\JobServiceReference\" />
+<<<<<<< HEAD
     <WCFMetadataStorage Include="Service References\QuestionServiceReference\" />
     <WCFMetadataStorage Include="Service References\UserServiceReference\" />
   </ItemGroup>
+=======
+    <WCFMetadataStorage Include="Service References\PersonalInfoServiceReference\" />
+    <WCFMetadataStorage Include="Service References\QuestionServiceReference\" />
+    <WCFMetadataStorage Include="Service References\UserServiceReference\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+>>>>>>> 58457f6fceef8c11a5d729f0247e187832c46261
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
