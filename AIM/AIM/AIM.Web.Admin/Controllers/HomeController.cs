@@ -15,14 +15,14 @@ namespace AIM.Web.Admin.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "A.I.M. Admin...";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "5 Programmers of Tomorrow...";
 
             return View();
         }

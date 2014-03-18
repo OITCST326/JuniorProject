@@ -1,5 +1,8 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
+@using Microsoft.AspNet.Identity
+
 <head>
     <!--
         Charisma v1.0.0\
@@ -60,6 +63,7 @@
 </head>
 
 <body>
+
     <!-- topbar starts -->
     <div class="navbar">
         <div class="navbar-inner">
@@ -91,11 +95,11 @@
                 <!-- user dropdown starts -->
                 <div class="btn-group pull-right">
                     <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="icon-user"></i><span class="hidden-phone"> admin</span>
+                        <i class="icon-user"></i><span class="hidden-phone"> @User.Identity.GetUserName()</span>
                         <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Profile</a></li>
+                        <li><a href="@Url.Action("Manage", "Account")">Profile</a></li>
                         <li class="divider"></li>
                         <li><a href="@Url.Action("Login", "Account")">Logout</a></li>
                     </ul>
@@ -129,19 +133,28 @@
                         <li class="nav-header hidden-tablet">Administrative</li>
                         <li><a class="ajax-link" href="@Url.Action("Index", "Home")"><i class="icon-home"></i><span class="hidden-tablet"> Dashboard</span></a></li>
                         <li><a class="ajax-link" href="@Url.Action("Index", "User")"><i class="icon-user"></i><span class="hidden-tablet"> Users</span></a></li>
+                        @{
+                            if (@User.Identity.GetUserName() == "Admin")
+                            {
+                                <li><a class="ajax-link" href="@Url.Action("Register", "Account")"><i class="icon-user"></i><span class="hidden-tablet"> User Logins</span></a></li>
+                            }
+                        }
                         <li><a class="ajax-link" href="@Url.Action("Index", "Job")"><i class="icon-briefcase"></i><span class="hidden-tablet"> Jobs</span></a></li>
                         <li><a class="ajax-link" href="@Url.Action("Index", "Question")"><i class="icon-question-sign"></i><span class="hidden-tablet"> Questions</span></a></li>
-                        <li class="nav-header hidden-tablet">Interviews</li>
-                        <li><a class="ajax-link" href="table.html"><i class="icon-align-justify"></i><span class="hidden-tablet"> Tables</span></a></li>
-                        <li><a class="ajax-link" href="calendar.html"><i class="icon-calendar"></i><span class="hidden-tablet"> Calendar</span></a></li>
+                        <li class="nav-header hidden-tablet">Coming Soon</li>
+                        <li><a class="ajax-link" href="#"><i class="icon-align-justify"></i><span class="hidden-tablet"> Questionnaires</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-align-justify"></i><span class="hidden-tablet"> Applicants</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-align-justify"></i><span class="hidden-tablet"> Interviews</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-align-justify"></i><span class="hidden-tablet"> Permissions</span></a></li>
+                        @*<li><a class="ajax-link" href="calendar.html"><i class="icon-calendar"></i><span class="hidden-tablet"> Calendar</span></a></li>
                         <li><a class="ajax-link" href="grid.html"><i class="icon-th"></i><span class="hidden-tablet"> Grid</span></a></li>
                         <li><a class="ajax-link" href="file-manager.html"><i class="icon-folder-open"></i><span class="hidden-tablet"> File Manager</span></a></li>
                         <li><a href="tour.html"><i class="icon-globe"></i><span class="hidden-tablet"> Tour</span></a></li>
                         <li><a class="ajax-link" href="icon.html"><i class="icon-star"></i><span class="hidden-tablet"> Icons</span></a></li>
                         <li><a href="error.html"><i class="icon-ban-circle"></i><span class="hidden-tablet"> Error Page</span></a></li>
-                        <li><a href="login.html"><i class="icon-lock"></i><span class="hidden-tablet"> Login Page</span></a></li>
+                        <li><a href="login.html"><i class="icon-lock"></i><span class="hidden-tablet"> Login Page</span></a></li>*@
                     </ul>
-                    <label id="for-is-ajax" class="hidden-tablet" for="is-ajax"><input id="is-ajax" type="checkbox"> Ajax on menu</label>
+                    @*<label id="for-is-ajax" class="hidden-tablet" for="is-ajax"><input id="is-ajax" type="checkbox"> Ajax on menu</label>*@
                 </div><!--/.well -->
             </div><!--/span-->
             <!-- left menu ends -->
@@ -158,6 +171,7 @@
             <div id="content" class="span10">
                 <!-- content from other view starts here -->
                 @RenderBody()
+                <p class="pull-left">&copy; @DateTime.Now.Year - <strong>5</strong> <strong>P</strong>rogramers <strong>O</strong>f <strong>T</strong>omorrow Application</p>
                 <!-- content ends -->
             </div><!--/#content.span10-->
             <!------------------------------------------------------->
@@ -180,7 +194,7 @@
         </div>
 
         <footer>
-            <p class="pull-left">&copy; @DateTime.Now.Year - <strong>5</strong> <strong>P</strong>rogramers <strong>O</strong>f <strong>T</strong>omorrow Application</p>
+            @*<p class="pull-left">&copy; @DateTime.Now.Year - <strong>5</strong> <strong>P</strong>rogramers <strong>O</strong>f <strong>T</strong>omorrow Application</p>*@
         </footer>
 
     </div><!--/.fluid-container-->
