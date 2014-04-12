@@ -1,0 +1,14 @@
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.dll.config
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\AIM.Client.Entities.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Client.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Debug\TrackableEntities.Common.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Debug\AIM.Client.Entities.pdb
