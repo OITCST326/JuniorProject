@@ -28,6 +28,9 @@ namespace AIM.Service.Entities.Models.Mapping
             this.Property(t => t.city)
                 .HasMaxLength(100);
 
+            this.Property(t => t.zip)
+                .HasMaxLength(5);
+
             // Table & Column Mappings
             this.ToTable("Educations");
             this.Property(t => t.educationId).HasColumnName("educationId");

@@ -7,189 +7,203 @@ using TrackableEntities.Client;
 
 namespace AIM.Client.Entities.Models
 {
-	[JsonObject(IsReference = true)]
-	[DataContract(IsReference = true, Namespace = "http://schemas.datacontract.org/2004/07/TrackableEntities.Models")]
-	public partial class Job : ModelBase<Job>, ITrackable
-	{
-		public Job()
-		{
-			this.Applications = new ChangeTrackingCollection<Application>();
-			this.Employees = new ChangeTrackingCollection<Employee>();
-		}
+    [JsonObject(IsReference = true)]
+    [DataContract(IsReference = true, Namespace = "http://schemas.datacontract.org/2004/07/TrackableEntities.Models")]
+    public partial class Job : ModelBase<Job>, ITrackable
+    {
+        public Job()
+        {
+            this.Applications = new ChangeTrackingCollection<Application>();
+            this.Employees = new ChangeTrackingCollection<Employee>();
+            this.OpenJobs = new ChangeTrackingCollection<OpenJob>();
+        }
 
-		[DataMember]
-		public int jobId
+        [DataMember]
+        public int jobId
 		{ 
-			get { return _jobId; }
+		    get { return _jobId; }
 			set
 			{
-				if (value == _jobId) return;
+			    if (value == _jobId) return;
 				_jobId = value;
 				NotifyPropertyChanged(m => m.jobId);
 			}
 		}
-		private int _jobId;
+        private int _jobId;
 
-		[DataMember]
-		public string position
+        [DataMember]
+        public string position
 		{ 
-			get { return _position; }
+		    get { return _position; }
 			set
 			{
-				if (value == _position) return;
+			    if (value == _position) return;
 				_position = value;
 				NotifyPropertyChanged(m => m.position);
 			}
 		}
-		private string _position;
+        private string _position;
 
-		[DataMember]
-		public string description
+        [DataMember]
+        public string description
 		{ 
-			get { return _description; }
+		    get { return _description; }
 			set
 			{
-				if (value == _description) return;
+			    if (value == _description) return;
 				_description = value;
 				NotifyPropertyChanged(m => m.description);
 			}
 		}
-		private string _description;
+        private string _description;
 
-		[DataMember]
-		public string fullPartTime
+        [DataMember]
+        public string fullPartTime
 		{ 
-			get { return _fullPartTime; }
+		    get { return _fullPartTime; }
 			set
 			{
-				if (value == _fullPartTime) return;
+			    if (value == _fullPartTime) return;
 				_fullPartTime = value;
 				NotifyPropertyChanged(m => m.fullPartTime);
 			}
 		}
-		private string _fullPartTime;
+        private string _fullPartTime;
 
-		[DataMember]
-		public string salaryRange
+        [DataMember]
+        public string salaryRange
 		{ 
-			get { return _salaryRange; }
+		    get { return _salaryRange; }
 			set
 			{
-				if (value == _salaryRange) return;
+			    if (value == _salaryRange) return;
 				_salaryRange = value;
 				NotifyPropertyChanged(m => m.salaryRange);
 			}
 		}
-		private string _salaryRange;
+        private string _salaryRange;
 
-		[DataMember]
-		public Nullable<int> questionnaireId
+        [DataMember]
+        public Nullable<int> questionnaireId
 		{ 
-			get { return _questionnaireId; }
+		    get { return _questionnaireId; }
 			set
 			{
-				if (value == _questionnaireId) return;
+			    if (value == _questionnaireId) return;
 				_questionnaireId = value;
 				NotifyPropertyChanged(m => m.questionnaireId);
 			}
 		}
-		private Nullable<int> _questionnaireId;
+        private Nullable<int> _questionnaireId;
 
-		[DataMember]
-		public Nullable<int> hoursId
+        [DataMember]
+        public Nullable<int> hoursId
 		{ 
-			get { return _hoursId; }
+		    get { return _hoursId; }
 			set
 			{
-				if (value == _hoursId) return;
+			    if (value == _hoursId) return;
 				_hoursId = value;
 				NotifyPropertyChanged(m => m.hoursId);
 			}
 		}
-		private Nullable<int> _hoursId;
+        private Nullable<int> _hoursId;
 
-		[DataMember]
-		public Nullable<int> InterviewquestionId
+        [DataMember]
+        public Nullable<int> InterviewQuestionId
 		{ 
-			get { return _InterviewquestionId; }
+		    get { return _InterviewQuestionId; }
 			set
 			{
-				if (value == _InterviewquestionId) return;
-				_InterviewquestionId = value;
-				NotifyPropertyChanged(m => m.InterviewquestionId);
+			    if (value == _InterviewQuestionId) return;
+				_InterviewQuestionId = value;
+				NotifyPropertyChanged(m => m.InterviewQuestionId);
 			}
 		}
-		private Nullable<int> _InterviewquestionId;
+        private Nullable<int> _InterviewQuestionId;
 
-		[DataMember]
-		public ChangeTrackingCollection<Application> Applications
+        [DataMember]
+        public ChangeTrackingCollection<Application> Applications
 		{
-			get { return _Applications; }
+		    get { return _Applications; }
 			set
 			{
-				if (Equals(value, _Applications)) return;
+			    if (Equals(value, _Applications)) return;
 				_Applications = value;
 				NotifyPropertyChanged(m => m.Applications);
 			}
 		}
-		private ChangeTrackingCollection<Application> _Applications;
+        private ChangeTrackingCollection<Application> _Applications;
 
-		[DataMember]
-		public ChangeTrackingCollection<Employee> Employees
+        [DataMember]
+        public ChangeTrackingCollection<Employee> Employees
 		{
-			get { return _Employees; }
+		    get { return _Employees; }
 			set
 			{
-				if (Equals(value, _Employees)) return;
+			    if (Equals(value, _Employees)) return;
 				_Employees = value;
 				NotifyPropertyChanged(m => m.Employees);
 			}
 		}
-		private ChangeTrackingCollection<Employee> _Employees;
+        private ChangeTrackingCollection<Employee> _Employees;
 
-		[DataMember]
-		public Hour Hour
+        [DataMember]
+        public Hour Hour
 		{
-			get { return _Hour; }
+		    get { return _Hour; }
 			set
 			{
-				if (value == _Hour) return;
+			    if (value == _Hour) return;
 				_Hour = value;
 				NotifyPropertyChanged(m => m.Hour);
 			}
 		}
-		private Hour _Hour;
+        private Hour _Hour;
 
-		[DataMember]
-		public InterviewQuestion InterviewQuestion
+        [DataMember]
+        public InterviewQuestion InterviewQuestion
 		{
-			get { return _InterviewQuestion; }
+		    get { return _InterviewQuestion; }
 			set
 			{
-				if (value == _InterviewQuestion) return;
+			    if (value == _InterviewQuestion) return;
 				_InterviewQuestion = value;
 				NotifyPropertyChanged(m => m.InterviewQuestion);
 			}
 		}
-		private InterviewQuestion _InterviewQuestion;
+        private InterviewQuestion _InterviewQuestion;
 
-		[DataMember]
-		public Questionnaire Questionnaire
+        [DataMember]
+        public Questionnaire Questionnaire
 		{
-			get { return _Questionnaire; }
+		    get { return _Questionnaire; }
 			set
 			{
-				if (value == _Questionnaire) return;
+			    if (value == _Questionnaire) return;
 				_Questionnaire = value;
 				NotifyPropertyChanged(m => m.Questionnaire);
 			}
 		}
-		private Questionnaire _Questionnaire;
+        private Questionnaire _Questionnaire;
 
-		[DataMember]
-		public ICollection<string> ModifiedProperties { get; set; }
+        [DataMember]
+        public ChangeTrackingCollection<OpenJob> OpenJobs
+		{
+		    get { return _OpenJobs; }
+			set
+			{
+			    if (Equals(value, _OpenJobs)) return;
+				_OpenJobs = value;
+				NotifyPropertyChanged(m => m.OpenJobs);
+			}
+		}
+        private ChangeTrackingCollection<OpenJob> _OpenJobs;
 
-		[DataMember]
-		public TrackingState TrackingState { get; set; }
-	}
+        [DataMember]
+        public ICollection<string> ModifiedProperties { get; set; }
+
+        [DataMember]
+        public TrackingState TrackingState { get; set; }
+    }
 }

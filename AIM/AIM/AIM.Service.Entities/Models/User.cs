@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using TrackableEntities;
-using System.ComponentModel.DataAnnotations;
 
 namespace AIM.Service.Entities.Models
 {
@@ -12,46 +11,32 @@ namespace AIM.Service.Entities.Models
     public partial class User : ITrackable
     {
         [DataMember]
-        [Display(Name = "User ID")]
         public int userId { get; set; }
         [DataMember]
-        [Display(Name = "First Name")]
         public string firstName { get; set; }
         [DataMember]
-        [Display(Name = "Middle Name")]
         public string middleName { get; set; }
         [DataMember]
-        [Display(Name = "Last Name")]
         public string lastName { get; set; }
         [DataMember]
-        [Display(Name = "Email Address")]
         public string email { get; set; }
         [DataMember]
-        [Display(Name = "SSN")]
-        public Nullable<decimal> socialSecurityNumber { get; set; }
+        public string socialSecurityNumber { get; set; }
         [DataMember]
-        [Display(Name = "SSN Coder")]
-        public string socialSecurityNumberCoder { get; set; }
-        [DataMember]
-        [Display(Name = "Personal Info ID")]
         public Nullable<int> PersonalInfoId { get; set; }
         [DataMember]
-        [Display(Name = "Applicant ID")]
         public Nullable<int> applicantId { get; set; }
         [DataMember]
-        [Display(Name = "Application ID")]
         public Nullable<int> applicationId { get; set; }
         [DataMember]
-        [Display(Name = "Employee ID")]
         public Nullable<int> employeeId { get; set; }
         [DataMember]
-        [Display(Name = "Applicant")]
+        public string userName { get; set; }
+        [DataMember]
         public Applicant Applicant { get; set; }
         [DataMember]
-        [Display(Name = "Employee")]
         public Employee Employee { get; set; }
         [DataMember]
-        [Display(Name = "Personal Info")]
         public PersonalInfo PersonalInfo { get; set; }
 
         [DataMember]

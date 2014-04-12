@@ -64,7 +64,7 @@ namespace AIM.Client.Entities.Models
         private string _refTitle;
 
         [DataMember]
-        public Nullable<decimal> refPhone
+        public string refPhone
 		{ 
 		    get { return _refPhone; }
 			set
@@ -74,7 +74,7 @@ namespace AIM.Client.Entities.Models
 				NotifyPropertyChanged(m => m.refPhone);
 			}
 		}
-        private Nullable<decimal> _refPhone;
+        private string _refPhone;
 
         [DataMember]
         public Nullable<int> applicantId

@@ -19,6 +19,9 @@ namespace AIM.Service.Entities.Models.Mapping
             this.Property(t => t.refTitle)
                 .HasMaxLength(50);
 
+            this.Property(t => t.refPhone)
+                .HasMaxLength(13);
+
             // Table & Column Mappings
             this.ToTable("References");
             this.Property(t => t.referenceId).HasColumnName("referenceId");

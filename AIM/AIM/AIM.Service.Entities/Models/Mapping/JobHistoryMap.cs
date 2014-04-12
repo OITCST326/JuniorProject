@@ -28,6 +28,12 @@ namespace AIM.Service.Entities.Models.Mapping
             this.Property(t => t.city)
                 .HasMaxLength(50);
 
+            this.Property(t => t.zip)
+                .HasMaxLength(5);
+
+            this.Property(t => t.phone)
+                .HasMaxLength(13);
+
             // Table & Column Mappings
             this.ToTable("JobHistories");
             this.Property(t => t.jobHistoryId).HasColumnName("jobHistoryId");

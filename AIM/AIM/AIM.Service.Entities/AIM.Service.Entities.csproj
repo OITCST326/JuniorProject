@@ -87,19 +87,23 @@
     <Compile Include="Models\Mapping\InterviewQuestionMap.cs" />
     <Compile Include="Models\Mapping\JobHistoryMap.cs" />
     <Compile Include="Models\Mapping\JobMap.cs" />
+    <Compile Include="Models\Mapping\OpenJobMap.cs" />
     <Compile Include="Models\Mapping\PersonalInfoMap.cs" />
     <Compile Include="Models\Mapping\QuestionInterviewQuestionMappingMap.cs" />
     <Compile Include="Models\Mapping\QuestionMap.cs" />
     <Compile Include="Models\Mapping\QuestionnaireMap.cs" />
     <Compile Include="Models\Mapping\QuestionQuestionnaireMap.cs" />
     <Compile Include="Models\Mapping\ReferenceMap.cs" />
+    <Compile Include="Models\Mapping\StoreMap.cs" />
     <Compile Include="Models\Mapping\UserMap.cs" />
+    <Compile Include="Models\OpenJob.cs" />
     <Compile Include="Models\PersonalInfo.cs" />
     <Compile Include="Models\Question.cs" />
     <Compile Include="Models\QuestionInterviewQuestionMapping.cs" />
     <Compile Include="Models\Questionnaire.cs" />
     <Compile Include="Models\QuestionQuestionnaire.cs" />
     <Compile Include="Models\Reference.cs" />
+    <Compile Include="Models\Store.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

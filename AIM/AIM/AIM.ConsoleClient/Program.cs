@@ -63,8 +63,7 @@ namespace AIM.ConsoleClient
                         middleName = "A.",
                         lastName = "Smith",
                         email = "john.smith@email.com",
-                        socialSecurityNumber = 111111111,
-                        socialSecurityNumberCoder = "111111111coder",
+                        socialSecurityNumber = "111-11-1111",
                         PersonalInfoId = 1,
                         employeeId = 1,
                         applicantId = 1,
@@ -297,11 +296,11 @@ namespace AIM.ConsoleClient
                 u.lastName,
                 u.email,
                 u.socialSecurityNumber,
-                u.socialSecurityNumberCoder,
                 u.PersonalInfoId,
                 u.employeeId,
                 u.applicantId,
-                u.applicationId);
+                u.applicationId,
+                u.userName);
         }
 
         private static void PrintJob(Job j)

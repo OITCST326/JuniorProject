@@ -28,7 +28,7 @@ namespace AIM.Service.Entities.Models.Mapping
             this.Property(t => t.salaryRange).HasColumnName("salaryRange");
             this.Property(t => t.questionnaireId).HasColumnName("questionnaireId");
             this.Property(t => t.hoursId).HasColumnName("hoursId");
-            this.Property(t => t.InterviewquestionId).HasColumnName("InterviewquestionId");
+            this.Property(t => t.InterviewQuestionId).HasColumnName("InterviewQuestionId");
 
             // Tracking Properties
 			this.Ignore(t => t.TrackingState);
@@ -40,7 +40,7 @@ namespace AIM.Service.Entities.Models.Mapping
                 .HasForeignKey(d => d.hoursId);
             this.HasOptional(t => t.InterviewQuestion)
                 .WithMany(t => t.Jobs)
-                .HasForeignKey(d => d.InterviewquestionId);
+                .HasForeignKey(d => d.InterviewQuestionId);
             this.HasOptional(t => t.Questionnaire)
                 .WithMany(t => t.Jobs)
                 .HasForeignKey(d => d.questionnaireId);
