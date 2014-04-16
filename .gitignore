@@ -1,11 +1,4 @@
 *.dll
-*.config
-*.config
-*.pdb
-*.config
 *.pdb
 *.cache
 *.suo
-AIM/AIM.v12.suo
-*.dll
-AIM/AIM/AIM.Client.Entities/bin/Debug/AIM.Client.Entities.dll

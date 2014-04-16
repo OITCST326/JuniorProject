@@ -1,0 +1,17 @@
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Client.Entities\bin\Debug\AIMApplicant.Client.Entities.dll.config
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Client.Entities\bin\Debug\AIMApplicant.Client.Entities.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Client.Entities\bin\Debug\AIMApplicant.Client.Entities.pdb
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Client.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Client.Entities\bin\Debug\TrackableEntities.Client.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Client.Entities\bin\Debug\TrackableEntities.Common.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Client.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Client.Entities\bin\Debug\TrackableEntities.Client.pdb
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Client.Entities\bin\Debug\TrackableEntities.Client.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Client.Entities\bin\Debug\TrackableEntities.Common.pdb
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Client.Entities\bin\Debug\TrackableEntities.Common.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Client.Entities\obj\Debug\AIMApplicant.Client.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Client.Entities\obj\Debug\AIMApplicant.Client.Entities.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Client.Entities\obj\Debug\AIMApplicant.Client.Entities.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Client.Entities\obj\Debug\AIMApplicant.Client.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Client.Entities\obj\Debug\AIMApplicant.Client.Entities.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Client.Entities\obj\Debug\AIMApplicant.Client.Entities.pdb

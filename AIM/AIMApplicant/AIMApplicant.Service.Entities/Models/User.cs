@@ -33,6 +33,8 @@ namespace AIMApplicant.Service.Entities.Models
         [DataMember]
         public string userName { get; set; }
         [DataMember]
+        public string password { get; set; }
+        [DataMember]
         public Applicant Applicant { get; set; }
         [DataMember]
         public Employee Employee { get; set; }

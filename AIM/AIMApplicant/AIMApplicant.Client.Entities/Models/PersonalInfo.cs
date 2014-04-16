@@ -95,7 +95,7 @@ namespace AIMApplicant.Client.Entities.Models
         private int _state;
 
         [DataMember]
-        public Nullable<decimal> zip
+        public string zip
 		{ 
 		    get { return _zip; }
 			set
@@ -105,10 +105,10 @@ namespace AIMApplicant.Client.Entities.Models
 				NotifyPropertyChanged(m => m.zip);
 			}
 		}
-        private Nullable<decimal> _zip;
+        private string _zip;
 
         [DataMember]
-        public Nullable<decimal> phone
+        public string phone
 		{ 
 		    get { return _phone; }
 			set
@@ -118,7 +118,7 @@ namespace AIMApplicant.Client.Entities.Models
 				NotifyPropertyChanged(m => m.phone);
 			}
 		}
-        private Nullable<decimal> _phone;
+        private string _phone;
 
         [DataMember]
         public Nullable<int> userId

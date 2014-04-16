@@ -22,6 +22,12 @@ namespace AIMApplicant.Service.Entities.Models.Mapping
             this.Property(t => t.city)
                 .HasMaxLength(50);
 
+            this.Property(t => t.zip)
+                .HasMaxLength(5);
+
+            this.Property(t => t.phone)
+                .HasMaxLength(13);
+
             // Table & Column Mappings
             this.ToTable("PersonalInfoes");
             this.Property(t => t.PersonalInfoId).HasColumnName("PersonalInfoId");

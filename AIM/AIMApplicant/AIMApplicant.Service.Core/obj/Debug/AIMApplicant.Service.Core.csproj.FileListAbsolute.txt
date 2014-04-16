@@ -1,0 +1,40 @@
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\AIMApplicant.Service.Core.dll.config
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\AIMApplicant.Service.Core.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\AIMApplicant.Service.Core.pdb
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\AIMApplicant.Service.Entities.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\EntityFramework.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\TrackableEntities.Common.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\TrackableEntities.EF.6.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\AIMApplicant.Service.Entities.pdb
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\EntityFramework.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\TrackableEntities.Common.pdb
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\TrackableEntities.Common.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\TrackableEntities.EF.6.pdb
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\TrackableEntities.EF.6.xml
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\obj\Debug\AIMApplicant.Service.Core.csprojResolveAssemblyReference.cache
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\obj\Debug\AIMApplicant.Service.Core.dll
+C:\Users\Chase\Documents\Visual Studio 2013\Projects\AIMApplicant\AIMApplicant\AIMApplicant.Service.Core\obj\Debug\AIMApplicant.Service.Core.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\AIMApplicant.Service.Core.dll.config
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\AIMApplicant.Service.Core.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\AIMApplicant.Service.Core.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\AIMApplicant.Service.Entities.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\EntityFramework.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\TrackableEntities.Common.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\TrackableEntities.EF.6.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\AIMApplicant.Service.Entities.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\EntityFramework.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\TrackableEntities.Common.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\TrackableEntities.Common.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\TrackableEntities.EF.6.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\bin\Debug\TrackableEntities.EF.6.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\obj\Debug\AIMApplicant.Service.Core.csprojResolveAssemblyReference.cache
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\obj\Debug\AIMApplicant.Service.Core.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIMApplicant\AIMApplicant.Service.Core\obj\Debug\AIMApplicant.Service.Core.pdb
