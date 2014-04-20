@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 
+@using Microsoft.Ajax.Utilities
 @using Microsoft.AspNet.Identity
 
 <head>
@@ -14,7 +15,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - A.I.M. Automated Interview Manager Administration Page</title>
 
     <meta name="description" content="The description of my page" />
 
@@ -141,9 +142,10 @@
                         }
                         <li><a class="ajax-link" href="@Url.Action("Index", "Job")"><i class="icon-briefcase"></i><span class="hidden-tablet"> Jobs</span></a></li>
                         <li><a class="ajax-link" href="@Url.Action("Index", "Question")"><i class="icon-question-sign"></i><span class="hidden-tablet"> Questions</span></a></li>
+                        <li><a class="ajax-link" href="@Url.Action("Index", "PersonalInfo")"><i class="icon-question-sign"></i><span class="hidden-tablet"> Personal Info</span></a></li>
+                        <li><a class="ajax-link" href="@Url.Action("Index", "Application")"><i class="icon-question-sign"></i><span class="hidden-tablet"> Applications</span></a></li>
                         <li class="nav-header hidden-tablet">Coming Soon</li>
                         <li><a class="ajax-link" href="#"><i class="icon-align-justify"></i><span class="hidden-tablet"> Questionnaires</span></a></li>
-                        <li><a class="ajax-link" href="#"><i class="icon-align-justify"></i><span class="hidden-tablet"> Applicants</span></a></li>
                         <li><a class="ajax-link" href="#"><i class="icon-align-justify"></i><span class="hidden-tablet"> Interviews</span></a></li>
                         <li><a class="ajax-link" href="#"><i class="icon-align-justify"></i><span class="hidden-tablet"> Permissions</span></a></li>
                         @*<li><a class="ajax-link" href="calendar.html"><i class="icon-calendar"></i><span class="hidden-tablet"> Calendar</span></a></li>

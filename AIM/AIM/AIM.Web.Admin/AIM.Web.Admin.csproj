@@ -176,9 +176,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core">
       <HintPath>..\packages\Microsoft.AspNet.Identity.Core.1.0.0\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
     </Reference>
@@ -199,8 +196,10 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ApplicationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\JobController.cs" />
+    <Compile Include="Controllers\PersonalInfoController.cs" />
     <Compile Include="Controllers\QuestionController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
@@ -213,6 +212,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ApplicationServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Service References\JobServiceReference\Reference.cs">
       <AutoGen>True</AutoGen>
@@ -255,6 +259,7 @@
     <Content Include="AIM.Service.Entities.Models.Questionnaire.datasource" />
     <Content Include="AIM.Service.Entities.Models.Job.datasource" />
     <Content Include="AIM.Service.Entities.Models.PersonalInfo.datasource" />
+    <Content Include="AIM.Service.Entities.Models.Applicant.datasource" />
     <None Include="Scripts\jquery-2.1.0.intellisense.js" />
     <Content Include="img\AIMTitlePageLogo.png" />
     <Content Include="img\ajax-loaders\ajax-loader-1.gif" />
@@ -412,6 +417,7 @@
     <Content Include="img\ui-icons_888888_256x240.png" />
     <Content Include="img\ui-icons_cd0a0a_256x240.png" />
     <Content Include="img\uploadify-cancel.png" />
+    <Content Include="ApplicationService.svc" />
     <Content Include="PersonalInfoService.svc" />
     <Content Include="JobService.svc" />
     <Content Include="QuestionService.svc" />
@@ -432,6 +438,23 @@
     <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <None Include="Service References\ApplicationServiceReference\ApplicationService.wsdl" />
+    <None Include="Service References\ApplicationServiceReference\ApplicationService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ApplicationServiceReference\ApplicationService1.wsdl" />
+    <None Include="Service References\ApplicationServiceReference\ApplicationService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ApplicationServiceReference\ApplicationService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ApplicationServiceReference\ApplicationService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ApplicationServiceReference\ApplicationService4.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\JobServiceReference\JobService.wsdl" />
     <None Include="Service References\JobServiceReference\JobService.xsd">
       <SubType>Designer</SubType>
@@ -453,6 +476,7 @@
     <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService1.wsdl" />
     <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService1.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -465,7 +489,6 @@
     <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService4.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\PersonalInfoServiceReference\PersonlInfoService.wsdl" />
     <None Include="Service References\QuestionServiceReference\QuestionService.wsdl" />
     <None Include="Service References\QuestionServiceReference\QuestionService.xsd">
       <SubType>Designer</SubType>
@@ -508,6 +531,13 @@
     <None Include="Service References\PersonalInfoServiceReference\configuration91.svcinfo" />
     <None Include="Service References\PersonalInfoServiceReference\configuration.svcinfo" />
     <None Include="Service References\PersonalInfoServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ApplicationServiceReference\ApplicationService.disco" />
+    <None Include="Service References\ApplicationServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\ApplicationServiceReference\configuration.svcinfo" />
+    <None Include="Service References\ApplicationServiceReference\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
@@ -573,6 +603,16 @@
     <Content Include="Views\Question\Edit.cshtml" />
     <Content Include="Views\Question\Index.cshtml" />
     <Content Include="Views\Shared\_Layout_Account.cshtml" />
+    <Content Include="Views\PersonalInfo\Create.cshtml" />
+    <Content Include="Views\PersonalInfo\Delete.cshtml" />
+    <Content Include="Views\PersonalInfo\Details.cshtml" />
+    <Content Include="Views\PersonalInfo\Edit.cshtml" />
+    <Content Include="Views\PersonalInfo\Index.cshtml" />
+    <Content Include="Views\Application\Create.cshtml" />
+    <Content Include="Views\Application\Delete.cshtml" />
+    <Content Include="Views\Application\Details.cshtml" />
+    <Content Include="Views\Application\Edit.cshtml" />
+    <Content Include="Views\Application\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -597,6 +637,7 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ApplicationServiceReference\" />
     <WCFMetadataStorage Include="Service References\JobServiceReference\" />
     <WCFMetadataStorage Include="Service References\PersonalInfoServiceReference\" />
     <WCFMetadataStorage Include="Service References\QuestionServiceReference\" />

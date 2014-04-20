@@ -21,7 +21,17 @@ namespace AIM.Service.Entities.Models
         [DataMember]
         public Nullable<int> jobId { get; set; }
         [DataMember]
-        public int status { get; set; }
+        public Nullable<int> status { get; set; }
+        [DataMember]
+        public string salaryExpectation { get; set; }
+        [DataMember]
+        public Nullable<bool> isFullTime { get; set; }
+        [DataMember]
+        public Nullable<bool> isDays { get; set; }
+        [DataMember]
+        public Nullable<bool> isEvenings { get; set; }
+        [DataMember]
+        public Nullable<bool> isWeekends { get; set; }
         [DataMember]
         public Applicant Applicant { get; set; }
         [DataMember]

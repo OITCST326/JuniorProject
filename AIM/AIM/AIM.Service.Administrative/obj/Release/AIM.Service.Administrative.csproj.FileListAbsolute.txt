@@ -1,4 +1,3 @@
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Release\EntityFramework.xml
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Release\AIM.Service.Core.dll.config
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Release\AIM.Service.Core.dll
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Release\AIM.Service.Core.pdb
@@ -10,6 +9,7 @@ C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Release\TrackableEntities.Common.dll
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Release\TrackableEntities.EF.6.dll
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Release\AIM.Service.Entities.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Release\EntityFramework.xml
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Release\EntityFramework.SqlServer.xml
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Release\Newtonsoft.Json.xml
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Administrative\bin\Release\System.Net.Http.Formatting.xml

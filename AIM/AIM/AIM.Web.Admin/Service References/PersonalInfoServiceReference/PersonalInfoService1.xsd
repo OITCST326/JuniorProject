@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="urn:trackable-entities:service" elementFormDefault="qualified" targetNamespace="urn:trackable-entities:service" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:import schemaLocation="http://localhost:12380/PersonalInfoService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" />
-  <xs:element name="GetPersonalInfoes">
+  <xs:element name="GetPersonalInfoList">
     <xs:complexType>
       <xs:sequence />
     </xs:complexType>
   </xs:element>
-  <xs:element name="GetPersonalInfoesResponse">
+  <xs:element name="GetPersonalInfoListResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" minOccurs="0" name="GetPersonalInfoesResult" nillable="true" type="q1:ArrayOfPersonalInfo" />
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" minOccurs="0" name="GetPersonalInfoListResult" nillable="true" type="q1:ArrayOfPersonalInfo" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

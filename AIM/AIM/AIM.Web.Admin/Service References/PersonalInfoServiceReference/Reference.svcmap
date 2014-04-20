@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a2aa6cb7-a40b-494f-a7b2-477ae480d9fc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6cce520d-bb46-4684-9b3e-0726820ab9d1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
-    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
     <EnableDataBinding>true</EnableDataBinding>
     <ExcludedTypes />
     <ImportXmlTypes>false</ImportXmlTypes>
@@ -22,14 +21,14 @@
     <MetadataSource Address="http://localhost:12380/PersonalInfoService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="PersonalInfoService.xsd" MetadataType="Schema" ID="106d8c4a-bea0-43c4-a9f5-09c1629bcc52" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?xsd=xsd3" />
-    <MetadataFile FileName="PersonalInfoService.disco" MetadataType="Disco" ID="18dcc591-3dcc-419f-9a3c-0aa3cb7d81a8" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?disco" />
-    <MetadataFile FileName="PersonlInfoService.wsdl" MetadataType="Wsdl" ID="b5013e8f-6e10-453f-8aef-fe0f699030c1" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?wsdl" />
-    <MetadataFile FileName="PersonalInfoService1.xsd" MetadataType="Schema" ID="449e8e73-8cc4-40e5-a443-36bd9c5f6375" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?xsd=xsd0" />
-    <MetadataFile FileName="PersonalInfoService.wsdl" MetadataType="Wsdl" ID="bef168e1-ba14-45aa-8880-2d4c02514921" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?wsdl=wsdl0" />
-    <MetadataFile FileName="PersonalInfoService2.xsd" MetadataType="Schema" ID="b3938f6a-c3be-4434-afc5-ab8395a28713" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?xsd=xsd1" />
-    <MetadataFile FileName="PersonalInfoService3.xsd" MetadataType="Schema" ID="0a4a41b7-ff4b-4c7d-ae59-9caa9579fd37" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?xsd=xsd4" />
-    <MetadataFile FileName="PersonalInfoService4.xsd" MetadataType="Schema" ID="0a96835a-88db-41d1-81d4-5fec8b54e5d1" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PersonalInfoService.xsd" MetadataType="Schema" ID="e4998f8c-713e-4365-8b03-337bda3e3b17" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?xsd=xsd3" />
+    <MetadataFile FileName="PersonalInfoService.disco" MetadataType="Disco" ID="3bd86f4c-a01f-44d6-b978-1d02aefcbd1b" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?disco" />
+    <MetadataFile FileName="PersonalInfoService.wsdl" MetadataType="Wsdl" ID="06a5789d-a693-488e-b438-dcbf00090859" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?wsdl" />
+    <MetadataFile FileName="PersonalInfoService1.xsd" MetadataType="Schema" ID="68175eb9-32a6-4fe4-b6b3-ee16f8a45854" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PersonalInfoService1.wsdl" MetadataType="Wsdl" ID="01cf60ff-822e-4fda-90ca-1cfc4e868580" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="PersonalInfoService2.xsd" MetadataType="Schema" ID="c8130724-24bf-4233-ab31-4d644bc8cc34" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PersonalInfoService3.xsd" MetadataType="Schema" ID="752278e1-627c-48c4-b3e3-b0f57fbe3bad" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?xsd=xsd4" />
+    <MetadataFile FileName="PersonalInfoService4.xsd" MetadataType="Schema" ID="7ab4c58b-0401-403f-a5fa-5dbcc3627ffb" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?xsd=xsd2" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

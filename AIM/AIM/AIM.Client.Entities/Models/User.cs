@@ -155,6 +155,19 @@ namespace AIM.Client.Entities.Models
         private string _userName;
 
         [DataMember]
+        public string password
+		{ 
+		    get { return _password; }
+			set
+			{
+			    if (value == _password) return;
+				_password = value;
+				NotifyPropertyChanged(m => m.password);
+			}
+		}
+        private string _password;
+
+        [DataMember]
         public Applicant Applicant
 		{
 		    get { return _Applicant; }

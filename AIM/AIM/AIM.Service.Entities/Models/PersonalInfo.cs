@@ -28,9 +28,9 @@ namespace AIM.Service.Entities.Models
         [DataMember]
         public int state { get; set; }
         [DataMember]
-        public Nullable<decimal> zip { get; set; }
+        public string zip { get; set; }
         [DataMember]
-        public Nullable<decimal> phone { get; set; }
+        public string phone { get; set; }
         [DataMember]
         public Nullable<int> userId { get; set; }
         [DataMember]

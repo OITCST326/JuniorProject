@@ -17,12 +17,12 @@
       <xs:element minOccurs="0" name="Users" nillable="true" type="tns:ArrayOfUser" />
       <xs:element minOccurs="0" name="alias" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
-      <xs:element minOccurs="0" name="phone" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="state" type="xs:int" />
       <xs:element minOccurs="0" name="street" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="street2" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="userId" nillable="true" type="xs:int" />
-      <xs:element minOccurs="0" name="zip" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="zip" nillable="true" type="xs:string" />
     </xs:sequence>
     <xs:attribute ref="ser:Id" />
     <xs:attribute ref="ser:Ref" />
@@ -49,9 +49,10 @@
       <xs:element minOccurs="0" name="firstName" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="lastName" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="middleName" nillable="true" type="xs:string" />
-      <xs:element minOccurs="0" name="socialSecurityNumber" nillable="true" type="xs:decimal" />
-      <xs:element minOccurs="0" name="socialSecurityNumberCoder" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="socialSecurityNumber" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="userId" type="xs:int" />
+      <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
     </xs:sequence>
     <xs:attribute ref="ser:Id" />
     <xs:attribute ref="ser:Ref" />
@@ -164,8 +165,9 @@
       <xs:element minOccurs="0" name="Employees" nillable="true" type="tns:ArrayOfEmployee" />
       <xs:element minOccurs="0" name="Hour" nillable="true" type="tns:Hour" />
       <xs:element minOccurs="0" name="InterviewQuestion" nillable="true" type="tns:InterviewQuestion" />
-      <xs:element minOccurs="0" name="InterviewquestionId" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="InterviewQuestionId" nillable="true" type="xs:int" />
       <xs:element xmlns:q15="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ModifiedProperties" nillable="true" type="q15:ArrayOfstring" />
+      <xs:element minOccurs="0" name="OpenJobs" nillable="true" type="tns:ArrayOfOpenJob" />
       <xs:element minOccurs="0" name="Questionnaire" nillable="true" type="tns:Questionnaire" />
       <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/TrackableEntities" minOccurs="0" name="TrackingState" type="q16:TrackingState" />
       <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
@@ -195,9 +197,14 @@
       <xs:element minOccurs="0" name="applicantId" nillable="true" type="xs:int" />
       <xs:element minOccurs="0" name="applicationId" type="xs:int" />
       <xs:element minOccurs="0" name="dateCreated" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="isDays" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="isEvenings" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="isFullTime" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="isWeekends" nillable="true" type="xs:boolean" />
       <xs:element minOccurs="0" name="jobId" nillable="true" type="xs:int" />
       <xs:element minOccurs="0" name="preEmploymentStatement" nillable="true" type="xs:string" />
-      <xs:element minOccurs="0" name="status" type="xs:int" />
+      <xs:element minOccurs="0" name="salaryExpectation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="status" nillable="true" type="xs:int" />
     </xs:sequence>
     <xs:attribute ref="ser:Id" />
     <xs:attribute ref="ser:Ref" />
@@ -250,12 +257,51 @@
     <xs:attribute ref="ser:Ref" />
   </xs:complexType>
   <xs:element name="Hour" nillable="true" type="tns:Hour" />
+  <xs:complexType name="ArrayOfOpenJob">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OpenJob" nillable="true" type="tns:OpenJob" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOpenJob" nillable="true" type="tns:ArrayOfOpenJob" />
+  <xs:complexType name="OpenJob">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Job" nillable="true" type="tns:Job" />
+      <xs:element xmlns:q23="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ModifiedProperties" nillable="true" type="q23:ArrayOfstring" />
+      <xs:element minOccurs="0" name="Store" nillable="true" type="tns:Store" />
+      <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/TrackableEntities" minOccurs="0" name="TrackingState" type="q24:TrackingState" />
+      <xs:element minOccurs="0" name="jobId" type="xs:int" />
+      <xs:element minOccurs="0" name="openJobsId" type="xs:int" />
+      <xs:element minOccurs="0" name="storeId" type="xs:int" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="OpenJob" nillable="true" type="tns:OpenJob" />
+  <xs:complexType name="Store">
+    <xs:sequence>
+      <xs:element xmlns:q25="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ModifiedProperties" nillable="true" type="q25:ArrayOfstring" />
+      <xs:element minOccurs="0" name="OpenJobs" nillable="true" type="tns:ArrayOfOpenJob" />
+      <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/TrackableEntities" minOccurs="0" name="TrackingState" type="q26:TrackingState" />
+      <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="regionId" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="regionName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="state" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="storeId" type="xs:int" />
+      <xs:element minOccurs="0" name="street" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="street2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="zip" nillable="true" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="Store" nillable="true" type="tns:Store" />
   <xs:complexType name="Questionnaire">
     <xs:sequence>
       <xs:element minOccurs="0" name="Jobs" nillable="true" type="tns:ArrayOfJob" />
-      <xs:element xmlns:q23="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ModifiedProperties" nillable="true" type="q23:ArrayOfstring" />
+      <xs:element xmlns:q27="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ModifiedProperties" nillable="true" type="q27:ArrayOfstring" />
       <xs:element minOccurs="0" name="QuestionQuestionnaires" nillable="true" type="tns:ArrayOfQuestionQuestionnaire" />
-      <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/TrackableEntities" minOccurs="0" name="TrackingState" type="q24:TrackingState" />
+      <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/TrackableEntities" minOccurs="0" name="TrackingState" type="q28:TrackingState" />
       <xs:element minOccurs="0" name="jobId" nillable="true" type="xs:int" />
       <xs:element minOccurs="0" name="questionId" nillable="true" type="xs:int" />
       <xs:element minOccurs="0" name="questionnaireId" type="xs:int" />
@@ -272,10 +318,10 @@
   <xs:element name="ArrayOfQuestionQuestionnaire" nillable="true" type="tns:ArrayOfQuestionQuestionnaire" />
   <xs:complexType name="QuestionQuestionnaire">
     <xs:sequence>
-      <xs:element xmlns:q25="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ModifiedProperties" nillable="true" type="q25:ArrayOfstring" />
+      <xs:element xmlns:q29="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ModifiedProperties" nillable="true" type="q29:ArrayOfstring" />
       <xs:element minOccurs="0" name="Question" nillable="true" type="tns:Question" />
       <xs:element minOccurs="0" name="Questionnaire" nillable="true" type="tns:Questionnaire" />
-      <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/TrackableEntities" minOccurs="0" name="TrackingState" type="q26:TrackingState" />
+      <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/TrackableEntities" minOccurs="0" name="TrackingState" type="q30:TrackingState" />
       <xs:element minOccurs="0" name="numberOfQuestions" nillable="true" type="xs:int" />
       <xs:element minOccurs="0" name="questionId" type="xs:int" />
       <xs:element minOccurs="0" name="questionnaireId" type="xs:int" />
@@ -293,8 +339,8 @@
   <xs:complexType name="Education">
     <xs:sequence>
       <xs:element minOccurs="0" name="Applicant" nillable="true" type="tns:Applicant" />
-      <xs:element xmlns:q27="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ModifiedProperties" nillable="true" type="q27:ArrayOfstring" />
-      <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/TrackableEntities" minOccurs="0" name="TrackingState" type="q28:TrackingState" />
+      <xs:element xmlns:q31="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ModifiedProperties" nillable="true" type="q31:ArrayOfstring" />
+      <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/TrackableEntities" minOccurs="0" name="TrackingState" type="q32:TrackingState" />
       <xs:element minOccurs="0" name="applicantId" nillable="true" type="xs:int" />
       <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="degree" nillable="true" type="xs:string" />
@@ -305,7 +351,7 @@
       <xs:element minOccurs="0" name="street" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="street2" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="yearsAttended" nillable="true" type="xs:string" />
-      <xs:element minOccurs="0" name="zip" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="zip" nillable="true" type="xs:string" />
     </xs:sequence>
     <xs:attribute ref="ser:Id" />
     <xs:attribute ref="ser:Ref" />
@@ -326,8 +372,8 @@
   <xs:complexType name="JobHistory">
     <xs:sequence>
       <xs:element minOccurs="0" name="Applicant" nillable="true" type="tns:Applicant" />
-      <xs:element xmlns:q29="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ModifiedProperties" nillable="true" type="q29:ArrayOfstring" />
-      <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/TrackableEntities" minOccurs="0" name="TrackingState" type="q30:TrackingState" />
+      <xs:element xmlns:q33="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ModifiedProperties" nillable="true" type="q33:ArrayOfstring" />
+      <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/TrackableEntities" minOccurs="0" name="TrackingState" type="q34:TrackingState" />
       <xs:element minOccurs="0" name="applicantId" nillable="true" type="xs:int" />
       <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="dateFrom" nillable="true" type="xs:dateTime" />
@@ -335,7 +381,7 @@
       <xs:element minOccurs="0" name="employerName" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="endingSalary" nillable="true" type="xs:decimal" />
       <xs:element minOccurs="0" name="jobHistoryId" type="xs:int" />
-      <xs:element minOccurs="0" name="phone" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="position" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="reasonForLeaving" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="responsibilities" nillable="true" type="xs:string" />
@@ -344,7 +390,7 @@
       <xs:element minOccurs="0" name="street" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="street2" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="supervisor" nillable="true" type="xs:string" />
-      <xs:element minOccurs="0" name="zip" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="zip" nillable="true" type="xs:string" />
     </xs:sequence>
     <xs:attribute ref="ser:Id" />
     <xs:attribute ref="ser:Ref" />
@@ -359,12 +405,12 @@
   <xs:complexType name="Reference">
     <xs:sequence>
       <xs:element minOccurs="0" name="Applicant" nillable="true" type="tns:Applicant" />
-      <xs:element xmlns:q31="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ModifiedProperties" nillable="true" type="q31:ArrayOfstring" />
-      <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/TrackableEntities" minOccurs="0" name="TrackingState" type="q32:TrackingState" />
+      <xs:element xmlns:q35="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ModifiedProperties" nillable="true" type="q35:ArrayOfstring" />
+      <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/TrackableEntities" minOccurs="0" name="TrackingState" type="q36:TrackingState" />
       <xs:element minOccurs="0" name="applicantId" nillable="true" type="xs:int" />
       <xs:element minOccurs="0" name="refCompany" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="refFullName" nillable="true" type="xs:string" />
-      <xs:element minOccurs="0" name="refPhone" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="refPhone" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="refTitle" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="referenceId" type="xs:int" />
     </xs:sequence>

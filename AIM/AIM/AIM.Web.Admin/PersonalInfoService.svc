@@ -1,1 +1,1 @@
-﻿<%@ ServiceHost Service="AIM.Service.Administrative.PersonlInfoService" %>
+﻿<%@ ServiceHost Service="AIM.Service.Administrative.PersonalInfoService" %>

@@ -28,6 +28,9 @@ namespace AIM.Service.Entities.Models.Mapping
             this.Property(t => t.userName)
                 .HasMaxLength(40);
 
+            this.Property(t => t.password)
+                .HasMaxLength(25);
+
             // Table & Column Mappings
             this.ToTable("Users");
             this.Property(t => t.userId).HasColumnName("userId");
@@ -41,6 +44,7 @@ namespace AIM.Service.Entities.Models.Mapping
             this.Property(t => t.applicationId).HasColumnName("applicationId");
             this.Property(t => t.employeeId).HasColumnName("employeeId");
             this.Property(t => t.userName).HasColumnName("userName");
+            this.Property(t => t.password).HasColumnName("password");
 
             // Tracking Properties
 			this.Ignore(t => t.TrackingState);

@@ -12,7 +12,7 @@ namespace AIM.Web.Admin.Controllers
 {
     public class UserController : Controller
     {
-        private readonly UserServiceClient _client;
+        private readonly UserServiceClient _client = new UserServiceClient();
 
         public UserController()
         {

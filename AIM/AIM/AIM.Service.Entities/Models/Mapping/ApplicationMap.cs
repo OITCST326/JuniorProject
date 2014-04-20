@@ -13,6 +13,9 @@ namespace AIM.Service.Entities.Models.Mapping
             this.Property(t => t.preEmploymentStatement)
                 .HasMaxLength(100);
 
+            this.Property(t => t.salaryExpectation)
+                .HasMaxLength(20);
+
             // Table & Column Mappings
             this.ToTable("Applications");
             this.Property(t => t.applicationId).HasColumnName("applicationId");
@@ -21,6 +24,11 @@ namespace AIM.Service.Entities.Models.Mapping
             this.Property(t => t.preEmploymentStatement).HasColumnName("preEmploymentStatement");
             this.Property(t => t.jobId).HasColumnName("jobId");
             this.Property(t => t.status).HasColumnName("status");
+            this.Property(t => t.salaryExpectation).HasColumnName("salaryExpectation");
+            this.Property(t => t.isFullTime).HasColumnName("isFullTime");
+            this.Property(t => t.isDays).HasColumnName("isDays");
+            this.Property(t => t.isEvenings).HasColumnName("isEvenings");
+            this.Property(t => t.isWeekends).HasColumnName("isWeekends");
 
             // Tracking Properties
 			this.Ignore(t => t.TrackingState);

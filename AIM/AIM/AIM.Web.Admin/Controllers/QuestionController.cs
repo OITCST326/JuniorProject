@@ -9,7 +9,7 @@ namespace AIM.Web.Admin.Controllers
 {
     public class QuestionController : Controller
     {
-        private QuestionServiceClient _client = new QuestionServiceClient();
+        private readonly QuestionServiceClient _client = new QuestionServiceClient();
 
         // GET: /Question/
         public ActionResult Index()

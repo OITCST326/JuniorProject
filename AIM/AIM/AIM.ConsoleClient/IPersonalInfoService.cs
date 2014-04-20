@@ -6,10 +6,10 @@ using AIM.Client.Entities.Models;
 namespace AIM.ConsoleClient
 {
     [ServiceContract(Namespace = "urn:trackable-entities:service")]
-    public interface IPersonlInfoService
+    public interface IPersonalInfoService
     {
-        [OperationContract(Name = "GetPersonalInfoes")]
-        Task<IEnumerable<PersonalInfo>> GetPersonalInfoes();
+        [OperationContract(Name = "GetPersonalInfoList")]
+        Task<IEnumerable<PersonalInfo>> GetPersonalInfoList();
 
         [OperationContract(Name = "GetPersonalInfo")]
         Task<PersonalInfo> GetPersonalInfo(int id);
