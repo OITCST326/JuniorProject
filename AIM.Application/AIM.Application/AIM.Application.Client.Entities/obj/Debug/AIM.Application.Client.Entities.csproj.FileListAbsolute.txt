@@ -1,0 +1,14 @@
+C:\Users\Chase\Desktop\Test\AIM.Application\AIM.Application\AIM.Application.Client.Entities\bin\Debug\AIM.Application.Client.Entities.dll.config
+C:\Users\Chase\Desktop\Test\AIM.Application\AIM.Application\AIM.Application.Client.Entities\bin\Debug\AIM.Application.Client.Entities.dll
+C:\Users\Chase\Desktop\Test\AIM.Application\AIM.Application\AIM.Application.Client.Entities\bin\Debug\AIM.Application.Client.Entities.pdb
+C:\Users\Chase\Desktop\Test\AIM.Application\AIM.Application\AIM.Application.Client.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Chase\Desktop\Test\AIM.Application\AIM.Application\AIM.Application.Client.Entities\bin\Debug\TrackableEntities.Client.dll
+C:\Users\Chase\Desktop\Test\AIM.Application\AIM.Application\AIM.Application.Client.Entities\bin\Debug\TrackableEntities.Common.dll
+C:\Users\Chase\Desktop\Test\AIM.Application\AIM.Application\AIM.Application.Client.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Chase\Desktop\Test\AIM.Application\AIM.Application\AIM.Application.Client.Entities\bin\Debug\TrackableEntities.Client.pdb
+C:\Users\Chase\Desktop\Test\AIM.Application\AIM.Application\AIM.Application.Client.Entities\bin\Debug\TrackableEntities.Client.xml
+C:\Users\Chase\Desktop\Test\AIM.Application\AIM.Application\AIM.Application.Client.Entities\bin\Debug\TrackableEntities.Common.pdb
+C:\Users\Chase\Desktop\Test\AIM.Application\AIM.Application\AIM.Application.Client.Entities\bin\Debug\TrackableEntities.Common.xml
+C:\Users\Chase\Desktop\Test\AIM.Application\AIM.Application\AIM.Application.Client.Entities\obj\Debug\AIM.Application.Client.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Chase\Desktop\Test\AIM.Application\AIM.Application\AIM.Application.Client.Entities\obj\Debug\AIM.Application.Client.Entities.dll
+C:\Users\Chase\Desktop\Test\AIM.Application\AIM.Application\AIM.Application.Client.Entities\obj\Debug\AIM.Application.Client.Entities.pdb
