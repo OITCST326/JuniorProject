@@ -8,9 +8,13 @@ namespace AIM.Web.Application.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly AIM.Web.Application.JobServiceReference.JobServiceClient _client = new AIM.Web.Application.JobServiceReference.JobServiceClient();
+
+        // GET: /Job/
         public ActionResult Index()
         {
-            return View();
+            var jobs = _client.GetJobsList();
+            return View(jobs.ToList());
         }
 
         public ActionResult About()
@@ -25,6 +29,12 @@ namespace AIM.Web.Application.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public ActionResult ViewJobList()
+        {
+            var jobs = _client.GetJobsList();
+            return View(jobs.ToList());
         }
     }
 }
