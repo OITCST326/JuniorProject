@@ -10,11 +10,10 @@ namespace AIM.Web.Application.Controllers
     {
         private readonly AIM.Web.Application.JobServiceReference.JobServiceClient _client = new AIM.Web.Application.JobServiceReference.JobServiceClient();
 
-        // GET: /Job/
+
         public ActionResult Index()
         {
-            var jobs = _client.GetJobsList();
-            return View(jobs.ToList());
+            return View();
         }
 
         public ActionResult About()
