@@ -13,6 +13,20 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="GetOpenJobsList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOpenJobsListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" minOccurs="0" name="GetOpenJobsListResult" nillable="true" type="q2:ArrayOfOpenJob" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="GetJob">
     <xs:complexType>
       <xs:sequence>
@@ -23,35 +37,35 @@
   <xs:element name="GetJobResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" minOccurs="0" name="GetJobResult" nillable="true" type="q2:Job" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" minOccurs="0" name="GetJobResult" nillable="true" type="q3:Job" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="UpdateJob">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" minOccurs="0" name="entity" nillable="true" type="q3:Job" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" minOccurs="0" name="entity" nillable="true" type="q4:Job" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="UpdateJobResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" minOccurs="0" name="UpdateJobResult" nillable="true" type="q4:Job" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" minOccurs="0" name="UpdateJobResult" nillable="true" type="q5:Job" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="CreateJob">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" minOccurs="0" name="entity" nillable="true" type="q5:Job" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" minOccurs="0" name="entity" nillable="true" type="q6:Job" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="CreateJobResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" minOccurs="0" name="CreateJobResult" nillable="true" type="q6:Job" />
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" minOccurs="0" name="CreateJobResult" nillable="true" type="q7:Job" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -66,6 +80,18 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element minOccurs="0" name="DeleteJobResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRegionList">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRegionListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" minOccurs="0" name="GetRegionListResult" nillable="true" type="q8:ArrayOfRegion" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

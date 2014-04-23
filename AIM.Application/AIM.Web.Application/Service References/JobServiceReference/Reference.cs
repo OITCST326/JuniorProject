@@ -20,6 +20,9 @@ namespace AIM.Web.Application.JobServiceReference {
         [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IJobService/GetJobsList", ReplyAction="urn:trackable-entities:service/IJobService/GetJobsListResponse")]
         AIM.Application.Service.Entities.Models.Job[] GetJobsList();
         
+        [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IJobService/GetOpenJobsList", ReplyAction="urn:trackable-entities:service/IJobService/GetOpenJobsListResponse")]
+        AIM.Application.Service.Entities.Models.OpenJob[] GetOpenJobsList(string name);
+        
         [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IJobService/GetJob", ReplyAction="urn:trackable-entities:service/IJobService/GetJobResponse")]
         Job GetJob(int? id);
         
@@ -31,6 +34,9 @@ namespace AIM.Web.Application.JobServiceReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IJobService/DeleteJob", ReplyAction="urn:trackable-entities:service/IJobService/DeleteJobResponse")]
         bool DeleteJob(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IJobService/GetRegionList", ReplyAction="urn:trackable-entities:service/IJobService/GetRegionListResponse")]
+        AIM.Application.Service.Entities.Models.Region[] GetRegionList();
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -64,6 +70,10 @@ namespace AIM.Web.Application.JobServiceReference {
             return base.Channel.GetJobsList();
         }
         
+        public AIM.Application.Service.Entities.Models.OpenJob[] GetOpenJobsList(string name) {
+            return base.Channel.GetOpenJobsList(name);
+        }
+        
         public Job GetJob(int? id) {
             return base.Channel.GetJob(id);
         }
@@ -78,6 +88,10 @@ namespace AIM.Web.Application.JobServiceReference {
         
         public bool DeleteJob(int id) {
             return base.Channel.DeleteJob(id);
+        }
+        
+        public AIM.Application.Service.Entities.Models.Region[] GetRegionList() {
+            return base.Channel.GetRegionList();
         }
     }
 }

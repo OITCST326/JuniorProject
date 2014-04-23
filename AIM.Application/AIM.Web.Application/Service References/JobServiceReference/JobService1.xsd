@@ -383,25 +383,46 @@
     <xs:sequence>
       <xs:element minOccurs="0" name="Job" nillable="true" type="tns:Job" />
       <xs:element xmlns:q33="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ModifiedProperties" nillable="true" type="q33:ArrayOfstring" />
+      <xs:element minOccurs="0" name="Region" nillable="true" type="tns:Region" />
       <xs:element minOccurs="0" name="Store" nillable="true" type="tns:Store" />
       <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/TrackableEntities" minOccurs="0" name="TrackingState" type="q34:TrackingState" />
       <xs:element minOccurs="0" name="jobId" type="xs:int" />
       <xs:element minOccurs="0" name="openJobsId" type="xs:int" />
+      <xs:element minOccurs="0" name="regionId" type="xs:int" />
       <xs:element minOccurs="0" name="storeId" type="xs:int" />
     </xs:sequence>
     <xs:attribute ref="ser:Id" />
     <xs:attribute ref="ser:Ref" />
   </xs:complexType>
   <xs:element name="OpenJob" nillable="true" type="tns:OpenJob" />
-  <xs:complexType name="Store">
+  <xs:complexType name="Region">
     <xs:sequence>
       <xs:element xmlns:q35="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ModifiedProperties" nillable="true" type="q35:ArrayOfstring" />
       <xs:element minOccurs="0" name="OpenJobs" nillable="true" type="tns:ArrayOfOpenJob" />
+      <xs:element minOccurs="0" name="Stores" nillable="true" type="tns:ArrayOfStore" />
       <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/TrackableEntities" minOccurs="0" name="TrackingState" type="q36:TrackingState" />
+      <xs:element minOccurs="0" name="regionId" type="xs:int" />
+      <xs:element minOccurs="0" name="regionName" nillable="true" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="Region" nillable="true" type="tns:Region" />
+  <xs:complexType name="ArrayOfStore">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Store" nillable="true" type="tns:Store" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfStore" nillable="true" type="tns:ArrayOfStore" />
+  <xs:complexType name="Store">
+    <xs:sequence>
+      <xs:element xmlns:q37="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ModifiedProperties" nillable="true" type="q37:ArrayOfstring" />
+      <xs:element minOccurs="0" name="OpenJobs" nillable="true" type="tns:ArrayOfOpenJob" />
+      <xs:element minOccurs="0" name="Region" nillable="true" type="tns:Region" />
+      <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/TrackableEntities" minOccurs="0" name="TrackingState" type="q38:TrackingState" />
       <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="regionId" nillable="true" type="xs:int" />
-      <xs:element minOccurs="0" name="regionName" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="state" nillable="true" type="xs:int" />
       <xs:element minOccurs="0" name="storeId" type="xs:int" />
       <xs:element minOccurs="0" name="street" nillable="true" type="xs:string" />
@@ -412,4 +433,10 @@
     <xs:attribute ref="ser:Ref" />
   </xs:complexType>
   <xs:element name="Store" nillable="true" type="tns:Store" />
+  <xs:complexType name="ArrayOfRegion">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Region" nillable="true" type="tns:Region" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRegion" nillable="true" type="tns:ArrayOfRegion" />
 </xs:schema>

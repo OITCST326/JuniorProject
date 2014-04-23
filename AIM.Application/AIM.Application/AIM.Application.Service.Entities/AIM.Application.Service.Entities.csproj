@@ -88,6 +88,7 @@
     <Compile Include="Models\Mapping\QuestionnaireMap.cs" />
     <Compile Include="Models\Mapping\QuestionQuestionnaireMap.cs" />
     <Compile Include="Models\Mapping\ReferenceMap.cs" />
+    <Compile Include="Models\Mapping\RegionMap.cs" />
     <Compile Include="Models\Mapping\StoreMap.cs" />
     <Compile Include="Models\Mapping\UserMap.cs" />
     <Compile Include="Models\OpenJob.cs" />
@@ -97,6 +98,7 @@
     <Compile Include="Models\Questionnaire.cs" />
     <Compile Include="Models\QuestionQuestionnaire.cs" />
     <Compile Include="Models\Reference.cs" />
+    <Compile Include="Models\Region.cs" />
     <Compile Include="Models\Store.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

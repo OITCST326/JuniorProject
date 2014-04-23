@@ -18,6 +18,9 @@ namespace AIM.Application.Service.Core
         Task<IEnumerable<Job>> GetJobsList();
 
         [OperationContract]
+        Task<IEnumerable<OpenJob>> GetOpenJobsList(string name);
+
+        [OperationContract]
         Task<Job> GetJob(int id);
 
         [OperationContract]
@@ -28,6 +31,9 @@ namespace AIM.Application.Service.Core
 
         [OperationContract]
         Task<bool> DeleteJob(int id);
+
+        [OperationContract]
+        Task<IEnumerable<Region>> GetRegionList();
     }
 
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.PerCall)]
@@ -46,6 +52,18 @@ namespace AIM.Application.Service.Core
                 .OrderBy(j => j.description)
                 .Include(j => j.Hour)
                 .Include(j => j.Questionnaire)
+                .ToListAsync();
+            return entities;
+        }
+
+        public async Task<IEnumerable<OpenJob>> GetOpenJobsList(string name)
+        {
+            IEnumerable<OpenJob> entities = await _dbContext.OpenJobs
+                .Include(oj => oj.Job)
+                .Include(oj => oj.Region)
+                .Include(oj => oj.Store)
+                .Where(oj => oj.Region.regionName == name)
+                .OrderBy(oj => oj.Job.description)
                 .ToListAsync();
             return entities;
         }
@@ -98,6 +116,14 @@ namespace AIM.Application.Service.Core
             {
                 throw new FaultException(updateEx.Message);
             }
+        }
+
+        public async Task<IEnumerable<Region>> GetRegionList()
+        {
+            IEnumerable<Region> entities = await _dbContext.Regions
+                .OrderBy(r => r.regionName)
+                .ToListAsync();
+            return entities;
         }
 
         public void Dispose()

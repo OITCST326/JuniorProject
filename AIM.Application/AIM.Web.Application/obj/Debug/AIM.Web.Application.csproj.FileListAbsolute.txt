@@ -63,6 +63,7 @@ C:\Users\Chase\Desktop\Test\AIM.Application\AIM.Web.Application\bin\TrackableEnt
 C:\Users\Chase\Desktop\Test\AIM.Application\AIM.Web.Application\obj\Debug\AIM.Web.Application.csprojResolveAssemblyReference.cache
 C:\Users\Chase\Desktop\Test\AIM.Application\AIM.Web.Application\obj\Debug\AIM.Web.Application.dll
 C:\Users\Chase\Desktop\Test\AIM.Application\AIM.Web.Application\obj\Debug\AIM.Web.Application.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM.Application\AIM.Web.Application\obj\Debug\AIM.Web.Application.csprojResolveAssemblyReference.cache
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM.Application\AIM.Web.Application\bin\AIM.Web.Application.dll.config
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM.Application\AIM.Web.Application\bin\AIM.Web.Application.dll
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM.Application\AIM.Web.Application\bin\AIM.Web.Application.pdb
@@ -125,6 +126,5 @@ C:\Users\Chase\Documents\GitHub\JuniorProject\AIM.Application\AIM.Web.Applicatio
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM.Application\AIM.Web.Application\bin\TrackableEntities.Common.xml
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM.Application\AIM.Web.Application\bin\TrackableEntities.EF.6.pdb
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM.Application\AIM.Web.Application\bin\TrackableEntities.EF.6.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM.Application\AIM.Web.Application\obj\Debug\AIM.Web.Application.csprojResolveAssemblyReference.cache
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM.Application\AIM.Web.Application\obj\Debug\AIM.Web.Application.dll
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM.Application\AIM.Web.Application\obj\Debug\AIM.Web.Application.pdb

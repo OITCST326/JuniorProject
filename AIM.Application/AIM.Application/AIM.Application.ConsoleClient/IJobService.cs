@@ -11,6 +11,9 @@ namespace AIM.Application.ConsoleClient
         [OperationContract(Name = "GetJobsList")]
         Task<IEnumerable<Job>> GetJobsListAsync();
 
+        [OperationContract(Name = "GetOpenJobsList")]
+        Task<IEnumerable<OpenJob>> GetOpenJobsListAsync(string name);
+
         [OperationContract(Name = "GetJob")]
         Task<Job> GetJobAsync(int id);
 
@@ -22,5 +25,8 @@ namespace AIM.Application.ConsoleClient
 
         [OperationContract(Name = "DeleteJob")]
         Task<bool> DeleteJobAsync(int id);
+
+        [OperationContract(Name = "GetRegionList")]
+        Task<IEnumerable<Region>> GetRegionListAsync();
     }
 }

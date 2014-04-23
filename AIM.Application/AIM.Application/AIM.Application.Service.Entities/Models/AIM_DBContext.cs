@@ -33,6 +33,7 @@ namespace AIM.Application.Service.Entities.Models
         public DbSet<QuestionQuestionnaire> QuestionQuestionnaires { get; set; }
         public DbSet<Question> Questions { get; set; }
         public DbSet<Reference> References { get; set; }
+        public DbSet<Region> Regions { get; set; }
         public DbSet<Store> Stores { get; set; }
         public DbSet<User> Users { get; set; }
 
@@ -54,6 +55,7 @@ namespace AIM.Application.Service.Entities.Models
             modelBuilder.Configurations.Add(new QuestionQuestionnaireMap());
             modelBuilder.Configurations.Add(new QuestionMap());
             modelBuilder.Configurations.Add(new ReferenceMap());
+            modelBuilder.Configurations.Add(new RegionMap());
             modelBuilder.Configurations.Add(new StoreMap());
             modelBuilder.Configurations.Add(new UserMap());
         }

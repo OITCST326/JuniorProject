@@ -225,6 +225,8 @@
     <Content Include="Properties\DataSources\AIM.Application.Service.Entities.Models.Question.datasource" />
     <Content Include="Properties\DataSources\AIM.Application.Service.Entities.Models.Questionnaire.datasource" />
     <Content Include="Properties\DataSources\AIM.Application.Service.Entities.Models.User.datasource" />
+    <Content Include="Properties\DataSources\AIM.Application.Service.Entities.Models.OpenJob.datasource" />
+    <Content Include="Properties\DataSources\AIM.Application.Service.Entities.Models.Region.datasource" />
     <None Include="Service References\JobServiceReference\JobService.disco" />
     <None Include="Service References\JobServiceReference\configuration91.svcinfo" />
     <None Include="Service References\JobServiceReference\configuration.svcinfo" />

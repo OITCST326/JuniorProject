@@ -50,6 +50,7 @@
     <Compile Include="Models\Questionnaire.cs" />
     <Compile Include="Models\QuestionQuestionnaire.cs" />
     <Compile Include="Models\Reference.cs" />
+    <Compile Include="Models\Region.cs" />
     <Compile Include="Models\Store.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

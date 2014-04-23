@@ -51,6 +51,19 @@ namespace AIM.Application.Client.Entities.Models
         private int _storeId;
 
         [DataMember]
+        public int regionId
+		{ 
+		    get { return _regionId; }
+			set
+			{
+			    if (value == _regionId) return;
+				_regionId = value;
+				NotifyPropertyChanged(m => m.regionId);
+			}
+		}
+        private int _regionId;
+
+        [DataMember]
         public Job Job
 		{
 		    get { return _Job; }
@@ -75,6 +88,19 @@ namespace AIM.Application.Client.Entities.Models
 			}
 		}
         private Store _Store;
+
+        [DataMember]
+        public Region Region
+		{
+		    get { return _Region; }
+			set
+			{
+			    if (value == _Region) return;
+				_Region = value;
+				NotifyPropertyChanged(m => m.Region);
+			}
+		}
+        private Region _Region;
 
         [DataMember]
         public ICollection<string> ModifiedProperties { get; set; }

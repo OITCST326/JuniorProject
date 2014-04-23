@@ -56,19 +56,6 @@ namespace AIM.Application.Client.Entities.Models
         private Nullable<int> _regionId;
 
         [DataMember]
-        public string regionName
-		{ 
-		    get { return _regionName; }
-			set
-			{
-			    if (value == _regionName) return;
-				_regionName = value;
-				NotifyPropertyChanged(m => m.regionName);
-			}
-		}
-        private string _regionName;
-
-        [DataMember]
         public string street
 		{ 
 		    get { return _street; }
@@ -145,6 +132,19 @@ namespace AIM.Application.Client.Entities.Models
 			}
 		}
         private ChangeTrackingCollection<OpenJob> _OpenJobs;
+
+        [DataMember]
+        public Region Region
+		{
+		    get { return _Region; }
+			set
+			{
+			    if (value == _Region) return;
+				_Region = value;
+				NotifyPropertyChanged(m => m.Region);
+			}
+		}
+        private Region _Region;
 
         [DataMember]
         public ICollection<string> ModifiedProperties { get; set; }
