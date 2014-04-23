@@ -109,4 +109,94 @@ namespace AIM.Service.Administrative
             }
         }
     }
+   public  class JobServiceMock: IJobService, IDisposable
+    {
+
+        List<Job> testJobs;
+        IEnumerable<List<Job>> myIter; 
+        
+        public JobServiceMock()
+        {
+          //  _dbContext = new AIM_DBContext();
+           
+            
+
+        }
+
+        public async Task<IEnumerable<Job>> GetJobsList()
+        {
+            IEnumerable<Job> entities = testJobs.ToList<Job>();
+            return entities;
+        }
+
+        public async Task<Job> GetJob(int id)
+        {
+            try
+            {
+                foreach (Job item in testJobs)
+                {
+                    if (item.jobId == id)
+                    {
+                        return item;
+                    }
+                }
+                Exception myException;
+                myException = new Exception("no job found with that ID");
+                throw myException;
+            }
+            catch (Exception myException)
+            {
+                throw new FaultException(myException.Message);
+            }
+        }
+
+        public async Task<Job> UpdateJob(Job entity)
+        {
+            try
+            {
+                Job tempJob = testJobs.Find(x => x.jobId == entity.jobId);
+
+                testJobs.Remove(testJobs.Find(x => x.jobId == entity.jobId));
+
+                testJobs.Add(tempJob);
+                
+                return entity;
+            }
+            catch (DbUpdateConcurrencyException updateEx)
+            {
+                throw new FaultException(updateEx.Message);
+            }
+        }
+
+        public async Task<Job> CreateJob(Job entity)
+        {
+            testJobs.Add(entity);
+            
+            return entity;
+        }
+
+        public async Task<bool> DeleteJob(int id)
+        {
+            
+
+            try
+            {
+                testJobs.Remove(testJobs.Find(x => x.jobId == id));
+                return true;
+            }
+            catch (DbUpdateConcurrencyException updateEx)
+            {
+                throw new FaultException(updateEx.Message);
+            }
+        }
+
+        public void Dispose()
+        {
+        //do I need to implement this?
+        }
+        
+    }
+
+
+
 }
