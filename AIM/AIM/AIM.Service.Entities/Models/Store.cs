@@ -22,8 +22,6 @@ namespace AIM.Service.Entities.Models
         [DataMember]
         public Nullable<int> regionId { get; set; }
         [DataMember]
-        public string regionName { get; set; }
-        [DataMember]
         public string street { get; set; }
         [DataMember]
         public string street2 { get; set; }
@@ -35,6 +33,8 @@ namespace AIM.Service.Entities.Models
         public string zip { get; set; }
         [DataMember]
         public List<OpenJob> OpenJobs { get; set; }
+        [DataMember]
+        public Region Region { get; set; }
 
         [DataMember]
         public TrackingState TrackingState { get; set; }

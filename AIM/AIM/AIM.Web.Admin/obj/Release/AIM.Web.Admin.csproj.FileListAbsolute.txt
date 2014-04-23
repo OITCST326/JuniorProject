@@ -40,6 +40,9 @@ C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\AIM.Serv
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\Antlr3.Runtime.pdb
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\EntityFramework.xml
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\EntityFramework.SqlServer.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Owin.xml
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.xml
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\Microsoft.Owin.Security.xml
@@ -63,9 +66,6 @@ C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\System.W
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.Common.pdb
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.Common.xml
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\WebMatrix.Data.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.EF.6.pdb
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\TrackableEntities.EF.6.xml
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\obj\Release\AIM.Web.Admin.csprojResolveAssemblyReference.cache

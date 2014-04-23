@@ -17,9 +17,13 @@ namespace AIM.Service.Entities.Models
         [DataMember]
         public int storeId { get; set; }
         [DataMember]
+        public int regionId { get; set; }
+        [DataMember]
         public Job Job { get; set; }
         [DataMember]
         public Store Store { get; set; }
+        [DataMember]
+        public Region Region { get; set; }
 
         [DataMember]
         public TrackingState TrackingState { get; set; }

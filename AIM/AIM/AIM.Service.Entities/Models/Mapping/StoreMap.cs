@@ -13,9 +13,6 @@ namespace AIM.Service.Entities.Models.Mapping
             this.Property(t => t.name)
                 .HasMaxLength(40);
 
-            this.Property(t => t.regionName)
-                .HasMaxLength(40);
-
             this.Property(t => t.street)
                 .HasMaxLength(100);
 
@@ -33,7 +30,6 @@ namespace AIM.Service.Entities.Models.Mapping
             this.Property(t => t.storeId).HasColumnName("storeId");
             this.Property(t => t.name).HasColumnName("name");
             this.Property(t => t.regionId).HasColumnName("regionId");
-            this.Property(t => t.regionName).HasColumnName("regionName");
             this.Property(t => t.street).HasColumnName("street");
             this.Property(t => t.street2).HasColumnName("street2");
             this.Property(t => t.city).HasColumnName("city");
@@ -43,6 +39,12 @@ namespace AIM.Service.Entities.Models.Mapping
             // Tracking Properties
 			this.Ignore(t => t.TrackingState);
 			this.Ignore(t => t.ModifiedProperties);
+
+            // Relationships
+            this.HasOptional(t => t.Region)
+                .WithMany(t => t.Stores)
+                .HasForeignKey(d => d.regionId);
+
         }
     }
 }
