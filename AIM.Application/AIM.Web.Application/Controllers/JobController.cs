@@ -11,7 +11,7 @@ namespace AIM.Web.Application.Controllers
     {
         private readonly JobServiceClient _client = new JobServiceClient();
 
-        // GET: /Job/
+        // GET: /JoDefault1b/
         public ActionResult Index()
         {
             var jobs = _client.GetJobsList();

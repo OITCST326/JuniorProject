@@ -11,6 +11,9 @@ namespace AIM.Application.ConsoleClient
         [OperationContract(Name = "GetJobsList")]
         Task<IEnumerable<Job>> GetJobsListAsync();
 
+        [OperationContract(Name = "GetOpenJobs")]
+        Task<IEnumerable<OpenJob>> GetOpenJobsAsync();
+
         [OperationContract(Name = "GetJob")]
         Task<Job> GetJobAsync(int id);
 

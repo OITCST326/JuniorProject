@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AIM.Application.Service.Entities.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,8 +9,11 @@ namespace AIM.Web.Application.Controllers
 {
     public class HomeController : Controller
     {
+        private AIM_DBContext db = new AIM_DBContext();
+
         public ActionResult Index()
         {
+            //ViewBag.DropDownValues = db.Stores.ToList();
             return View();
         }
 
