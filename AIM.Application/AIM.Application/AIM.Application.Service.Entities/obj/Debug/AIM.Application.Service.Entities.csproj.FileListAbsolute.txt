@@ -33,3 +33,4 @@ C:\Users\Chase\Documents\GitHub\JuniorProject\AIM.Application\AIM.Application\AI
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM.Application\AIM.Application\AIM.Application.Service.Entities\bin\Debug\TrackableEntities.EF.6.xml
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM.Application\AIM.Application\AIM.Application.Service.Entities\obj\Debug\AIM.Application.Service.Entities.dll
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM.Application\AIM.Application\AIM.Application.Service.Entities\obj\Debug\AIM.Application.Service.Entities.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM.Application\AIM.Application\AIM.Application.Service.Entities\obj\Debug\AIM.Application.Service.Entities.csprojResolveAssemblyReference.cache

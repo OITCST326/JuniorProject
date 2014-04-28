@@ -27,7 +27,7 @@ namespace AIM.Application.Service.Entities.Models
         [DataMember]
         public string city { get; set; }
         [DataMember]
-        public Nullable<int> state { get; set; }
+        public Nullable<StateEnum> state { get; set; }
         [DataMember]
         public string zip { get; set; }
         [DataMember]
