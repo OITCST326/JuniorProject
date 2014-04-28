@@ -26,7 +26,7 @@ namespace AIM.Service.Entities.Models
         [DataMember]
         public string city { get; set; }
         [DataMember]
-        public int state { get; set; }
+        public StateEnum state { get; set; }
         [DataMember]
         public string zip { get; set; }
         [DataMember]

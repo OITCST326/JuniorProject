@@ -18,7 +18,7 @@ namespace AIM.Service.Entities.Models
         [DataMember]
         public int employeeId { get; set; }
         [DataMember]
-        public Nullable<int> permissions { get; set; }
+        public Nullable<PermissionsEnum> permissions { get; set; }
         [DataMember]
         public Nullable<int> jobId { get; set; }
         [DataMember]
