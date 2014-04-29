@@ -12,6 +12,7 @@ using TrackableEntities.Client;
 using System.Runtime.Serialization;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
+
 #endregion
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -52,9 +53,10 @@ namespace TrackableEntities.ModelsTest
         //[Ignore("Please Implement")]
         public void ExtensionDataTest()
         {
-            Education education = new Education(); //Trial Mode
+           Education education = new Education(); //Trial Mode
             //Education education = new Education("place user name here", "place license key here"); //License Mode
-
+          //  _education.city = "TestCity";
+           // Assert.AreEqual("TestCity", _education.city, "education.city failed");//, "What happened?");
          //   education.ExtensionData = new System.Runtime.Serialization.ExtensionDataObject();
         }
 
@@ -120,6 +122,11 @@ namespace TrackableEntities.ModelsTest
             Education education = new Education(); //Trial Mode
             //Education education = new Education("place user name here", "place license key here"); //License Mode
             education.applicantId = new System.Nullable<int>();
+            education.applicantId = 1;
+            Assert.AreNotEqual(0,education.applicantId,"Applicant ID failed");
+            education.applicantId = 0;
+            Assert.AreEqual(0, education.applicantId, "Applicant ID failed");
+
            // education.applicantID = new System.Nullable<int>();
         }
 
@@ -137,6 +144,8 @@ namespace TrackableEntities.ModelsTest
             //Education education = new Education("place user name here", "place license key here"); //License Mode
 
             education.city = "test";
+            Assert.AreNotEqual("nottest", education.city, "application.city failed");
+            Assert.AreEqual("test", education.city, "application.city failed");
         }
 
         /// <summary>
@@ -153,6 +162,8 @@ namespace TrackableEntities.ModelsTest
             //Education education = new Education("place user name here", "place license key here"); //License Mode
 
             education.degree = "test";
+            Assert.AreNotEqual("nottest", education.degree, "education.degree failed");
+            Assert.AreEqual("test", education.degree, "education.degree failed");
         }
 
         /// <summary>
@@ -168,6 +179,8 @@ namespace TrackableEntities.ModelsTest
             Education education = new Education(); //Trial Mode
             //Education education = new Education("place user name here", "place license key here"); //License Mode
             education.educationId = 123;
+            Assert.AreNotEqual(0, education.educationId, "education.educationId failed");
+            Assert.AreEqual(123, education.educationId, "education.educationId failed");
             //education.educationID = 123;
         }
 
@@ -184,7 +197,12 @@ namespace TrackableEntities.ModelsTest
             Education education = new Education(); //Trial Mode
             //Education education = new Education("place user name here", "place license key here"); //License Mode
 
-            education.graduated = new System.Nullable<System.DateTime>();
+           education.graduated = new Nullable<DateTime>(DateTime.Today);
+           DateTime? tempTime = new Nullable<DateTime>(DateTime.Today);
+            //education.graduated
+           DateTime? badTime = new Nullable<DateTime>();
+           Assert.AreNotEqual(badTime, education.graduated, "education.graduated failed");
+           Assert.AreEqual(tempTime, education.graduated, "education.graduated failed");
         }
 
         /// <summary>
@@ -201,6 +219,8 @@ namespace TrackableEntities.ModelsTest
             //Education education = new Education("place user name here", "place license key here"); //License Mode
 
             education.schoolName = "test";
+            Assert.AreNotEqual("nottest", education.schoolName, "education.schoolname failed");
+            Assert.AreEqual("test", education.schoolName, "education.schoolname failed");
         }
 
         /// <summary>
@@ -217,6 +237,8 @@ namespace TrackableEntities.ModelsTest
             //Education education = new Education("place user name here", "place license key here"); //License Mode
 
             education.state = 35;
+            Assert.AreNotEqual(0, education.state, "education.state failed");
+            Assert.AreEqual(35, education.state, "education.state failed");
         }
 
         /// <summary>
@@ -232,7 +254,9 @@ namespace TrackableEntities.ModelsTest
             Education education = new Education(); //Trial Mode
             //Education education = new Education("place user name here", "place license key here"); //License Mode
 
-            education.street = "test";
+            education.street = "123 test drive";
+            Assert.AreNotEqual("123 test avenue", education.street, "education.street failed");
+            Assert.AreEqual("123 test drive", education.street, "education.street failed");
         }
 
         /// <summary>
@@ -248,7 +272,11 @@ namespace TrackableEntities.ModelsTest
             Education education = new Education(); //Trial Mode
             //Education education = new Education("place user name here", "place license key here"); //License Mode
 
-            education.street2 = "test";
+            
+            education.street2 = "123 test drive";
+            Assert.AreNotEqual("123 test avenue", education.street2, "education.street2 failed");
+            Assert.AreEqual("123 test drive", education.street2, "education.street2 failed");
+           
         }
 
         /// <summary>
@@ -265,6 +293,8 @@ namespace TrackableEntities.ModelsTest
             //Education education = new Education("place user name here", "place license key here"); //License Mode
 
             education.yearsAttended = "test";
+            Assert.AreNotEqual("nottest", education.yearsAttended, "education.yearsattended failed");
+            Assert.AreEqual("test", education.yearsAttended, "education.yearsAttended failed");
         }
 
         /// <summary>
@@ -282,6 +312,8 @@ namespace TrackableEntities.ModelsTest
 
            // education.zip = new System.Nullable<decimal>();
             education.zip = "97231";
+            Assert.AreNotEqual("00000", education.zip, "education.zip failed");
+            Assert.AreEqual("97231", education.zip, "education.zip failed");
         }
 
         #endregion // End of GeneratedProperties

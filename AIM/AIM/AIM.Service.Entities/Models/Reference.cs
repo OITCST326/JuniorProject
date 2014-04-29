@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using TrackableEntities;
+using System.ComponentModel.DataAnnotations;
 
 namespace AIM.Service.Entities.Models
 {
@@ -11,18 +12,25 @@ namespace AIM.Service.Entities.Models
     public partial class Reference : ITrackable
     {
         [DataMember]
+        [Display(Name = "Reference ID")]
         public int referenceId { get; set; }
         [DataMember]
+        [Display(Name = "Reference Full Name")]
         public string refFullName { get; set; }
         [DataMember]
+        [Display(Name = "Reference Company")]
         public string refCompany { get; set; }
         [DataMember]
+        [Display(Name = "Reference Title")]
         public string refTitle { get; set; }
         [DataMember]
+        [Display(Name = "Reference Phone Number")]
         public string refPhone { get; set; }
         [DataMember]
+        [Display(Name = "Applicant ID")]
         public Nullable<int> applicantId { get; set; }
         [DataMember]
+        [Display(Name = "Applicant")]
         public Applicant Applicant { get; set; }
 
         [DataMember]
