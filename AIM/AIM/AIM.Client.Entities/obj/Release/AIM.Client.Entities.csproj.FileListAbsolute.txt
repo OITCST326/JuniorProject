@@ -25,3 +25,4 @@ C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Rel
 C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Release\TrackableEntities.Common.xml
 C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Release\AIM.Client.Entities.dll
 C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Release\AIM.Client.Entities.pdb
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Release\AIM.Client.Entities.csprojResolveAssemblyReference.cache
