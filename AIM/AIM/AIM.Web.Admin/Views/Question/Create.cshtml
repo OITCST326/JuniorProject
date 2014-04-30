@@ -59,7 +59,9 @@
                     </div>
                     
                     <p>How many choices would you like for this question?</p>
-            
+                    <input type="number" min=1 max=20 step=1 name="numOptions"/>
+                    
+
                     
                     <div class="form-group">
                         @Html.LabelFor(model => model.qJsonAnswerList, new { @class = "control-label col-md-2" })
