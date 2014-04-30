@@ -4,18 +4,15 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Open Jobs</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Job.position)
+            @Html.DisplayNameFor(model => model.openJobsId)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Store.name)
+            @Html.DisplayNameFor(model => model.storeId)
         </th>
         <th></th>
     </tr>
@@ -23,15 +20,10 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.Job.position)
+            @Html.DisplayFor(modelItem => item.openJobsId)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Store.name)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.openJobsId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.openJobsId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.openJobsId })
+            @Html.DisplayFor(modelItem => item.storeId)
         </td>
     </tr>
 }

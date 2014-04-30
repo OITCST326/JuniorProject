@@ -15,6 +15,8 @@ namespace AIM.Web.Application.Controllers
         public ActionResult Index()
         {
             return View();
+            //var stores = _client.GetStoreList();
+            //return View(stores);
         }
 
         public ActionResult About()

@@ -9,6 +9,18 @@
       <xsd:import schemaLocation="http://localhost:7622/JobService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/TrackableEntities" />
     </xsd:schema>
   </wsdl:types>
+  <wsdl:message name="IJobService_GetOpenJobsList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOpenJobsList" />
+  </wsdl:message>
+  <wsdl:message name="IJobService_GetOpenJobsList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOpenJobsListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IJobService_GetStoreList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStoreList" />
+  </wsdl:message>
+  <wsdl:message name="IJobService_GetStoreList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStoreListResponse" />
+  </wsdl:message>
   <wsdl:message name="IJobService_GetJobsList_InputMessage">
     <wsdl:part name="parameters" element="tns:GetJobsList" />
   </wsdl:message>
@@ -40,6 +52,14 @@
     <wsdl:part name="parameters" element="tns:DeleteJobResponse" />
   </wsdl:message>
   <wsdl:portType name="IJobService">
+    <wsdl:operation name="GetOpenJobsList">
+      <wsdl:input wsaw:Action="urn:trackable-entities:service/IJobService/GetOpenJobsList" message="tns:IJobService_GetOpenJobsList_InputMessage" />
+      <wsdl:output wsaw:Action="urn:trackable-entities:service/IJobService/GetOpenJobsListResponse" message="tns:IJobService_GetOpenJobsList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStoreList">
+      <wsdl:input wsaw:Action="urn:trackable-entities:service/IJobService/GetStoreList" message="tns:IJobService_GetStoreList_InputMessage" />
+      <wsdl:output wsaw:Action="urn:trackable-entities:service/IJobService/GetStoreListResponse" message="tns:IJobService_GetStoreList_OutputMessage" />
+    </wsdl:operation>
     <wsdl:operation name="GetJobsList">
       <wsdl:input wsaw:Action="urn:trackable-entities:service/IJobService/GetJobsList" message="tns:IJobService_GetJobsList_InputMessage" />
       <wsdl:output wsaw:Action="urn:trackable-entities:service/IJobService/GetJobsListResponse" message="tns:IJobService_GetJobsList_OutputMessage" />

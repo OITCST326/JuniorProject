@@ -7,17 +7,19 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using AIM.Application.Service.Entities.Models;
+using AIM.Web.Application.JobServiceReference;
 
 namespace AIM.Web.Application.Controllers
 {
     public class StoreController : Controller
     {
+        private readonly JobServiceClient _client = new JobServiceClient();
         private AIM_DBContext db = new AIM_DBContext();
 
         // GET: /Store/
         public ActionResult Index()
         {
-            return View(db.Stores.ToList());
+            return View();
         }
 
         // GET: /Store/Details/5

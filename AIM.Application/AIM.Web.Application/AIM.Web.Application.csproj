@@ -226,6 +226,8 @@
     <Content Include="Properties\DataSources\AIM.Application.Service.Entities.Models.Question.datasource" />
     <Content Include="Properties\DataSources\AIM.Application.Service.Entities.Models.Questionnaire.datasource" />
     <Content Include="Properties\DataSources\AIM.Application.Service.Entities.Models.User.datasource" />
+    <Content Include="Properties\DataSources\AIM.Application.Service.Entities.Models.OpenJob.datasource" />
+    <Content Include="Properties\DataSources\AIM.Application.Service.Entities.Models.Store.datasource" />
     <None Include="Service References\JobServiceReference\JobService.disco" />
     <None Include="Service References\JobServiceReference\configuration91.svcinfo" />
     <None Include="Service References\JobServiceReference\configuration.svcinfo" />
@@ -435,12 +437,12 @@
     <Content Include="Views\Store\Delete.cshtml" />
     <Content Include="Views\Store\Details.cshtml" />
     <Content Include="Views\Store\Edit.cshtml" />
-    <Content Include="Views\Store\Index.cshtml" />
     <Content Include="Views\OpenJob\Create.cshtml" />
     <Content Include="Views\OpenJob\Delete.cshtml" />
     <Content Include="Views\OpenJob\Details.cshtml" />
     <Content Include="Views\OpenJob\Edit.cshtml" />
     <Content Include="Views\OpenJob\Index.cshtml" />
+    <Content Include="Views\Store\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

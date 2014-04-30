@@ -8,34 +8,23 @@ using System.Web;
 using System.Web.Mvc;
 using AIM.Application.Service.Entities.Models;
 using System.Data.Entity.Core;
+using AIM.Web.Application.JobServiceReference;
 
 namespace AIM.Web.Application.Controllers
 {
     public class OpenJobController : Controller
     {
-        private AIM_DBContext db = new AIM_DBContext();
+        private readonly JobServiceClient _client = new JobServiceClient();
 
         // GET: /OpenJob/
         public ActionResult Index()
         {
-            try
-            {
-                var openjobs = db.OpenJobs.Include(o => o.Job).Include(o => o.Store);
-
-                if (openjobs == null || openjobs.ToList() == null)
-                    return View("Error");
-                else
-                    return View(openjobs.ToList());
-            }
-            
-
-            catch(EntityCommandExecutionException er)
-            {
-                ViewBag.Message = er.InnerException.Message.ToString();
-                return View("Error");
-            }
+            var openjobs = _client.GetOpenJobsList();
+            return View(openjobs.ToList());
+                    
         }
-
+        
+        /*
         // GET: /OpenJob/Details/5
         public ActionResult Details(int? id)
         {
@@ -147,5 +136,8 @@ namespace AIM.Web.Application.Controllers
             }
             base.Dispose(disposing);
         }
+         * 
+         * */
     }
+         
 }

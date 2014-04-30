@@ -15,13 +15,16 @@ namespace AIM.Application.Service.Core
     public interface IJobService
     {
         [OperationContract]
-        Task<IEnumerable<Job>> GetJobsList();
+        Task<IEnumerable<OpenJob>> GetOpenJobsList();
 
         [OperationContract]
-        Task<IEnumerable<OpenJob>> GetOpenJobs();
+        Task<IEnumerable<Store>> GetStoreList();
 
         [OperationContract]
-        Task<Job> GetJob(int id);
+        Task<IEnumerable<Job>> GetJobsList();        
+
+        [OperationContract]
+        Task<Job> GetJob(int? id);
 
         [OperationContract]
         Task<Job> UpdateJob(Job entity);
@@ -43,6 +46,15 @@ namespace AIM.Application.Service.Core
             _dbContext = new AIM_DBContext();
         }
 
+        public async Task<IEnumerable<Store>> GetStoreList()
+        {
+            IEnumerable<Store> entities = await _dbContext.Stores
+                .OrderBy(s => s.name)
+                .ToListAsync();
+
+            return entities;
+        }
+
         public async Task<IEnumerable<Job>> GetJobsList()
         {
             IEnumerable<Job> entities = await _dbContext.Jobs
@@ -53,17 +65,13 @@ namespace AIM.Application.Service.Core
             return entities;
         }
 
-        public async Task<IEnumerable<OpenJob>> GetOpenJobs()
+        public async Task<IEnumerable<OpenJob>> GetOpenJobsList()
         {
-            IEnumerable<OpenJob> entities = await _dbContext.OpenJobs
-                .OrderBy(j => j.Store)
-                .Include(j => j.Job)
-                .Include(j => j.Store)
-                .ToListAsync();
+            IEnumerable<OpenJob> entities = await _dbContext.OpenJobs.ToListAsync();
             return entities;
         }
 
-        public async Task<Job> GetJob(int id)
+        public async Task<Job> GetJob(int? id)
         {
             Job entity = await _dbContext.Jobs
                 .SingleOrDefaultAsync(x => x.jobId == id);
