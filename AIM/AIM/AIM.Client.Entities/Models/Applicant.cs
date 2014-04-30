@@ -4,6 +4,7 @@ using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using TrackableEntities;
 using TrackableEntities.Client;
+using System.ComponentModel.DataAnnotations;
 
 namespace AIM.Client.Entities.Models
 {
@@ -23,6 +24,7 @@ namespace AIM.Client.Entities.Models
 		}
 
 		[DataMember]
+        [Display(Name = "Applicant ID")]
 		public int applicantId
 		{ 
 			get { return _applicantId; }

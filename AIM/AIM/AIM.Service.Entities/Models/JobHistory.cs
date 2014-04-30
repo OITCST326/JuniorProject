@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using TrackableEntities;
+using System.ComponentModel.DataAnnotations;
 
 namespace AIM.Service.Entities.Models
 {
@@ -11,40 +12,58 @@ namespace AIM.Service.Entities.Models
     public partial class JobHistory : ITrackable
     {
         [DataMember]
+        [Display(Name = "Job History ID")]
         public int jobHistoryId { get; set; }
         [DataMember]
+        [Display(Name = "Employer Name")]
         public string employerName { get; set; }
         [DataMember]
+        [Display(Name = "Position")]
         public string position { get; set; }
         [DataMember]
+        [Display(Name = "Responsibilities")]
         public string responsibilities { get; set; }
         [DataMember]
+        [Display(Name = "Supervisor")]
         public string supervisor { get; set; }
         [DataMember]
+        [Display(Name = "Starting Salary")]
         public Nullable<decimal> startingSalary { get; set; }
         [DataMember]
+        [Display(Name = "Ending Salary")]
         public Nullable<decimal> endingSalary { get; set; }
         [DataMember]
+        [Display(Name = "Reason For Leaving")]
         public string reasonForLeaving { get; set; }
         [DataMember]
+        [Display(Name = "Date From")]
         public Nullable<System.DateTime> dateFrom { get; set; }
         [DataMember]
+        [Display(Name = "Date To")]
         public Nullable<System.DateTime> dateTo { get; set; }
         [DataMember]
+        [Display(Name = "Street")]
         public string street { get; set; }
         [DataMember]
+        [Display(Name = "Street 2")]
         public string street2 { get; set; }
         [DataMember]
+        [Display(Name = "City")]
         public string city { get; set; }
         [DataMember]
+        [Display(Name = "State")]
         public Nullable<int> state { get; set; }
         [DataMember]
+        [Display(Name = "Zip Code")]
         public string zip { get; set; }
         [DataMember]
+        [Display(Name = "Phone Number")]
         public string phone { get; set; }
         [DataMember]
+        [Display(Name = "Applicant ID")]
         public Nullable<int> applicantId { get; set; }
         [DataMember]
+        [Display(Name = "Applicant")]
         public Applicant Applicant { get; set; }
 
         [DataMember]
