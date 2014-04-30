@@ -64,15 +64,15 @@ AIM/AIM/AIM.Client.Entities/obj/
 AIM/AIM/AIM.Web.Admin.Tests/bin/
 AIM/AIM/AIM.Web.Admin.Tests/obj/
 
-AIM.Application/AIM.Application/AIM.Application.Client.Entities/bin/
-AIM.Application/AIM.Application/AIM.Application.Client.Entities/obj/
-AIM.Application/AIM.Application/AIM.Application.ConsoleClient/bin/
-AIM.Application/AIM.Application/AIM.Application.ConsoleClient/obj/
-AIM.Application/AIM.Application/AIM.Application.Service.Core/bin/
-AIM.Application/AIM.Application/AIM.Application.Service.Core/obj/
-AIM.Application/AIM.Application/AIM.Application.Service.Entities/bin/
-AIM.Application/AIM.Application/AIM.Application.Service.Entities/obj/
-AIM.Application/AIM.Web.Application.Tests/bin/
+AIM.Application/AIM.Application.Client.Entities/bin/
+AIM.Application/AIM.Application.Client.Entities/obj/
+AIM.Application/AIM.Application.ConsoleClient/bin/
+AIM.Application/AIM.Application.ConsoleClient/obj/
+AIM.Application/AIM.Application.Service.Core/bin/
+AIM.Application/AIM.Application.Service.Core/obj/
+AIM.Application/AIM.Application.Service.Entities/bin/
+AIM.Application/AIM.Application.Service.Entities/obj/
+AIM.Web.Application.Tests/bin/
 AIM.Application/AIM.Web.Application.Tests/obj/
 AIM.Application/AIM.Web.Application/bin/
 AIM.Application/AIM.Web.Application/obj/

@@ -51,18 +51,18 @@ _ReSharper*/
 # NCrunch
 *ncrunch*
 
-AIM/AIM/AIM.Service.Administrative/bin/
-AIM/AIM/AIM.Service.Administrative/obj/
-AIM/AIM/AIM.Service.Entities/bin/
-AIM/AIM/AIM.Service.Entities/obj/
-AIM/AIM/AIM.Web.Admin/bin/
-AIM/AIM/AIM.Web.Admin/obj/
-AIM/AIM/AIM.AIM.ConsoleClient/bin/
-AIM/AIM/AIM.AIM.ConsoleClient/obj/
-AIM/AIM/AIM.Client.Entities/bin/
-AIM/AIM/AIM.Client.Entities/obj/
-AIM/AIM/AIM.Web.Admin.Tests/bin/
-AIM/AIM/AIM.Web.Admin.Tests/obj/
+AIM/AIM.Service.Administrative/bin/
+AIM/AIM.Service.Administrative/obj/
+AIM/AIM.Service.Entities/bin/
+AIM/AIM.Service.Entities/obj/
+AIM/AIM.Web.Admin/bin/
+AIM/AIM.Web.Admin/obj/
+AIM/AIM.AIM.ConsoleClient/bin/
+AIM/AIM.AIM.ConsoleClient/obj/
+AIM/AIM.Client.Entities/bin/
+AIM/AIM.Client.Entities/obj/
+AIM/AIM.Web.Admin.Tests/bin/
+AIM/AIM.Web.Admin.Tests/obj/
 
 AIM.Application/AIM.Application/AIM.Application.Client.Entities/bin/
 AIM.Application/AIM.Application/AIM.Application.Client.Entities/obj/
