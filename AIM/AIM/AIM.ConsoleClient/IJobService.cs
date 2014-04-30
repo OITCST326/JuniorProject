@@ -23,5 +23,8 @@ namespace AIM.ConsoleClient
 
         [OperationContract(Name = "DeleteJob")]
         Task<bool> DeleteJobAsync(int id);
+
+        [OperationContract(Name = "GetOpenJobs")]
+        Task<IEnumerable<OpenJob>> GetOpenJobsAsync();
     }
 }

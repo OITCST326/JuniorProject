@@ -28,6 +28,9 @@ namespace AIM.Service.Administrative
 
         [OperationContract]
         Task<bool> DeleteJob(int id);
+
+        [OperationContract]
+        Task<IEnumerable<OpenJob>> GetOpenJobs();
     }
 
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.PerCall)]
@@ -98,6 +101,18 @@ namespace AIM.Service.Administrative
             {
                 throw new FaultException(updateEx.Message);
             }
+        }
+
+        public async Task<IEnumerable<OpenJob>> GetOpenJobs()
+        {
+            IEnumerable<OpenJob> entities = await _dbContext.OpenJobs
+                .Include(op => op.Region)
+                .Include(op => op.Store)
+                .Include(op => op.Job)
+                .OrderBy(op => op.Region.regionName)
+                .ThenBy(op => op.Job.description)
+                .ToListAsync();
+            return entities;
         }
 
         public void Dispose()

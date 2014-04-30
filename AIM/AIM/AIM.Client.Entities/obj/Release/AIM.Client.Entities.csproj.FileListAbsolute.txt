@@ -11,3 +11,4 @@ C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Re
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Release\TrackableEntities.Common.xml
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Release\AIM.Client.Entities.dll
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Release\AIM.Client.Entities.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Release\AIM.Client.Entities.csprojResolveAssemblyReference.cache
