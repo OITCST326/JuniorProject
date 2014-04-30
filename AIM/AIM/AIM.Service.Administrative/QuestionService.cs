@@ -58,7 +58,7 @@ namespace AIM.Service.Administrative
         public async Task<IEnumerable<Question>> GetQuestionsList()
         {
             IEnumerable<Question> entities = await _dbContext.Questions
-                .OrderBy(q => q.qJsonProperties)
+                .OrderBy(q => q.questionId)
                 .ToListAsync();
             return entities;
         }

@@ -114,5 +114,16 @@ namespace AIM.Client.Entities.Models
 
 		[DataMember]
 		public TrackingState TrackingState { get; set; }
+
+		[DataMember]
+		public int qJsonId { get; set; }
+		[DataMember]
+		public TypeEnum qJsonType { get; set; }
+		[DataMember]
+		public string qJsonText { get; set; }
+		[DataMember]
+		public IList<string> qJsonOptionList { get; set; }
+		[DataMember]
+		public IList<string> qJsonAnswerList { get; set; }
 	}
 }

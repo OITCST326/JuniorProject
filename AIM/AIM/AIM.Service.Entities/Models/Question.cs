@@ -36,5 +36,16 @@ namespace AIM.Service.Entities.Models
         public TrackingState TrackingState { get; set; }
         [DataMember]
         public ICollection<string> ModifiedProperties { get; set; }
+
+        [DataMember]
+        public int qJsonId { get; set; }
+        [DataMember]
+        public TypeEnum qJsonType { get; set; }
+        [DataMember]
+        public string qJsonText { get; set; }
+        [DataMember]
+        public IList<string> qJsonOptionList { get; set; }
+        [DataMember]
+        public IList<string> qJsonAnswerList { get; set; }
     }
 }

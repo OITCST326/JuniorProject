@@ -1,4 +1,5 @@
-﻿@model AIM.Service.Entities.Models.Question
+﻿@using System.Web.UI.HtmlControls
+@model AIM.Service.Entities.Models.Question
 
 
 @{
@@ -42,31 +43,39 @@
 
 
                     <div class="form-group">
-                        @Html.LabelFor(model => model.qJsonProperties, new { @class = "control-label col-md-2" })
+                        @Html.LabelFor(model => model.qJsonType, new { @class = "control-label col-md-2" })
                         <div class="col-md-10">
-                            @Html.EditorFor(model => model.qJsonProperties)
-                            @Html.ValidationMessageFor(model => model.qJsonProperties)
+                            @Html.EnumDropDownListFor(model => model.qJsonType)
+                            @Html.ValidationMessageFor(model => model.qJsonType)
                         </div>
                     </div>
-
+                    
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.qJsonText, new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.TextAreaFor(model => model.qJsonText)
+                            @Html.ValidationMessageFor(model => model.qJsonText)
+                        </div>
+                    </div>
+                    
+                    <p>How many choices would you like for this question?</p>
+            
+                    
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.qJsonAnswerList, new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.qJsonAnswerList)
+                            @Html.ValidationMessageFor(model => model.qJsonAnswerList)
+                        </div>
+                    </div>
 
                     <div class="form-group">
-                        @Html.LabelFor(model => model.questionnaireId, new { @class = "control-label col-md-2" })
+                        @Html.LabelFor(model => model.qJsonOptionList, new { @class = "control-label col-md-2" })
                         <div class="col-md-10">
-                            @Html.EditorFor(model => model.questionnaireId)
-                            @Html.ValidationMessageFor(model => model.questionnaireId)
+                            @Html.EditorFor(model => model.qJsonOptionList)
+                            @Html.ValidationMessageFor(model => model.qJsonOptionList)
                         </div>
                     </div>
-
-
-                    <div class="form-group">
-                        @Html.LabelFor(model => model.interviewQuestionsId, new { @class = "control-label col-md-2" })
-                        <div class="col-md-10">
-                            @Html.EditorFor(model => model.interviewQuestionsId)
-                            @Html.ValidationMessageFor(model => model.interviewQuestionsId)
-                        </div>
-                    </div>
-
 
                     <div class="form-group">
                         <div class="col-md-offset-2 col-md-10">
