@@ -16,15 +16,20 @@ namespace AIM.Web.Application.Controllers
         private readonly JobServiceClient _jobClient = new JobServiceClient();
 
         // GET: /OpenJob/
-        [HttpPost]
+        [HttpGet]
         public ActionResult Index(string region)
         {
             ViewBag.Message = region;
-
-            var jobs = _jobClient.GetOpenJobsList(region);
+            var jobs = _jobClient.GetOpenJobsList(region);            
             return View(jobs.ToList());
         }
 
+        [HttpGet]
+        public ActionResult testMethod(int id)
+        {
+            ViewBag.Message = id.ToString();
+            return View("testView");
+        }
         
         /*
         // GET: /OpenJob/Details/5

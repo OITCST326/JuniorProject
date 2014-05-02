@@ -9,20 +9,23 @@
     <p class="lead">Sales pitch goes here.</p>
 </div>
 
-
-@using (Html.BeginForm("Index", "OpenJob", FormMethod.Post)){
-    <td class="center">
-        <center>                   
-                <label for="RegionList">Select a Region: </label>
-                @Html.DropDownList("RegionList", Model.Select(item => new SelectListItem()
+<center>
+    @using (Html.BeginForm("Index", "OpenJob", FormMethod.Get))
+    {
+       <fieldset>
+            Select region: <select id="regionId" name="regionName">
+                @foreach (var item in Model)
                 {
-                    Text = item.regionName.ToString(),
-                    Selected = "select" == item.regionId.ToString() ? true : false
-                }))                
-                <p></p>
-                <input type="submit" value="View Job Openings" class="btn btn-success icon-zoom-in icon-white"/>            
-        </center>
-    </td>
-}
+                    <option value=@item.regionId>@item.regionName.ToString()</option>
+                }
+            </select>
+
+            <p>
+                <input type="submit" value="View Job Openings" class="btn btn-success icon-zoom-in icon-white" />
+            </p>            
+        </fieldset>  
+    }
+</center>
+         
 
 

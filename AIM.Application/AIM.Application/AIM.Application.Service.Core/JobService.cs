@@ -18,10 +18,10 @@ namespace AIM.Application.Service.Core
         Task<IEnumerable<Job>> GetJobsList();
 
         [OperationContract]
-        Task<IEnumerable<OpenJob>> GetOpenJobsList(string regionName);
+        Task<IEnumerable<OpenJob>> GetOpenJobsList(string regionname);
 
         [OperationContract]
-        Task<Job> GetJob(int id);
+        Task<Job> GetJob(int? id);
 
         [OperationContract]
         Task<Job> UpdateJob(Job entity);
@@ -56,19 +56,19 @@ namespace AIM.Application.Service.Core
             return entities;
         }
 
-        public async Task<IEnumerable<OpenJob>> GetOpenJobsList(string regionName)
+        public async Task<IEnumerable<OpenJob>> GetOpenJobsList(string regionname)
         {
             IEnumerable<OpenJob> entities = await _dbContext.OpenJobs
                 .Include(oj => oj.Job)
                 .Include(oj => oj.Region)
                 .Include(oj => oj.Store)
-                .Where(oj => oj.Region.regionName == regionName)
+                .Where(oj => oj.Region.regionName == regionname)
                 .OrderBy(oj => oj.Job.description)
                 .ToListAsync();
             return entities;
         }
 
-        public async Task<Job> GetJob(int id)
+        public async Task<Job> GetJob(int? id)
         {
             Job entity = await _dbContext.Jobs
                 .SingleOrDefaultAsync(x => x.jobId == id);

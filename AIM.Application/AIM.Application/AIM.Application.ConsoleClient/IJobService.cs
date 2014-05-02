@@ -15,7 +15,7 @@ namespace AIM.Application.ConsoleClient
         Task<IEnumerable<OpenJob>> GetOpenJobsListAsync(string regionName);
 
         [OperationContract(Name = "GetJob")]
-        Task<Job> GetJobAsync(int id);
+        Task<Job> GetJobAsync(int? id);
 
         [OperationContract(Name = "UpdateJob")]
         Task<Job> UpdateJobAsync(Job entity);

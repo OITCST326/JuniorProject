@@ -88,7 +88,7 @@ namespace AIM.Web.Application.Controllers
         }
 
         // GET: /Job/Delete/5
-        public ActionResult Delete(int? id)
+        public ActionResult Delete(int id)
         {
             if (id == null)
             {
