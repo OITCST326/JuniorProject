@@ -12,7 +12,7 @@ namespace AIM.Application.ConsoleClient
         Task<IEnumerable<Job>> GetJobsListAsync();
 
         [OperationContract(Name = "GetOpenJobsList")]
-        Task<IEnumerable<OpenJob>> GetOpenJobsListAsync(string name);
+        Task<IEnumerable<OpenJob>> GetOpenJobsListAsync(string regionName);
 
         [OperationContract(Name = "GetJob")]
         Task<Job> GetJobAsync(int id);

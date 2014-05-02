@@ -18,7 +18,7 @@ namespace AIM.Application.Service.Core
         Task<IEnumerable<Job>> GetJobsList();
 
         [OperationContract]
-        Task<IEnumerable<OpenJob>> GetOpenJobsList(string name);
+        Task<IEnumerable<OpenJob>> GetOpenJobsList(string regionName);
 
         [OperationContract]
         Task<Job> GetJob(int id);
@@ -56,13 +56,13 @@ namespace AIM.Application.Service.Core
             return entities;
         }
 
-        public async Task<IEnumerable<OpenJob>> GetOpenJobsList(string name)
+        public async Task<IEnumerable<OpenJob>> GetOpenJobsList(string regionName)
         {
             IEnumerable<OpenJob> entities = await _dbContext.OpenJobs
                 .Include(oj => oj.Job)
                 .Include(oj => oj.Region)
                 .Include(oj => oj.Store)
-                .Where(oj => oj.Region.regionName == name)
+                .Where(oj => oj.Region.regionName == regionName)
                 .OrderBy(oj => oj.Job.description)
                 .ToListAsync();
             return entities;

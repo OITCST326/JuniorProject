@@ -1,0 +1,41 @@
+﻿@model AIM.Application.Service.Entities.Models.OpenJob
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>OpenJob</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Job.position)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Job.position)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Region.regionName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Region.regionName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Store.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Store.name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to Job Openings", "Index")
+</p>
