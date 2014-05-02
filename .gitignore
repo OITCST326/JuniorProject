@@ -1,2 +1,7 @@
 *.cache
 *.suo
+AIM/packages/
+AIM.Application/packages/
+AIM/AIM/AIM.Web.Admin.Tests/bin/
+AIM/AIM/AIM.Web.Admin/bin/
+AIM/AIM/AIM.Web.Admin/obj/
