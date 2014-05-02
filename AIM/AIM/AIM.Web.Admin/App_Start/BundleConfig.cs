@@ -27,41 +27,41 @@ namespace AIM
 
                         // transition / effect library
                         "~/Script/bootstrap-transition.js",
-                // alert enhancer library
+                        // alert enhancer library
                         "~/Script/bootstrap-alert.js",
-                // modal / dialog library
+                        // modal / dialog library
                         "~/Script/bootstrap-modal.js",
-                // custom dropdown library
+                        // custom dropdown library
                         "~/Script/bootstrap-dropdown.js",
-                // scrolspy library
+                        // scrolspy library
                         "~/Script/bootstrap-scrollspy.js",
-                // library for creating tabs
+                        // library for creating tabs
                         "~/Script/bootstrap-tab.js",
-                // library for advanced tooltip
+                        // library for advanced tooltip
                         "~/Script/bootstrap-tooltip.js",
-                // popover effect library
+                        // popover effect library
                         "~/Script/bootstrap-popover.js",
-                // button enhancer library
+                        // button enhancer library
                         "~/Script/bootstrap-button.js",
-                // accordion library (optional, not used in demo)
+                        // accordion library (optional, not used in demo)
                         "~/Script/bootstrap-collapse.js",
-                // carousel slideshow library (optional, not used in demo)
+                        // carousel slideshow library (optional, not used in demo)
                         "~/Script/bootstrap-carousel.js",
-                // autocomplete library
+                        // autocomplete library
                         "~/Script/bootstrap-typeahead.js",
-                // tour library
+                        // tour library
                         "~/Script/bootstrap-tour.js",
-                // calander plugin
+                        // calander plugin
                         "~/Script/fullcalendar.min.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/excanvas").Include(
-                // library for cookie management
+                        // library for cookie management
                         "~/Script/jquery.cookie.js",
-                // jQuery
+                        // jQuery
                         "~/Script/jquery-1.7.2.min.js",
-                // jQuery UI
+                        // jQuery UI
                         "~/Script/jquery-ui-1.8.21.custom.min.js",
-                // data table plugin
+                        // data table plugin
                         "~/Script/jquery.dataTables.min.js",
 
                         // chart libraries start
@@ -70,31 +70,31 @@ namespace AIM
                         "~/Script/jquery.flot.pie.min.js",
                         "~/Script/jquery.flot.stack.js",
                         "~/Script/jquery.flot.resize.min.js",
-                // chart libraries end
+                        // chart libraries end
 
                         // select or dropdown enhancer
                         "~/Script/jquery.chosen.min.js",
-                // checkbox, radio, and file input styler
+                        // checkbox, radio, and file input styler
                         "~/Script/jquery.uniform.min.js",
-                // plugin for gallery image view
+                        // plugin for gallery image view
                         "~/Script/jquery.colorbox.min.js",
-                // rich text editor library
+                        // rich text editor library
                         "~/Script/jquery.cleditor.min.js",
-                // notification plugin
+                        // notification plugin
                         "~/Script/jquery.noty.js",
-                // file manager library
+                        // file manager library
                         "~/Script/jquery.elfinder.min.js",
-                // star rating plugin
+                        // star rating plugin
                         "~/Script/jquery.raty.min.js",
-                // for iOS style toggle switch
+                        // for iOS style toggle switch
                         "~/Script/jquery.iphone.toggle.js",
-                // autogrowing textarea plugin
+                        // autogrowing textarea plugin
                         "~/Script/jquery.autogrow-textarea.js",
-                // multiple file upload plugin
+                        // multiple file upload plugin
                         "~/Script/jquery.uploadify-3.1.min.js",
-                // history.js for cross-browser state change on ajax
+                        // history.js for cross-browser state change on ajax
                         "~/Script/jquery.history.js",
-                // application script for Charisma demo
+                        // application script for Charisma demo
                         "~/Script/charisma.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(

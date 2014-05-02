@@ -73,3 +73,8 @@ C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\obj\Release\
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\obj\Release\AIM.Web.Admin.csproj.GenerateResource.Cache
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\obj\Release\AIM.Web.Admin.dll
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\obj\Release\AIM.Web.Admin.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\System.Net.Http.Extensions.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\System.Net.Http.Primitives.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\System.Net.Http.Extensions.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\bin\System.Net.Http.Primitives.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Web.Admin\obj\Release\AIM.Web.Admin.csproj.App.config
