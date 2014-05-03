@@ -76,3 +76,4 @@ AIM.Application/AIM.Web.Application.Tests/bin/
 AIM.Application/AIM.Web.Application.Tests/obj/
 AIM.Application/AIM.Web.Application/bin/
 AIM.Application/AIM.Web.Application/obj/
+*.suo
