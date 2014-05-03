@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using TrackableEntities;
+using System.ComponentModel.DataAnnotations;
 
 namespace AIM.Service.Entities.Models
 {
@@ -17,14 +18,19 @@ namespace AIM.Service.Entities.Models
         }
 
         [DataMember]
+        [Display(Name = "Questionnaire ID")]
         public int questionnaireId { get; set; }
         [DataMember]
+        [Display(Name = "Question ID")]
         public Nullable<int> questionId { get; set; }
         [DataMember]
+        [Display(Name = "Job ID")]
         public Nullable<int> jobId { get; set; }
         [DataMember]
+        [Display(Name = "Jobs List")]
         public List<Job> Jobs { get; set; }
         [DataMember]
+        [Display(Name = "Question Quesionnaires List")]
         public List<QuestionQuestionnaire> QuestionQuestionnaires { get; set; }
 
         [DataMember]

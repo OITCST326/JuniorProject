@@ -4,6 +4,7 @@ using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using TrackableEntities;
 using TrackableEntities.Client;
+using System.ComponentModel.DataAnnotations;
 
 namespace AIM.Client.Entities.Models
 {
@@ -19,6 +20,7 @@ namespace AIM.Client.Entities.Models
         }
 
         [DataMember]
+        [Display(Name = "Job ID")]
         public int jobId
 		{ 
 		    get { return _jobId; }
@@ -32,6 +34,7 @@ namespace AIM.Client.Entities.Models
         private int _jobId;
 
         [DataMember]
+        [Display(Name = "Position")]
         public string position
 		{ 
 		    get { return _position; }
@@ -45,6 +48,7 @@ namespace AIM.Client.Entities.Models
         private string _position;
 
         [DataMember]
+        [Display(Name = "Description")]
         public string description
 		{ 
 		    get { return _description; }
@@ -58,6 +62,7 @@ namespace AIM.Client.Entities.Models
         private string _description;
 
         [DataMember]
+        [Display(Name = "Full/Part Time")]
         public string fullPartTime
 		{ 
 		    get { return _fullPartTime; }

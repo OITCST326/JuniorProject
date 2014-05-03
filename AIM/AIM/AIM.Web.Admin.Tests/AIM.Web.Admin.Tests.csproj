@@ -106,14 +106,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\HomeControllerTest.cs" />
-    <Compile Include="Controllers\JobControllerTest.cs" />
-    <Compile Include="Controllers\QuestionControllerTest.cs" />
-    <Compile Include="Controllers\UserControllerTest.cs" />
-    <Compile Include="DataTests\ApplicantQuestionAnswerTest.cs" />
-    <Compile Include="DataTests\EducationTest.cs" />
-    <Compile Include="DataTests\EmployeeTest.cs" />
-    <Compile Include="DataTests\QuestionTest.cs" />
+    <Compile Include="Client Data Tests\ApplicantQuestionAnswerTest.cs" />
+    <Compile Include="Client Data Tests\EducationTest.cs" />
+    <Compile Include="Client Data Tests\EmployeeTest.cs" />
+    <Compile Include="Client Data Tests\QuestionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -147,6 +143,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Service Data Tests\" />
     <Folder Include="Service Tests\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
