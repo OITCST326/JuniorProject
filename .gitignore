@@ -51,3 +51,14 @@ _ReSharper*/
 # NCrunch
 *ncrunch*
 AIM/AIM.v12.suo
+AIM/AIM.v12.suo
+AIM/AIM/AIM.Service.Administrative/bin/Release/AIM.Service.Core.dll
+AIM/AIM/AIM.Service.Administrative/bin/Release/AIM.Service.Core.pdb
+AIM/AIM/AIM.Service.Administrative/obj/Release/AIM.Service.Core.dll
+AIM/AIM/AIM.Service.Administrative/obj/Release/AIM.Service.Core.pdb
+AIM/AIM/AIM.Web.Admin/bin/AIM.Service.Core.dll
+AIM/AIM/AIM.Web.Admin/bin/AIM.Service.Core.pdb
+AIM/AIM/AIM.Web.Admin/bin/AIM.Web.Admin.dll
+AIM/AIM/AIM.Web.Admin/bin/AIM.Web.Admin.pdb
+AIM/AIM/AIM.Web.Admin/obj/Release/AIM.Web.Admin.dll
+AIM/AIM/AIM.Web.Admin/obj/Release/AIM.Web.Admin.pdb
