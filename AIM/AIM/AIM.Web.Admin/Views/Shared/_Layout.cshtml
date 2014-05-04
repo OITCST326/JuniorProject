@@ -205,7 +205,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <!-- jQuery -->
-    <script src="~/Scripts/jquery-1.7.2.min.js"></script>
+    <script src="~/Scripts/jquery-2.1.0.min.js"></script>
     <!-- jQuery UI -->
     <script src="~/Scripts/jquery-ui-1.8.21.custom.min.js"></script>
     <!-- transition / effect library -->
@@ -276,9 +276,14 @@
 
     @*@Scripts.Render("~/bundles/charisma")
     @Scripts.Render("~/bundles/excanvas")*@
+    
+    <!-- jQuery -->
+    <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-2.1.0.min.js")"></script>
 
     <!-- script for Knockout.js -->
-    <script type='text/javascript' src='~/Scripts/knockout-3.1.0.js'></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/knockout-3.1.0.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/knockout.mapping-latest.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/perpetuum.knockout.js")"></script>
 
     @RenderSection("scripts", required: false)
 
