@@ -18,16 +18,10 @@ namespace AIM.Application.Service.Core
         Task<IEnumerable<Job>> GetJobsList();
 
         [OperationContract]
-        Task<IEnumerable<OpenJob>> GetOpenJobsList(int? regionID);
+        Task<IEnumerable<OpenJob>> GetOpenJobsList(string name);
 
         [OperationContract]
-        Task<OpenJob> GetOpenJob(int? id);
-
-        [OperationContract]
-        Task<string> GetRegionName(int? id);
-
-        [OperationContract]
-        Task<Job> GetJob(int? id);
+        Task<Job> GetJob(int id);
 
         [OperationContract]
         Task<Job> UpdateJob(Job entity);
@@ -62,33 +56,22 @@ namespace AIM.Application.Service.Core
             return entities;
         }
 
-        public async Task<IEnumerable<OpenJob>> GetOpenJobsList(int? regionID)
+        public async Task<IEnumerable<OpenJob>> GetOpenJobsList(string name)
         {
             IEnumerable<OpenJob> entities = await _dbContext.OpenJobs
                 .Include(oj => oj.Job)
                 .Include(oj => oj.Region)
                 .Include(oj => oj.Store)
-                .Where(oj => oj.Region.regionId == regionID)
+                .Where(oj => oj.Region.regionName == name)
                 .OrderBy(oj => oj.Job.description)
                 .ToListAsync();
             return entities;
         }
 
-        public async Task<Job> GetJob(int? id)
+        public async Task<Job> GetJob(int id)
         {
             Job entity = await _dbContext.Jobs
                 .SingleOrDefaultAsync(x => x.jobId == id);
-            return entity;
-        }
-
-        public async Task<OpenJob> GetOpenJob(int? id)
-        {
-            OpenJob entity = await _dbContext.OpenJobs
-                .Include(x => x.Job)
-                .Include(x => x.Store)
-                .Include(x => x.Region)
-                .SingleOrDefaultAsync(x => x.openJobsId == id);
-
             return entity;
         }
 
@@ -150,15 +133,6 @@ namespace AIM.Application.Service.Core
             {
                 _dbContext.Dispose();
             }
-        }
-
-        public async Task<string> GetRegionName(int? id)
-        {
-            Region region = await _dbContext.Regions
-                .SingleOrDefaultAsync(x => x.regionId == id);
-
-            return region.regionName;
-            
         }
     }
 }

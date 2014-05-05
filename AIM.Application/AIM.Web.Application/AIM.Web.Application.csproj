@@ -182,7 +182,6 @@
     <Compile Include="Controllers\ApplicationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\JobController.cs" />
-    <Compile Include="Controllers\OpenJobController.cs" />
     <Compile Include="Controllers\PersonalInfoController.cs" />
     <Compile Include="Controllers\QuestionController.cs" />
     <Compile Include="Controllers\UserController.cs" />
@@ -435,9 +434,6 @@
     <Content Include="Views\Job\Details.cshtml" />
     <Content Include="Views\Job\Edit.cshtml" />
     <Content Include="Views\Job\Index.cshtml" />
-    <Content Include="Views\OpenJob\Details.cshtml" />
-    <Content Include="Views\OpenJob\Index.cshtml" />
-    <Content Include="Views\Shared\testView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

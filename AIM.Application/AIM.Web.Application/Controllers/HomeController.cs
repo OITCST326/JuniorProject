@@ -1,5 +1,4 @@
-﻿using AIM.Web.Application.JobServiceReference;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -9,21 +8,9 @@ namespace AIM.Web.Application.Controllers
 {
     public class HomeController : Controller
     {
-        JobServiceClient _jobClient = new JobServiceClient();
-
         public ActionResult Index()
         {
-            var regions = _jobClient.GetRegionList();
-
-            List<SelectListItem> items = new List<SelectListItem>();
-
-            foreach(var item in regions)
-            {
-                items.Add(new SelectListItem { Text = item.regionName, Value = item.regionId.ToString() });
-            }
-
-            ViewBag.RegionList = regions.ToList();
-            return View(regions.ToList());
+            return View();
         }
 
         public ActionResult About()
