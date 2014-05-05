@@ -21,6 +21,18 @@
   <wsdl:message name="IJobService_GetOpenJobsList_OutputMessage">
     <wsdl:part name="parameters" element="tns:GetOpenJobsListResponse" />
   </wsdl:message>
+  <wsdl:message name="IJobService_GetOpenJob_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOpenJob" />
+  </wsdl:message>
+  <wsdl:message name="IJobService_GetOpenJob_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOpenJobResponse" />
+  </wsdl:message>
+  <wsdl:message name="IJobService_GetRegionName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRegionName" />
+  </wsdl:message>
+  <wsdl:message name="IJobService_GetRegionName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRegionNameResponse" />
+  </wsdl:message>
   <wsdl:message name="IJobService_GetJob_InputMessage">
     <wsdl:part name="parameters" element="tns:GetJob" />
   </wsdl:message>
@@ -59,6 +71,14 @@
     <wsdl:operation name="GetOpenJobsList">
       <wsdl:input wsaw:Action="urn:trackable-entities:service/IJobService/GetOpenJobsList" message="tns:IJobService_GetOpenJobsList_InputMessage" />
       <wsdl:output wsaw:Action="urn:trackable-entities:service/IJobService/GetOpenJobsListResponse" message="tns:IJobService_GetOpenJobsList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOpenJob">
+      <wsdl:input wsaw:Action="urn:trackable-entities:service/IJobService/GetOpenJob" message="tns:IJobService_GetOpenJob_InputMessage" />
+      <wsdl:output wsaw:Action="urn:trackable-entities:service/IJobService/GetOpenJobResponse" message="tns:IJobService_GetOpenJob_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRegionName">
+      <wsdl:input wsaw:Action="urn:trackable-entities:service/IJobService/GetRegionName" message="tns:IJobService_GetRegionName_InputMessage" />
+      <wsdl:output wsaw:Action="urn:trackable-entities:service/IJobService/GetRegionNameResponse" message="tns:IJobService_GetRegionName_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="GetJob">
       <wsdl:input wsaw:Action="urn:trackable-entities:service/IJobService/GetJob" message="tns:IJobService_GetJob_InputMessage" />

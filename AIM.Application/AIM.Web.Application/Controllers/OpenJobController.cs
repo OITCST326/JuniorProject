@@ -16,37 +16,37 @@ namespace AIM.Web.Application.Controllers
         private readonly JobServiceClient _jobClient = new JobServiceClient();
 
         // GET: /OpenJob/
-        [HttpGet]
-        public ActionResult Index(string region)
+        
+        public ActionResult Index(string SelectedRegion)
         {
-            ViewBag.Message = region;
-            var jobs = _jobClient.GetOpenJobsList(region);            
-            return View(jobs.ToList());
+
+            int id = Convert.ToInt32(SelectedRegion);
+
+            ViewBag.Message = _jobClient.GetRegionName(id);
+
+            var jobs = _jobClient.GetOpenJobsList(id);
+            return View(jobs.ToList());            
         }
 
-        [HttpGet]
-        public ActionResult testMethod(int id)
-        {
-            ViewBag.Message = id.ToString();
-            return View("testView");
-        }
+
         
-        /*
-        // GET: /OpenJob/Details/5
+        //GET: /OpenJob/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            OpenJob openjob = _jobClient.OpenJob(id); //TODO
+            OpenJob openjob = _jobClient.GetOpenJob(id); 
             if (openjob == null)
             {
                 return HttpNotFound();
             }
+
+            ViewBag.Message = openjob.Job.position;
             return View(openjob);
         }
-        */
+        
        
     }
 }

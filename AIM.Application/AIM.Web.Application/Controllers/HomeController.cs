@@ -13,7 +13,16 @@ namespace AIM.Web.Application.Controllers
 
         public ActionResult Index()
         {
-            var regions = _jobClient.GetRegionList();            
+            var regions = _jobClient.GetRegionList();
+
+            List<SelectListItem> items = new List<SelectListItem>();
+
+            foreach(var item in regions)
+            {
+                items.Add(new SelectListItem { Text = item.regionName, Value = item.regionId.ToString() });
+            }
+
+            ViewBag.RegionList = regions.ToList();
             return View(regions.ToList());
         }
 

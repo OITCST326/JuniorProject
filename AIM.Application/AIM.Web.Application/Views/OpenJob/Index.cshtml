@@ -8,6 +8,7 @@
 
 <table class="table">
     <tr>
+        <th></th> <!-- Column for details button -->
         <th>
             @Html.DisplayNameFor(model => model.Job.position)
         </th>
@@ -20,8 +21,15 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
+@foreach (var item in Model) 
+{
     <tr>
+        <td>
+            <a class="btn btn-info" href="@Url.Action("Details", "OpenJob", new { id = item.openJobsId })">
+                <i class="icon-edit icon-white"></i>
+                Details
+            </a>
+</td>
         <td>
             @Html.DisplayFor(modelItem => item.Job.position)
         </td>

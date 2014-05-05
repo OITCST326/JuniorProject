@@ -13,13 +13,14 @@
     @using (Html.BeginForm("Index", "OpenJob", FormMethod.Get))
     {
        <fieldset>
-            Select region: <select id="regionId" name="regionName">
+            Select region: <select name="SelectedRegion" >           
                 @foreach (var item in Model)
                 {
-                    <option value=@item.regionId>@item.regionName.ToString()</option>
+                    <option value=@item.regionId>@item.regionName</option>
                 }
-            </select>
-
+            </select>      
+           
+           <p></p>
             <p>
                 <input type="submit" value="View Job Openings" class="btn btn-success icon-zoom-in icon-white" />
             </p>            

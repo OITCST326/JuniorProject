@@ -19,7 +19,13 @@ namespace AIM.Web.Application.JobServiceReference {
         AIM.Application.Service.Entities.Models.Job[] GetJobsList();
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IJobService/GetOpenJobsList", ReplyAction="urn:trackable-entities:service/IJobService/GetOpenJobsListResponse")]
-        AIM.Application.Service.Entities.Models.OpenJob[] GetOpenJobsList(string regionname);
+        AIM.Application.Service.Entities.Models.OpenJob[] GetOpenJobsList(System.Nullable<int> regionID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IJobService/GetOpenJob", ReplyAction="urn:trackable-entities:service/IJobService/GetOpenJobResponse")]
+        AIM.Application.Service.Entities.Models.OpenJob GetOpenJob(System.Nullable<int> id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IJobService/GetRegionName", ReplyAction="urn:trackable-entities:service/IJobService/GetRegionNameResponse")]
+        string GetRegionName(System.Nullable<int> id);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IJobService/GetJob", ReplyAction="urn:trackable-entities:service/IJobService/GetJobResponse")]
         AIM.Application.Service.Entities.Models.Job GetJob(System.Nullable<int> id);
@@ -68,8 +74,16 @@ namespace AIM.Web.Application.JobServiceReference {
             return base.Channel.GetJobsList();
         }
         
-        public AIM.Application.Service.Entities.Models.OpenJob[] GetOpenJobsList(string regionname) {
-            return base.Channel.GetOpenJobsList(regionname);
+        public AIM.Application.Service.Entities.Models.OpenJob[] GetOpenJobsList(System.Nullable<int> regionID) {
+            return base.Channel.GetOpenJobsList(regionID);
+        }
+        
+        public AIM.Application.Service.Entities.Models.OpenJob GetOpenJob(System.Nullable<int> id) {
+            return base.Channel.GetOpenJob(id);
+        }
+        
+        public string GetRegionName(System.Nullable<int> id) {
+            return base.Channel.GetRegionName(id);
         }
         
         public AIM.Application.Service.Entities.Models.Job GetJob(System.Nullable<int> id) {
