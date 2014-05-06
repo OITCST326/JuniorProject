@@ -12,10 +12,13 @@ namespace AIM.Application.ConsoleClient
         Task<IEnumerable<Job>> GetJobsListAsync();
 
         [OperationContract(Name = "GetOpenJobsList")]
-        Task<IEnumerable<OpenJob>> GetOpenJobsListAsync(string name);
+        Task<IEnumerable<OpenJob>> GetOpenJobsListAsync(int? regionID);
+
+        [OperationContract(Name = "GetOpenJob")]
+        Task<OpenJob> GetOpenJobAsync(int? id);
 
         [OperationContract(Name = "GetJob")]
-        Task<Job> GetJobAsync(int id);
+        Task<Job> GetJobAsync(int? id);
 
         [OperationContract(Name = "UpdateJob")]
         Task<Job> UpdateJobAsync(Job entity);
@@ -28,5 +31,8 @@ namespace AIM.Application.ConsoleClient
 
         [OperationContract(Name = "GetRegionList")]
         Task<IEnumerable<Region>> GetRegionListAsync();
+
+        [OperationContract(Name = "GetRegionName")]
+        Task<string> GetRegionNameAsync(int? id);
     }
 }

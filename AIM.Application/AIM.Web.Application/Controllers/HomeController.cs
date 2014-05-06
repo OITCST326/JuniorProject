@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AIM.Web.Application.JobServiceReference;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,9 +9,12 @@ namespace AIM.Web.Application.Controllers
 {
     public class HomeController : Controller
     {
+        JobServiceClient _client = new JobServiceClient();
+
         public ActionResult Index()
         {
-            return View();
+            var regions = _client.GetRegionList();
+            return View(regions.ToList());
         }
 
         public ActionResult About()
