@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    @*<div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -29,12 +29,15 @@
                 @Html.Partial("_LoginPartial")
             </div>
         </div>
-    </div>
+    </div>*@
     <div class="container body-content">
         @RenderBody()
-        <hr />
+        <hr />        
         <footer>
-            <p class="pull-left">&copy; @DateTime.Now.Year - <strong>5</strong> <strong>P</strong>rogramers <strong>O</strong>f <strong>T</strong>omorrow Application</p>
+            <p></p>
+            <p class="pull-left">
+                &copy; @DateTime.Now.Year - <strong>5</strong> <strong>P</strong>rogramers <strong>O</strong>f <strong>T</strong>omorrow Application
+            </p>
         </footer>
     </div>
 
