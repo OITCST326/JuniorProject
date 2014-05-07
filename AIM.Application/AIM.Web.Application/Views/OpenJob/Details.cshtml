@@ -47,12 +47,9 @@
      </dl>
 </div>
 
-<div>
-    Return to list link goes here eventually
-    @*
-        <p>
-            @Html.ActionLink("Back to List", "Index")
-        </p>
-    *@
+<div>   
+    <p>
+        @Html.ActionLink("Back to List", "Index", new { RegionId=Model.regionId})
+    </p>    
 </div>
 

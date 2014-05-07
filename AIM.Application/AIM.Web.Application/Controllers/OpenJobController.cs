@@ -16,9 +16,9 @@ namespace AIM.Web.Application.Controllers
         private JobServiceClient _client = new JobServiceClient();
 
         // GET: /OpenJob/
-        public ActionResult Index(string RegionList)
+        public ActionResult Index(string RegionId)
         {
-            int id = Convert.ToInt32(RegionList);
+            int id = Convert.ToInt32(RegionId);
 
             ViewBag.RegionName = _client.GetRegionName(id);
             var openJobs = _client.GetOpenJobsList(id);

@@ -11,7 +11,7 @@
         @using(Html.BeginForm("Index", "OpenJob", FormMethod.Get))
         {
             <fieldset>
-                Select region: <select name="RegionList">
+                Select region: <select name="RegionId">
                     @foreach(var item in Model)
                     {
                         <option value=@item.regionId>@item.regionName.ToString()</option>
