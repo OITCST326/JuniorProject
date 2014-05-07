@@ -11,11 +11,9 @@ namespace AIM.Web.Admin.Controllers
     {
         private readonly QuestionServiceClient _client = new QuestionServiceClient();
 
-        // GET: /Question/
         public ActionResult Index()
         {
-            var questions = _client.GetQuestionsList();
-            return View(questions.ToList());
+            return View();
         }
 
         // GET: /Question/Details/5
@@ -109,6 +107,12 @@ namespace AIM.Web.Admin.Controllers
             Question question = _client.GetQuestion(id);
             _client.DeleteQuestion(id);
             return RedirectToAction("Index");
+        }
+
+        // GET: /Question/Test
+        public ActionResult Test()
+        {
+            return View();
         }
 
         protected override void Dispose(bool disposing)

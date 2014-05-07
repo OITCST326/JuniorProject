@@ -1,6 +1,8 @@
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Release\AIM.Service.Entities.dll.config
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Release\AIM.Service.Entities.dll
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Release\AIM.Service.Entities.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Release\Breeze.ContextProvider.dll
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Release\Breeze.ContextProvider.EF6.dll
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Release\EntityFramework.dll
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Release\EntityFramework.SqlServer.dll
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Release\Newtonsoft.Json.dll
@@ -15,5 +17,6 @@ C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\R
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Release\TrackableEntities.Common.xml
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Release\TrackableEntities.EF.6.pdb
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Release\TrackableEntities.EF.6.xml
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\obj\Release\AIM.Service.Entities.csprojResolveAssemblyReference.cache
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\obj\Release\AIM.Service.Entities.dll
 C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\obj\Release\AIM.Service.Entities.pdb

@@ -1,0 +1,51 @@
+﻿@using System.Net.Mime
+@using System.Web.Mvc.Html
+@using System.Web.UI.HtmlControls
+@using SelectListItem = System.Web.WebPages.Html.SelectListItem
+@using System.IO
+@using Newtonsoft.Json
+@model AIM.Service.Entities.Models.Question
+
+
+@{
+    ViewBag.Title = "Test";
+}
+
+<h2>title</h2>
+
+
+@section scripts
+{
+    <script type="text/javascript">
+        var viewModel = ko.mapping.fromJS(data);
+
+        ko.mapping.fromJS(data, viewModel);
+    </script>
+
+    @*<script type="text/javascript">
+        $(function() {
+            var questionViewModel = ko.mapping.fromJS(@Html.Raw(Model.qJsonId));
+            ko.applyBindings(questionViewModel);
+        });
+
+        $(document).ready(function() {
+            var viewModel = {
+                questions: ko.observableArray([]),
+
+
+            }
+        });
+
+        function quesitonModel(item) {
+            this.questionId = ko.observable(item.questionId),
+            this.qJsonProperties = ko.observable(item.qJsonProperties),
+            this.questionnaireId = ko.observable(item.questionnaireId),
+            this.interviewQuestionsId = ko.observable(item.interviewQuestionsId),
+            this.qJsonId = ko.observable(item.qJsonId),
+            this.qJsonType = ko.observable(item.qJsonType),
+            this.qJsonText = ko.observable(item.qJsonText),
+            this.qJsonOptionList = ko.observableArray(item.qJsonOptionList),
+            this.qJsonAnswerList = ko.observableArray(item.qJsonAnswerList);
+        };
+    </script>*@
+}
