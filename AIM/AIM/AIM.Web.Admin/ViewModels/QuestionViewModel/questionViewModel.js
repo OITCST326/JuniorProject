@@ -4,7 +4,6 @@
 
     var vm = {
         newItem: ko.observable(""),
-        newItems: ko.observableArray([]),
         items: ko.observableArray(),
         createQuestion: createQuestion,
         addOption: addOption,
@@ -20,6 +19,7 @@
 
     //#region private functions
     function initVm() {
+        getAllQuestions();
     }
 
     function getAllQuestions() {
@@ -39,6 +39,21 @@
 
     function queryFailed(error) {
         logger.error(error.message, "Query failed");
+    }
+
+    function addItem() {
+        var item = questionDataService.createOption();
+        questionDataService.saveChanges().fail(addFailed);
+        extendItem(item);
+        vm.items.push(item);
+        vm.newItem("");
+
+        function addFailed() {
+            var index = vm.items.indexOf(item);
+            if (index > -1) {
+                setTimeout(function () { vm.items.splice(index, 1); }, 2000);
+            }
+        }
     }
 
     function addOption() {

@@ -20,6 +20,10 @@
         var query = breeze.EntityQuery
             .from("Questions");
 
+        for (item in query) {
+            
+        }
+
         return manager.executeQuery(query);
     }
 
