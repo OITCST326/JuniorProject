@@ -1,54 +1,113 @@
-﻿using System;
+#region Includes
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using AIM.Web.Admin;
+using System.Text;
+//using NUnit.Framework;
 using AIM.Web.Admin.Controllers;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+#endregion
 
-namespace AIM.Web.Admin.Tests.Controllers
+///////////////////////////////////////////////////////////////////////////////
+// Copyright 2014 (c) by Microsoft All Rights Reserved.
+//  
+// Project:      Web
+// Module:       HomeControllerTest.cs
+// Description:  Tests for the Home Controller class in the AIM. Web. Admin assembly.
+//  
+// Date:       Author:           Comments:
+// 4/14/2014 1:54 PM  John     Module created.
+///////////////////////////////////////////////////////////////////////////////
+namespace AIM.Web.Admin.ControllersTest
 {
-    [TestClass]
+
+    /// <summary>
+    /// Tests for the Home Controller Class
+    /// Documentation: 
+    /// </summary>
+    [TestClass]//, Description("Tests for Home Controller")]
     public class HomeControllerTest
     {
+        #region Class Variables
+        private HomeController _homeController;
+        #endregion
+
+        #region Property Tests
+
+        #region GeneratedProperties
+
+        // No public properties were found. No tests are generated for non-public scoped properties.
+
+        #endregion // End of GeneratedProperties
+
+        #endregion
+
+        #region Method Tests
+
+        #region GeneratedMethods
+
+        /// <summary>
+        /// Index Method Test
+        /// Documentation   :  
+        /// Method Signature:  ActionResult Index()
+        /// </summary>
         [TestMethod]
-        public void Index()
+       // [Ignore("Please Implement")]
+        public void IndexTest()
         {
-            // Arrange
-            HomeController controller = new HomeController();
+            HomeController homeController = new HomeController(); //Trial Mode
+            //HomeController homeController = new HomeController("place user name here", "place license key here"); //License Mode
 
-            // Act
-            ViewResult result = controller.Index() as ViewResult;
+            ActionResult results;
 
-            // Assert
-            Assert.IsNotNull(result);
+            //Parameters
+
+            results = homeController.Index();
         }
 
+        /// <summary>
+        /// About Method Test
+        /// Documentation   :  
+        /// Method Signature:  ActionResult About()
+        /// </summary>
         [TestMethod]
-        public void About()
+        //[Ignore("Please Implement")]
+        public void AboutTest()
         {
-            // Arrange
-            HomeController controller = new HomeController();
+            HomeController homeController = new HomeController(); //Trial Mode
+            //HomeController homeController = new HomeController("place user name here", "place license key here"); //License Mode
 
-            // Act
-            ViewResult result = controller.About() as ViewResult;
+            ActionResult results;
 
-            // Assert
-            Assert.AreEqual("Your application description page.", result.ViewBag.Message);
+            //Parameters
+
+            results = homeController.About();
         }
 
+        /// <summary>
+        /// Contact Method Test
+        /// Documentation   :  
+        /// Method Signature:  ActionResult Contact()
+        /// </summary>
         [TestMethod]
-        public void Contact()
+       // [Ignore("Please Implement")]
+        public void ContactTest()
         {
-            // Arrange
-            HomeController controller = new HomeController();
+            HomeController homeController = new HomeController(); //Trial Mode
+            //HomeController homeController = new HomeController("place user name here", "place license key here"); //License Mode
 
-            // Act
-            ViewResult result = controller.Contact() as ViewResult;
+            ActionResult results;
 
-            // Assert
-            Assert.IsNotNull(result);
+            //Parameters
+
+            results = homeController.Contact();
         }
+
+        #endregion // End of GeneratedMethods
+
+        #endregion
+
     }
 }
