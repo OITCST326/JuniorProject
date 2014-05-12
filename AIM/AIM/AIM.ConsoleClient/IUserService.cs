@@ -12,7 +12,7 @@ namespace AIM.ConsoleClient
         Task<IEnumerable<User>> GetUsersListAsync();
 
         [OperationContract(Name = "GetUser")]
-        Task<User> GetUserAsync(int id);
+        Task<User> GetUserAsync(int? id);
 
         [OperationContract(Name = "UpdateUser")]
         Task<User> UpdateUserAsync(User entity);

@@ -17,7 +17,7 @@ namespace AIM.Service.Administrative
         Task<IEnumerable<PersonalInfo>> GetPersonalInfoList();
 
         [OperationContract(Name = "GetPersonalInfo")]
-        Task<PersonalInfo> GetPersonalInfo(int id);
+        Task<PersonalInfo> GetPersonalInfo(int? id);
 
         [OperationContract(Name = "UpdatePersonalInfo")]
         Task<PersonalInfo> UpdatePersonalInfo(PersonalInfo entity);
@@ -46,7 +46,7 @@ namespace AIM.Service.Administrative
             return entities;
         }
 
-        public async Task<PersonalInfo> GetPersonalInfo(int id)
+        public async Task<PersonalInfo> GetPersonalInfo(int? id)
         {
             PersonalInfo entity = await _dbContext.PersonalInfoes
                 .Include(p => p.Users)

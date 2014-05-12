@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using AIM.Service.Entities.Models;
 using AIM.Web.Admin.PersonalInfoServiceReference;
+using System.Reflection;
 
 namespace AIM.Web.Admin.Controllers
 {
@@ -19,6 +20,7 @@ namespace AIM.Web.Admin.Controllers
         public ActionResult Index()
         {
             var personalInfo = _client.GetPersonalInfoList();
+
             return View(personalInfo.ToList());
         }
 
@@ -34,6 +36,7 @@ namespace AIM.Web.Admin.Controllers
             {
                 return HttpNotFound();
             }
+
             return View(personalinfo);
         }
 
@@ -50,6 +53,8 @@ namespace AIM.Web.Admin.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "PersonalInfoId,alias,street,street2,city,state,zip,phone,userId")] PersonalInfo personalinfo)
         {
+            setDefaultValues(ref personalinfo);
+
             if (ModelState.IsValid)
             {
                 _client.CreatePersonalInfo(personalinfo);
@@ -57,6 +62,36 @@ namespace AIM.Web.Admin.Controllers
             }
 
             return View(personalinfo);
+        }
+
+        private void setDefaultValues(ref PersonalInfo personalinfo)
+        {
+            // Dash was used because space gets treated as
+            // an empty field by the either the view or the controller
+            // which messes up the details display
+
+            if (personalinfo.alias == null)
+                personalinfo.alias = "-";
+
+            if (personalinfo.street == null)
+                personalinfo.street = "-";
+
+            if (personalinfo.street2 == null)
+                personalinfo.street2 = "-";
+
+            if (personalinfo.city == null)
+                personalinfo.city = "-";
+
+            // State is required when creating PersonalInfo
+
+            if (personalinfo.zip == null)
+                personalinfo.zip = "-";
+
+            if (personalinfo.phone == null)
+                personalinfo.phone = "-";
+
+            if (personalinfo.userId == null)
+                personalinfo.userId = -1;
         }
 
         // GET: /PersonalInfo/Edit/5

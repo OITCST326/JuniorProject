@@ -18,7 +18,7 @@ namespace AIM.Service.Administrative
         Task<IEnumerable<User>> GetUsersList();
 
         [OperationContract]
-        Task<User> GetUser(int id);
+        Task<User> GetUser(int? id);
 
         [OperationContract]
         Task<User> UpdateUser(User entity);
@@ -52,7 +52,7 @@ namespace AIM.Service.Administrative
             return entities;
         }
 
-        public async Task<User> GetUser(int id)
+        public async Task<User> GetUser(int? id)
         {
             User entity = await _dbContext.Users
                 .SingleOrDefaultAsync(x => x.userId == id);

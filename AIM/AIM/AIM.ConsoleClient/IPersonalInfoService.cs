@@ -12,7 +12,7 @@ namespace AIM.ConsoleClient
         Task<IEnumerable<PersonalInfo>> GetPersonalInfoList();
 
         [OperationContract(Name = "GetPersonalInfo")]
-        Task<PersonalInfo> GetPersonalInfo(int id);
+        Task<PersonalInfo> GetPersonalInfo(int? id);
 
         [OperationContract(Name = "UpdatePersonalInfo")]
         Task<PersonalInfo> UpdatePersonalInfo(PersonalInfo entity);
