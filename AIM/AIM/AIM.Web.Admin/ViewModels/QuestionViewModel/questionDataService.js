@@ -10,7 +10,7 @@
         createQuestion: createQuestion,
         saveChanges: saveChanges,
         purge: purge,
-        reset: reset,
+        reset: reset
     };
 
     /*** implementation details ***/
