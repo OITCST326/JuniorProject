@@ -55,3 +55,4 @@ C:\Users\Patrick\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Release\Trackabl
 C:\Users\Patrick\JuniorProject\AIM\AIM\AIM.Service.Entities\bin\Release\TrackableEntities.EF.6.xml
 C:\Users\Patrick\JuniorProject\AIM\AIM\AIM.Service.Entities\obj\Release\AIM.Service.Entities.dll
 C:\Users\Patrick\JuniorProject\AIM\AIM\AIM.Service.Entities\obj\Release\AIM.Service.Entities.pdb
+C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Service.Entities\obj\Release\AIM.Service.Entities.csprojResolveAssemblyReference.cache
