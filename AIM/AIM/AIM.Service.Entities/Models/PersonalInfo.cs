@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using TrackableEntities;
+using System.ComponentModel.DataAnnotations;
 
 namespace AIM.Service.Entities.Models
 {
@@ -16,24 +17,34 @@ namespace AIM.Service.Entities.Models
         }
 
         [DataMember]
+        [Display(Name = "Personal Info ID")]
         public int PersonalInfoId { get; set; }
         [DataMember]
+        [Display(Name = "Alias")]
         public string alias { get; set; }
         [DataMember]
+        [Display(Name = "Street")]
         public string street { get; set; }
         [DataMember]
+        [Display(Name = "Street2")]
         public string street2 { get; set; }
         [DataMember]
+        [Display(Name = "City")]
         public string city { get; set; }
         [DataMember]
+        [Display(Name = "State")]
         public int state { get; set; }
         [DataMember]
+        [Display(Name = "Zip Code")]
         public string zip { get; set; }
         [DataMember]
+        [Display(Name = "Phone Number")]
         public string phone { get; set; }
         [DataMember]
+        [Display(Name = "User ID")]
         public Nullable<int> userId { get; set; }
         [DataMember]
+        [Display(Name = "Users List")]
         public List<User> Users { get; set; }
 
         [DataMember]
