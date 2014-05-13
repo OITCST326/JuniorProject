@@ -17,7 +17,7 @@ namespace AIM.Application.Service.Entities.Models
         [DataMember]
         public string degree { get; set; }
         [DataMember]
-        public Nullable<System.DateTime> graduated { get; set; }
+        public DateTime? graduated { get; set; }
         [DataMember]
         public string yearsAttended { get; set; }
         [DataMember]
@@ -27,11 +27,11 @@ namespace AIM.Application.Service.Entities.Models
         [DataMember]
         public string city { get; set; }
         [DataMember]
-        public Nullable<int> state { get; set; }
+        public StateEnum? state { get; set; }
         [DataMember]
         public string zip { get; set; }
         [DataMember]
-        public Nullable<int> applicantId { get; set; }
+        public int? applicantId { get; set; }
         [DataMember]
         public Applicant Applicant { get; set; }
 

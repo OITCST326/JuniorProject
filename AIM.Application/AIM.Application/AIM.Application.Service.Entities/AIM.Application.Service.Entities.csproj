@@ -82,6 +82,7 @@
     <Compile Include="Models\Mapping\JobHistoryMap.cs" />
     <Compile Include="Models\Mapping\JobMap.cs" />
     <Compile Include="Models\Mapping\OpenJobMap.cs" />
+    <Compile Include="Models\PermissionsEnum.cs" />
     <Compile Include="Models\Mapping\PersonalInfoMap.cs" />
     <Compile Include="Models\Mapping\QuestionInterviewQuestionMappingMap.cs" />
     <Compile Include="Models\Mapping\QuestionMap.cs" />
@@ -89,7 +90,10 @@
     <Compile Include="Models\Mapping\QuestionQuestionnaireMap.cs" />
     <Compile Include="Models\Mapping\ReferenceMap.cs" />
     <Compile Include="Models\Mapping\RegionMap.cs" />
+    <Compile Include="Models\StateEnum.cs" />
+    <Compile Include="Models\StatusEnum.cs" />
     <Compile Include="Models\Mapping\StoreMap.cs" />
+    <Compile Include="Models\TypeEnum.cs" />
     <Compile Include="Models\Mapping\UserMap.cs" />
     <Compile Include="Models\OpenJob.cs" />
     <Compile Include="Models\PersonalInfo.cs" />

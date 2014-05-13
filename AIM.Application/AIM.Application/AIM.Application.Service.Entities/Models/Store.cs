@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
@@ -20,7 +19,7 @@ namespace AIM.Application.Service.Entities.Models
         [DataMember]
         public string name { get; set; }
         [DataMember]
-        public Nullable<int> regionId { get; set; }
+        public int? regionId { get; set; }
         [DataMember]
         public string street { get; set; }
         [DataMember]
@@ -28,7 +27,7 @@ namespace AIM.Application.Service.Entities.Models
         [DataMember]
         public string city { get; set; }
         [DataMember]
-        public Nullable<int> state { get; set; }
+        public StateEnum? state { get; set; }
         [DataMember]
         public string zip { get; set; }
         [DataMember]

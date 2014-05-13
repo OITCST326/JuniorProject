@@ -21,15 +21,15 @@ namespace AIM.Application.Service.Entities.Models
         [DataMember]
         public string supervisor { get; set; }
         [DataMember]
-        public Nullable<decimal> startingSalary { get; set; }
+        public decimal? startingSalary { get; set; }
         [DataMember]
-        public Nullable<decimal> endingSalary { get; set; }
+        public decimal? endingSalary { get; set; }
         [DataMember]
         public string reasonForLeaving { get; set; }
         [DataMember]
-        public Nullable<System.DateTime> dateFrom { get; set; }
+        public DateTime? dateFrom { get; set; }
         [DataMember]
-        public Nullable<System.DateTime> dateTo { get; set; }
+        public DateTime? dateTo { get; set; }
         [DataMember]
         public string street { get; set; }
         [DataMember]
@@ -37,13 +37,13 @@ namespace AIM.Application.Service.Entities.Models
         [DataMember]
         public string city { get; set; }
         [DataMember]
-        public Nullable<int> state { get; set; }
+        public StateEnum? state { get; set; }
         [DataMember]
         public string zip { get; set; }
         [DataMember]
         public string phone { get; set; }
         [DataMember]
-        public Nullable<int> applicantId { get; set; }
+        public int? applicantId { get; set; }
         [DataMember]
         public Applicant Applicant { get; set; }
 

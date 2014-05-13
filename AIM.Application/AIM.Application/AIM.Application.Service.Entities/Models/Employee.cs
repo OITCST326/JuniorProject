@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
@@ -18,9 +17,9 @@ namespace AIM.Application.Service.Entities.Models
         [DataMember]
         public int employeeId { get; set; }
         [DataMember]
-        public Nullable<int> permissions { get; set; }
+        public PermissionsEnum? permissions { get; set; }
         [DataMember]
-        public Nullable<int> jobId { get; set; }
+        public int? jobId { get; set; }
         [DataMember]
         public Job Job { get; set; }
         [DataMember]

@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
@@ -21,7 +20,7 @@ namespace AIM.Application.Service.Entities.Models
         [DataMember]
         public string refPhone { get; set; }
         [DataMember]
-        public Nullable<int> applicantId { get; set; }
+        public int? applicantId { get; set; }
         [DataMember]
         public Applicant Applicant { get; set; }
 

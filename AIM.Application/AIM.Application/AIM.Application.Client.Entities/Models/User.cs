@@ -7,209 +7,209 @@ using TrackableEntities.Client;
 
 namespace AIM.Application.Client.Entities.Models
 {
-    [JsonObject(IsReference = true)]
-    [DataContract(IsReference = true, Namespace = "http://schemas.datacontract.org/2004/07/TrackableEntities.Models")]
-    public partial class User : ModelBase<User>, ITrackable
-    {
-        [DataMember]
-        public int userId
+	[JsonObject(IsReference = true)]
+	[DataContract(IsReference = true, Namespace = "http://schemas.datacontract.org/2004/07/TrackableEntities.Models")]
+	public partial class User : ModelBase<User>, ITrackable
+	{
+		[DataMember]
+		public int userId
 		{ 
-		    get { return _userId; }
+			get { return _userId; }
 			set
 			{
-			    if (value == _userId) return;
+				if (value == _userId) return;
 				_userId = value;
 				NotifyPropertyChanged(m => m.userId);
 			}
 		}
-        private int _userId;
+		private int _userId;
 
-        [DataMember]
-        public string firstName
+		[DataMember]
+		public string firstName
 		{ 
-		    get { return _firstName; }
+			get { return _firstName; }
 			set
 			{
-			    if (value == _firstName) return;
+				if (value == _firstName) return;
 				_firstName = value;
 				NotifyPropertyChanged(m => m.firstName);
 			}
 		}
-        private string _firstName;
+		private string _firstName;
 
-        [DataMember]
-        public string middleName
+		[DataMember]
+		public string middleName
 		{ 
-		    get { return _middleName; }
+			get { return _middleName; }
 			set
 			{
-			    if (value == _middleName) return;
+				if (value == _middleName) return;
 				_middleName = value;
 				NotifyPropertyChanged(m => m.middleName);
 			}
 		}
-        private string _middleName;
+		private string _middleName;
 
-        [DataMember]
-        public string lastName
+		[DataMember]
+		public string lastName
 		{ 
-		    get { return _lastName; }
+			get { return _lastName; }
 			set
 			{
-			    if (value == _lastName) return;
+				if (value == _lastName) return;
 				_lastName = value;
 				NotifyPropertyChanged(m => m.lastName);
 			}
 		}
-        private string _lastName;
+		private string _lastName;
 
-        [DataMember]
-        public string email
+		[DataMember]
+		public string email
 		{ 
-		    get { return _email; }
+			get { return _email; }
 			set
 			{
-			    if (value == _email) return;
+				if (value == _email) return;
 				_email = value;
 				NotifyPropertyChanged(m => m.email);
 			}
 		}
-        private string _email;
+		private string _email;
 
-        [DataMember]
-        public string socialSecurityNumber
+		[DataMember]
+		public string socialSecurityNumber
 		{ 
-		    get { return _socialSecurityNumber; }
+			get { return _socialSecurityNumber; }
 			set
 			{
-			    if (value == _socialSecurityNumber) return;
+				if (value == _socialSecurityNumber) return;
 				_socialSecurityNumber = value;
 				NotifyPropertyChanged(m => m.socialSecurityNumber);
 			}
 		}
-        private string _socialSecurityNumber;
+		private string _socialSecurityNumber;
 
-        [DataMember]
-        public Nullable<int> PersonalInfoId
+		[DataMember]
+		public int? PersonalInfoId
 		{ 
-		    get { return _PersonalInfoId; }
+			get { return _PersonalInfoId; }
 			set
 			{
-			    if (value == _PersonalInfoId) return;
+				if (value == _PersonalInfoId) return;
 				_PersonalInfoId = value;
 				NotifyPropertyChanged(m => m.PersonalInfoId);
 			}
 		}
-        private Nullable<int> _PersonalInfoId;
+		private int? _PersonalInfoId;
 
-        [DataMember]
-        public Nullable<int> applicantId
+		[DataMember]
+		public int? applicantId
 		{ 
-		    get { return _applicantId; }
+			get { return _applicantId; }
 			set
 			{
-			    if (value == _applicantId) return;
+				if (value == _applicantId) return;
 				_applicantId = value;
 				NotifyPropertyChanged(m => m.applicantId);
 			}
 		}
-        private Nullable<int> _applicantId;
+		private int? _applicantId;
 
-        [DataMember]
-        public Nullable<int> applicationId
+		[DataMember]
+		public int? applicationId
 		{ 
-		    get { return _applicationId; }
+			get { return _applicationId; }
 			set
 			{
-			    if (value == _applicationId) return;
+				if (value == _applicationId) return;
 				_applicationId = value;
 				NotifyPropertyChanged(m => m.applicationId);
 			}
 		}
-        private Nullable<int> _applicationId;
+		private int? _applicationId;
 
-        [DataMember]
-        public Nullable<int> employeeId
+		[DataMember]
+		public int? employeeId
 		{ 
-		    get { return _employeeId; }
+			get { return _employeeId; }
 			set
 			{
-			    if (value == _employeeId) return;
+				if (value == _employeeId) return;
 				_employeeId = value;
 				NotifyPropertyChanged(m => m.employeeId);
 			}
 		}
-        private Nullable<int> _employeeId;
+		private int? _employeeId;
 
-        [DataMember]
-        public string userName
+		[DataMember]
+		public string userName
 		{ 
-		    get { return _userName; }
+			get { return _userName; }
 			set
 			{
-			    if (value == _userName) return;
+				if (value == _userName) return;
 				_userName = value;
 				NotifyPropertyChanged(m => m.userName);
 			}
 		}
-        private string _userName;
+		private string _userName;
 
-        [DataMember]
-        public string password
+		[DataMember]
+		public string password
 		{ 
-		    get { return _password; }
+			get { return _password; }
 			set
 			{
-			    if (value == _password) return;
+				if (value == _password) return;
 				_password = value;
 				NotifyPropertyChanged(m => m.password);
 			}
 		}
-        private string _password;
+		private string _password;
 
-        [DataMember]
-        public Applicant Applicant
+		[DataMember]
+		public Applicant Applicant
 		{
-		    get { return _Applicant; }
+			get { return _Applicant; }
 			set
 			{
-			    if (value == _Applicant) return;
+				if (value == _Applicant) return;
 				_Applicant = value;
 				NotifyPropertyChanged(m => m.Applicant);
 			}
 		}
-        private Applicant _Applicant;
+		private Applicant _Applicant;
 
-        [DataMember]
-        public Employee Employee
+		[DataMember]
+		public Employee Employee
 		{
-		    get { return _Employee; }
+			get { return _Employee; }
 			set
 			{
-			    if (value == _Employee) return;
+				if (value == _Employee) return;
 				_Employee = value;
 				NotifyPropertyChanged(m => m.Employee);
 			}
 		}
-        private Employee _Employee;
+		private Employee _Employee;
 
-        [DataMember]
-        public PersonalInfo PersonalInfo
+		[DataMember]
+		public PersonalInfo PersonalInfo
 		{
-		    get { return _PersonalInfo; }
+			get { return _PersonalInfo; }
 			set
 			{
-			    if (value == _PersonalInfo) return;
+				if (value == _PersonalInfo) return;
 				_PersonalInfo = value;
 				NotifyPropertyChanged(m => m.PersonalInfo);
 			}
 		}
-        private PersonalInfo _PersonalInfo;
+		private PersonalInfo _PersonalInfo;
 
-        [DataMember]
-        public ICollection<string> ModifiedProperties { get; set; }
+		[DataMember]
+		public ICollection<string> ModifiedProperties { get; set; }
 
-        [DataMember]
-        public TrackingState TrackingState { get; set; }
-    }
+		[DataMember]
+		public TrackingState TrackingState { get; set; }
+	}
 }

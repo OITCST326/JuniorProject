@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
@@ -13,9 +12,9 @@ namespace AIM.Application.Service.Entities.Models
         [DataMember]
         public int answerId { get; set; }
         [DataMember]
-        public Nullable<int> applicantId { get; set; }
+        public int? applicantId { get; set; }
         [DataMember]
-        public Nullable<int> quesitonId { get; set; }
+        public int? quesitonId { get; set; }
         [DataMember]
         public string answerJsonString { get; set; }
         [DataMember]

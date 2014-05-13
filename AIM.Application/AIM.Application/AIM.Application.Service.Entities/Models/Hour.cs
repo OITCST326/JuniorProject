@@ -18,35 +18,35 @@ namespace AIM.Application.Service.Entities.Models
         [DataMember]
         public int hoursId { get; set; }
         [DataMember]
-        public Nullable<int> applicantId { get; set; }
+        public int? applicantId { get; set; }
         [DataMember]
-        public Nullable<System.TimeSpan> monOpen { get; set; }
+        public TimeSpan? monOpen { get; set; }
         [DataMember]
-        public Nullable<System.TimeSpan> monClose { get; set; }
+        public TimeSpan? monClose { get; set; }
         [DataMember]
-        public Nullable<System.TimeSpan> tueOpen { get; set; }
+        public TimeSpan? tueOpen { get; set; }
         [DataMember]
-        public Nullable<System.TimeSpan> tueClose { get; set; }
+        public TimeSpan? tueClose { get; set; }
         [DataMember]
-        public Nullable<System.TimeSpan> wedOpen { get; set; }
+        public TimeSpan? wedOpen { get; set; }
         [DataMember]
-        public Nullable<System.TimeSpan> wedClose { get; set; }
+        public TimeSpan? wedClose { get; set; }
         [DataMember]
-        public Nullable<System.TimeSpan> thursOpen { get; set; }
+        public TimeSpan? thursOpen { get; set; }
         [DataMember]
-        public Nullable<System.TimeSpan> thursClose { get; set; }
+        public TimeSpan? thursClose { get; set; }
         [DataMember]
-        public Nullable<System.TimeSpan> friOpen { get; set; }
+        public TimeSpan? friOpen { get; set; }
         [DataMember]
-        public Nullable<System.TimeSpan> friClose { get; set; }
+        public TimeSpan? friClose { get; set; }
         [DataMember]
-        public Nullable<System.TimeSpan> satOpen { get; set; }
+        public TimeSpan? satOpen { get; set; }
         [DataMember]
-        public Nullable<System.TimeSpan> satClose { get; set; }
+        public TimeSpan? satClose { get; set; }
         [DataMember]
-        public Nullable<System.TimeSpan> sunOpen { get; set; }
+        public TimeSpan? sunOpen { get; set; }
         [DataMember]
-        public Nullable<System.TimeSpan> sunClose { get; set; }
+        public TimeSpan? sunClose { get; set; }
         [DataMember]
         public Applicant Applicant { get; set; }
         [DataMember]

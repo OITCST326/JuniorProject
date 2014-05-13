@@ -13,25 +13,25 @@ namespace AIM.Application.Service.Entities.Models
         [DataMember]
         public int applicationId { get; set; }
         [DataMember]
-        public Nullable<int> applicantId { get; set; }
+        public int? applicantId { get; set; }
         [DataMember]
-        public Nullable<System.DateTime> dateCreated { get; set; }
+        public DateTime? dateCreated { get; set; }
         [DataMember]
         public string preEmploymentStatement { get; set; }
         [DataMember]
-        public Nullable<int> jobId { get; set; }
+        public int? jobId { get; set; }
         [DataMember]
-        public Nullable<int> status { get; set; }
+        public StatusEnum? status { get; set; }
         [DataMember]
         public string salaryExpectation { get; set; }
         [DataMember]
-        public Nullable<bool> isFullTime { get; set; }
+        public bool? isFullTime { get; set; }
         [DataMember]
-        public Nullable<bool> isDays { get; set; }
+        public bool? isDays { get; set; }
         [DataMember]
-        public Nullable<bool> isEvenings { get; set; }
+        public bool? isEvenings { get; set; }
         [DataMember]
-        public Nullable<bool> isWeekends { get; set; }
+        public bool? isWeekends { get; set; }
         [DataMember]
         public Applicant Applicant { get; set; }
         [DataMember]

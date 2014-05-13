@@ -39,3 +39,4 @@ C:\Users\Patrick\JuniorProject\AIM.Application\AIM.Application\AIM.Application.C
 C:\Users\Patrick\JuniorProject\AIM.Application\AIM.Application\AIM.Application.Client.Entities\obj\Debug\AIM.Application.Client.Entities.csprojResolveAssemblyReference.cache
 C:\Users\Patrick\JuniorProject\AIM.Application\AIM.Application\AIM.Application.Client.Entities\obj\Debug\AIM.Application.Client.Entities.dll
 C:\Users\Patrick\JuniorProject\AIM.Application\AIM.Application\AIM.Application.Client.Entities\obj\Debug\AIM.Application.Client.Entities.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM.Application\AIM.Application\AIM.Application.Client.Entities\obj\Debug\AIM.Application.Client.Entities.csprojResolveAssemblyReference.cache

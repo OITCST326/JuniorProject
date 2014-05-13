@@ -51,3 +51,4 @@ C:\Users\Patrick\JuniorProject\AIM.Application\AIM.Application\AIM.Application.S
 C:\Users\Patrick\JuniorProject\AIM.Application\AIM.Application\AIM.Application.Service.Entities\obj\Debug\AIM.Application.Service.Entities.csprojResolveAssemblyReference.cache
 C:\Users\Patrick\JuniorProject\AIM.Application\AIM.Application\AIM.Application.Service.Entities\obj\Debug\AIM.Application.Service.Entities.dll
 C:\Users\Patrick\JuniorProject\AIM.Application\AIM.Application\AIM.Application.Service.Entities\obj\Debug\AIM.Application.Service.Entities.pdb
+C:\Users\Chase\Documents\GitHub\JuniorProject\AIM.Application\AIM.Application\AIM.Application.Service.Entities\obj\Debug\AIM.Application.Service.Entities.csprojResolveAssemblyReference.cache
