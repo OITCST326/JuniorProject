@@ -20,10 +20,6 @@
         var query = breeze.EntityQuery
             .from("Questions");
 
-        for (item in query) {
-            
-        }
-
         return manager.executeQuery(query);
     }
 
@@ -31,13 +27,13 @@
         return manager.createEntity('Question');
     }
 
-    function createOption() {
-        return manager.createEntity('Question.qJsonOptionList');
-    }
+    //function createOption() {
+    //    return manager.createEntity('Question.qJsonOptionList');
+    //}
 
-    function createAnswer() {
-        return manager.createEntity('Question.qJsonAnswerList');
-    }
+    //function createAnswer() {
+    //    return manager.createEntity('Question.qJsonAnswerList');
+    //}
 
     function saveChanges() {
         return manager.saveChanges()

@@ -54,15 +54,15 @@
                 </thead>
                 <tbody>
                         <tr data-bind="foreach: item">
-                            <td class="center-block" data-bind="text: qJsonType"></td>
+                            <td class="center-block" data-bind="text: questionID"></td>
                             <td class="center-block">
                                 <div data-bind="visible: !isEditing()">
-                                    <label data-bind="text: qJsonText, click: $parent.edit"></label>
+                                    <label data-bind="text: qJsonProperties, click: $parent.edit"></label>
                                     <a href="#" data-bind="click: $parent.removeItem">X</a>
                                 </div>
                                 <div data-bind="visible: isEditing">
                                     <form data-bind="event: { submit: $parent.completeEdit }">
-                                        <input type="text" data-bind="value: qJsonText, hasfocus: isEditing" />
+                                        <input type="text" data-bind="value: qJsonProperties, hasfocus: isEditing" />
                                     </form>
                                 </div>
                             </td>

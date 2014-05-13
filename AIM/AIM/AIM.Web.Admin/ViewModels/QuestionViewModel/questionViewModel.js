@@ -3,11 +3,8 @@
     var suspendItemSave = false;
 
     var vm = {
-        newItem: ko.observable(""),
         items: ko.observableArray(),
-        createQuestion: createQuestion,
-        addOption: addOption,
-        addAnswer: addAnswer,
+        addItem: addItem,
         edit: edit,
         completeEdit: completeEdit, 
         removeItem: removeItem
@@ -19,6 +16,7 @@
 
     //#region private functions
     function initVm() {
+        vm.subscribe(getAllQuestions);
         getAllQuestions();
     }
 
@@ -56,35 +54,35 @@
         }
     }
 
-    function addOption() {
-        var item = questionDataService.createOption();
-        questionDataService.saveChanges().fail(addFailed);
-        extendItem(item);
-        vm.items.push(item);
-        vm.newItem("");
+    //function addOption() {
+    //    var item = questionDataService.createOption();
+    //    questionDataService.saveChanges().fail(addFailed);
+    //    extendItem(item);
+    //    vm.items.push(item);
+    //    vm.newItem("");
 
-        function addFailed() {
-            var index = vm.items.indexOf(item);
-            if (index > -1) {
-                setTimeout(function () { vm.items.splice(index, 1); }, 2000);
-            }
-        }
-    }
+    //    function addFailed() {
+    //        var index = vm.items.indexOf(item);
+    //        if (index > -1) {
+    //            setTimeout(function () { vm.items.splice(index, 1); }, 2000);
+    //        }
+    //    }
+    //}
 
-    function addAnswer() {
-        var item = questionDataService.createAnswer();
-        questionDataService.saveChanges().fail(addFailed);
-        extendItem(item);
-        vm.items.push(item);
-        vm.newItem("");
+    //function addAnswer() {
+    //    var item = questionDataService.createAnswer();
+    //    questionDataService.saveChanges().fail(addFailed);
+    //    extendItem(item);
+    //    vm.items.push(item);
+    //    vm.newItem("");
 
-        function addFailed() {
-            var index = vm.items.indexOf(item);
-            if (index > -1) {
-                setTimeout(function () { vm.items.splice(index, 1); }, 2000);
-            }
-        }
-    }
+    //    function addFailed() {
+    //        var index = vm.items.indexOf(item);
+    //        if (index > -1) {
+    //            setTimeout(function () { vm.items.splice(index, 1); }, 2000);
+    //        }
+    //    }
+    //}
 
     function extendItem(item) {
         if (item.isEditing) return; // already extended
@@ -117,6 +115,40 @@
         vm.items.remove(item);
         item.entityAspect.setDeleted();
         questionDataService.saveChanges();
+    }
+
+    function archiveCompletedItems() {
+        var state = getStateOfItems();
+        suspendItemSave = true;
+        state.itemsDone.forEach(function (item) {
+            if (!vm.includeArchived()) {
+                vm.items.remove(item);
+            }
+            item.IsArchived(true);
+        });
+        suspendItemSave = false;
+        dataservice.saveChanges();
+    }
+
+    function getStateOfItems() {
+        var itemsDone = [], itemsLeft = [];
+
+        vm.items().forEach(function (item) {
+            if (item.IsDone()) {
+                if (!item.IsArchived()) {
+                    itemsDone.push(item); // only unarchived items                
+                }
+            } else {
+                itemsLeft.push(item);
+            }
+        });
+
+        return {
+            itemsDone: itemsDone,
+            itemsDoneCount: itemsDone.length,
+            itemsLeft: itemsLeft,
+            itemsLeftCount: itemsLeft.length
+        };
     }
 
     //#endregion    
