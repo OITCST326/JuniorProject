@@ -50,5 +50,25 @@ namespace AIM.Service.Entities.Models
 
         [DataMember]
         public ICollection<string> ModifiedProperties { get; set; }
+
+        [DataMember]
+        [Display(Name = "Question Id")]
+        public int qJsonId { get; set; }
+
+        [DataMember]
+        [Display(Name = "Question Type")]
+        public TypeEnum qJsonType { get; set; }
+
+        [DataMember]
+        [Display(Name = "Question")]
+        public string qJsonText { get; set; }
+
+        [DataMember]
+        [Display(Name = "Question Option(s)")]
+        public IList<string> qJsonOptionList { get; set; }
+
+        [DataMember]
+        [Display(Name = "Desired Answer(s)")]
+        public IList<string> qJsonAnswerList { get; set; }
     }
 }

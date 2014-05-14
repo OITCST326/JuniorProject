@@ -28,6 +28,7 @@
     <MetadataFile FileName="PersonalInfoService1.wsdl" MetadataType="Wsdl" ID="01cf60ff-822e-4fda-90ca-1cfc4e868580" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?wsdl=wsdl0" />
     <MetadataFile FileName="PersonalInfoService2.xsd" MetadataType="Schema" ID="c8130724-24bf-4233-ab31-4d644bc8cc34" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?xsd=xsd1" />
     <MetadataFile FileName="PersonalInfoService3.xsd" MetadataType="Schema" ID="752278e1-627c-48c4-b3e3-b0f57fbe3bad" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?xsd=xsd4" />
+    <MetadataFile FileName="PersonalInfoService5.xsd" MetadataType="Schema" ID="19d62b8b-cfa3-428e-9a9f-51352ea3453d" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?xsd=xsd5" />
     <MetadataFile FileName="PersonalInfoService4.xsd" MetadataType="Schema" ID="7ab4c58b-0401-403f-a5fa-5dbcc3627ffb" SourceId="1" SourceUrl="http://localhost:12380/PersonalInfoService.svc?xsd=xsd2" />
   </Metadata>
   <Extensions>

@@ -23,6 +23,7 @@
   <Metadata>
     <MetadataFile FileName="JobService.wsdl" MetadataType="Wsdl" ID="068b7d80-585b-42eb-9927-1f8756746214" SourceId="1" SourceUrl="http://localhost:12380/JobService.svc?wsdl=wsdl0" />
     <MetadataFile FileName="JobService.disco" MetadataType="Disco" ID="0e1f421e-31de-4af0-b924-122b49987a1e" SourceId="1" SourceUrl="http://localhost:12380/JobService.svc?disco" />
+    <MetadataFile FileName="JobService5.xsd" MetadataType="Schema" ID="8e8a9c66-114a-4b2d-8ea0-805b94af38d9" SourceId="1" SourceUrl="http://localhost:12380/JobService.svc?xsd=xsd5" />
     <MetadataFile FileName="JobService.xsd" MetadataType="Schema" ID="06e9145b-89fd-4b45-9348-1bac2b2f9473" SourceId="1" SourceUrl="http://localhost:12380/JobService.svc?xsd=xsd4" />
     <MetadataFile FileName="JobService1.wsdl" MetadataType="Wsdl" ID="1926ee21-e084-4d98-8015-8cba59dcd7c1" SourceId="1" SourceUrl="http://localhost:12380/JobService.svc?wsdl" />
     <MetadataFile FileName="JobService1.xsd" MetadataType="Schema" ID="75f98c27-059b-498e-86ca-48800ab0a7f1" SourceId="1" SourceUrl="http://localhost:12380/JobService.svc?xsd=xsd2" />

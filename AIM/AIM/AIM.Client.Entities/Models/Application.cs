@@ -27,7 +27,7 @@ namespace AIM.Client.Entities.Models
         private int _applicationId;
 
         [DataMember]
-        public int? applicantId
+        public Nullable<int> applicantId
         {
             get { return _applicantId; }
             set
@@ -38,10 +38,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _applicantId;
+        private Nullable<int> _applicantId;
 
         [DataMember]
-        public DateTime? dateCreated
+        public Nullable<DateTime> dateCreated
         {
             get { return _dateCreated; }
             set
@@ -52,7 +52,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private DateTime? _dateCreated;
+        private Nullable<DateTime> _dateCreated;
 
         [DataMember]
         public string preEmploymentStatement
@@ -69,7 +69,7 @@ namespace AIM.Client.Entities.Models
         private string _preEmploymentStatement;
 
         [DataMember]
-        public int? jobId
+        public Nullable<int> jobId
         {
             get { return _jobId; }
             set
@@ -80,7 +80,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _jobId;
+        private Nullable<int> _jobId;
 
         [DataMember]
         public StatusEnum? status

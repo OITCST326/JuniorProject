@@ -7,6 +7,7 @@
       <xsd:import schemaLocation="http://localhost:12380/JobService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" />
       <xsd:import schemaLocation="http://localhost:12380/JobService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <xsd:import schemaLocation="http://localhost:12380/JobService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/TrackableEntities" />
+      <xsd:import schemaLocation="http://localhost:12380/JobService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/AIM.Service.Entities.Models" />
     </xsd:schema>
   </wsdl:types>
   <wsdl:message name="IJobService_GetJobsList_InputMessage">
@@ -39,6 +40,12 @@
   <wsdl:message name="IJobService_DeleteJob_OutputMessage">
     <wsdl:part name="parameters" element="tns:DeleteJobResponse" />
   </wsdl:message>
+  <wsdl:message name="IJobService_GetOpenJobs_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOpenJobs" />
+  </wsdl:message>
+  <wsdl:message name="IJobService_GetOpenJobs_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOpenJobsResponse" />
+  </wsdl:message>
   <wsdl:portType name="IJobService">
     <wsdl:operation name="GetJobsList">
       <wsdl:input wsaw:Action="urn:trackable-entities:service/IJobService/GetJobsList" message="tns:IJobService_GetJobsList_InputMessage" />
@@ -59,6 +66,10 @@
     <wsdl:operation name="DeleteJob">
       <wsdl:input wsaw:Action="urn:trackable-entities:service/IJobService/DeleteJob" message="tns:IJobService_DeleteJob_InputMessage" />
       <wsdl:output wsaw:Action="urn:trackable-entities:service/IJobService/DeleteJobResponse" message="tns:IJobService_DeleteJob_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOpenJobs">
+      <wsdl:input wsaw:Action="urn:trackable-entities:service/IJobService/GetOpenJobs" message="tns:IJobService_GetOpenJobs_InputMessage" />
+      <wsdl:output wsaw:Action="urn:trackable-entities:service/IJobService/GetOpenJobsResponse" message="tns:IJobService_GetOpenJobs_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
 </wsdl:definitions>

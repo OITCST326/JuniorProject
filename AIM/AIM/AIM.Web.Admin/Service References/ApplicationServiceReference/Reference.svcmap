@@ -24,6 +24,7 @@
     <MetadataFile FileName="ApplicationService.xsd" MetadataType="Schema" ID="7d0c5b37-c140-4754-ae9d-22585c733e7e" SourceId="1" SourceUrl="http://localhost:12380/ApplicationService.svc?xsd=xsd2" />
     <MetadataFile FileName="ApplicationService1.xsd" MetadataType="Schema" ID="7f97bf43-b866-44e2-9a79-060ce60198d4" SourceId="1" SourceUrl="http://localhost:12380/ApplicationService.svc?xsd=xsd1" />
     <MetadataFile FileName="ApplicationService2.xsd" MetadataType="Schema" ID="81a43a01-8e0a-4494-959e-ac209281160e" SourceId="1" SourceUrl="http://localhost:12380/ApplicationService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ApplicationService5.xsd" MetadataType="Schema" ID="cbf2f10a-d791-443f-adb9-714ac27a418d" SourceId="1" SourceUrl="http://localhost:12380/ApplicationService.svc?xsd=xsd5" />
     <MetadataFile FileName="ApplicationService3.xsd" MetadataType="Schema" ID="ee3a8023-362a-4ba8-9180-d13211bf52f4" SourceId="1" SourceUrl="http://localhost:12380/ApplicationService.svc?xsd=xsd4" />
     <MetadataFile FileName="ApplicationService.disco" MetadataType="Disco" ID="45b4d69f-ee53-4b0d-8c3b-158a9ceab269" SourceId="1" SourceUrl="http://localhost:12380/ApplicationService.svc?disco" />
     <MetadataFile FileName="ApplicationService.wsdl" MetadataType="Wsdl" ID="4dd0c177-30ac-4fc7-99a4-981f6852d839" SourceId="1" SourceUrl="http://localhost:12380/ApplicationService.svc?wsdl=wsdl0" />

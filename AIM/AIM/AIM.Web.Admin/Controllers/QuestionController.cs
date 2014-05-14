@@ -4,6 +4,7 @@ using System.Net;
 using System.Web.Mvc;
 using AIM.Service.Entities.Models;
 using AIM.Web.Admin.QuestionServiceReference;
+using Newtonsoft.Json;
 
 namespace AIM.Web.Admin.Controllers
 {
@@ -15,6 +16,10 @@ namespace AIM.Web.Admin.Controllers
         public ActionResult Index()
         {
             var questions = _client.GetQuestionsList();
+
+            //foreach (Question question in questions)
+            //{
+            //}
             return View(questions.ToList());
         }
 

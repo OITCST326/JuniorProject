@@ -69,4 +69,16 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="GetOpenJobs">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOpenJobsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" minOccurs="0" name="GetOpenJobsResult" nillable="true" type="q7:ArrayOfOpenJob" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 </xs:schema>

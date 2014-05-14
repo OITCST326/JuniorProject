@@ -8,8 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using AIM.Service.Entities.Models;
-
 namespace AIM.Web.Admin.JobServiceReference {
     
     
@@ -21,7 +19,7 @@ namespace AIM.Web.Admin.JobServiceReference {
         AIM.Service.Entities.Models.Job[] GetJobsList();
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IJobService/GetJob", ReplyAction="urn:trackable-entities:service/IJobService/GetJobResponse")]
-        Job GetJob(int? id);
+        AIM.Service.Entities.Models.Job GetJob(int id);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IJobService/UpdateJob", ReplyAction="urn:trackable-entities:service/IJobService/UpdateJobResponse")]
         AIM.Service.Entities.Models.Job UpdateJob(AIM.Service.Entities.Models.Job entity);
@@ -31,6 +29,9 @@ namespace AIM.Web.Admin.JobServiceReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IJobService/DeleteJob", ReplyAction="urn:trackable-entities:service/IJobService/DeleteJobResponse")]
         bool DeleteJob(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IJobService/GetOpenJobs", ReplyAction="urn:trackable-entities:service/IJobService/GetOpenJobsResponse")]
+        AIM.Service.Entities.Models.OpenJob[] GetOpenJobs();
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -64,7 +65,7 @@ namespace AIM.Web.Admin.JobServiceReference {
             return base.Channel.GetJobsList();
         }
         
-        public Job GetJob(int? id) {
+        public AIM.Service.Entities.Models.Job GetJob(int id) {
             return base.Channel.GetJob(id);
         }
         
@@ -78,6 +79,10 @@ namespace AIM.Web.Admin.JobServiceReference {
         
         public bool DeleteJob(int id) {
             return base.Channel.DeleteJob(id);
+        }
+        
+        public AIM.Service.Entities.Models.OpenJob[] GetOpenJobs() {
+            return base.Channel.GetOpenJobs();
         }
     }
 }

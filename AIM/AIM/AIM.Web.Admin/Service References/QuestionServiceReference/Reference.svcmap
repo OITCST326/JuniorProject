@@ -22,6 +22,7 @@
   </MetadataSources>
   <Metadata>
     <MetadataFile FileName="QuestionService.xsd" MetadataType="Schema" ID="2bd880e3-6cf8-4a44-af6f-2077d9dfa8e5" SourceId="1" SourceUrl="http://localhost:12380/QuestionService.svc?xsd=xsd3" />
+    <MetadataFile FileName="QuestionService5.xsd" MetadataType="Schema" ID="d75f515d-3a5c-4a77-9c3b-a9e2b7f4e090" SourceId="1" SourceUrl="http://localhost:12380/QuestionService.svc?xsd=xsd5" />
     <MetadataFile FileName="QuestionService.disco" MetadataType="Disco" ID="dceaf077-5dc6-4576-85ca-63652b1f9805" SourceId="1" SourceUrl="http://localhost:12380/QuestionService.svc?disco" />
     <MetadataFile FileName="QuestionService.wsdl" MetadataType="Wsdl" ID="c74d0445-236c-45f5-8af4-8fa4f8011bfb" SourceId="1" SourceUrl="http://localhost:12380/QuestionService.svc?wsdl" />
     <MetadataFile FileName="QuestionService1.xsd" MetadataType="Schema" ID="970b5b74-cc07-4f5e-9150-c358665e0303" SourceId="1" SourceUrl="http://localhost:12380/QuestionService.svc?xsd=xsd1" />

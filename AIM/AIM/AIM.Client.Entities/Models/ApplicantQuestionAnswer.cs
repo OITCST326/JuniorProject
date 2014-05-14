@@ -1,3 +1,4 @@
+using System;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
@@ -36,7 +37,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _applicantId;
+        private Nullable<int> _applicantId;
 
         [DataMember]
         public int? quesitonId
@@ -50,7 +51,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _quesitonId;
+        private Nullable<int> _quesitonId;
 
         [DataMember]
         public string answerJsonString

@@ -276,6 +276,7 @@
     <Content Include="AIM.Service.Entities.Models.Job.datasource" />
     <Content Include="AIM.Service.Entities.Models.PersonalInfo.datasource" />
     <Content Include="AIM.Service.Entities.Models.Applicant.datasource" />
+    <Content Include="AIM.Service.Entities.Models.OpenJob.datasource" />
     <None Include="Scripts\jquery-2.1.0.intellisense.js" />
     <Content Include="img\AIMTitlePageLogo.png" />
     <Content Include="img\ajax-loaders\ajax-loader-1.gif" />
@@ -471,6 +472,9 @@
     <None Include="Service References\ApplicationServiceReference\ApplicationService4.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Service References\ApplicationServiceReference\ApplicationService5.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\JobServiceReference\JobService.wsdl" />
     <None Include="Service References\JobServiceReference\JobService.xsd">
       <SubType>Designer</SubType>
@@ -486,6 +490,9 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\JobServiceReference\JobService4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\JobServiceReference\JobService5.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService.wsdl" />
@@ -505,6 +512,9 @@
     <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService4.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Service References\PersonalInfoServiceReference\PersonalInfoService5.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\QuestionServiceReference\QuestionService.wsdl" />
     <None Include="Service References\QuestionServiceReference\QuestionService.xsd">
       <SubType>Designer</SubType>
@@ -520,6 +530,9 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\QuestionServiceReference\QuestionService4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\QuestionServiceReference\QuestionService5.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\UserServiceReference\UserService.disco" />
@@ -629,6 +642,9 @@
     <Content Include="Views\Application\Details.cshtml" />
     <Content Include="Views\Application\Edit.cshtml" />
     <Content Include="Views\Application\Index.cshtml" />
+    <None Include="Service References\UserServiceReference\UserService5.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

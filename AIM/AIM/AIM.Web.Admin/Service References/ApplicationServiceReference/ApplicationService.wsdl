@@ -7,6 +7,7 @@
       <xsd:import schemaLocation="http://localhost:12380/ApplicationService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/TrackableEntities.Models" />
       <xsd:import schemaLocation="http://localhost:12380/ApplicationService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <xsd:import schemaLocation="http://localhost:12380/ApplicationService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/TrackableEntities" />
+      <xsd:import schemaLocation="http://localhost:12380/ApplicationService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/AIM.Service.Entities.Models" />
     </xsd:schema>
   </wsdl:types>
   <wsdl:message name="IApplicationService_GetApplicantsList_InputMessage">
