@@ -1,4 +1,3 @@
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Release\EntityFramework.dll
 C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Release\AIM.ConsoleClient.exe.config
 C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Release\AIM.ConsoleClient.exe
 C:\Users\John\Documents\GitHub\JuniorProject\AIM\AIM\AIM.ConsoleClient\bin\Release\AIM.ConsoleClient.pdb

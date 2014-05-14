@@ -1,8 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Runtime.Serialization;
 using AIM.Service.Client.Models;
 using Newtonsoft.Json;
+using System.Collections.Generic;
+using System.Runtime.Serialization;
 using TrackableEntities;
 using TrackableEntities.Client;
 
@@ -30,6 +29,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.questionId);
             }
         }
+
         private int _questionId;
 
         [DataMember]
@@ -43,6 +43,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.qJsonProperties);
             }
         }
+
         private string _qJsonProperties;
 
         [DataMember]
@@ -56,6 +57,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.questionnaireId);
             }
         }
+
         private int? _questionnaireId;
 
         [DataMember]
@@ -69,6 +71,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.interviewQuestionsId);
             }
         }
+
         private int _interviewQuestionsId;
 
         [DataMember]
@@ -82,6 +85,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.ApplicantQuestionAnswers);
             }
         }
+
         private ChangeTrackingCollection<ApplicantQuestionAnswer> _ApplicantQuestionAnswers;
 
         [DataMember]
@@ -95,6 +99,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.QuestionInterviewQuestionMappings);
             }
         }
+
         private ChangeTrackingCollection<QuestionInterviewQuestionMapping> _QuestionInterviewQuestionMappings;
 
         [DataMember]
@@ -108,6 +113,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.QuestionQuestionnaires);
             }
         }
+
         private ChangeTrackingCollection<QuestionQuestionnaire> _QuestionQuestionnaires;
 
         [DataMember]
@@ -130,6 +136,5 @@ namespace AIM.Client.Entities.Models
 
         [DataMember]
         public IList<string> qJsonAnswerList { get; set; }
-
     }
 }

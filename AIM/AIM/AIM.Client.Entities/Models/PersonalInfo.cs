@@ -1,8 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Runtime.Serialization;
 using AIM.Service.Client.Models;
 using Newtonsoft.Json;
+using System.Collections.Generic;
+using System.Runtime.Serialization;
 using TrackableEntities;
 using TrackableEntities.Client;
 
@@ -28,6 +27,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.PersonalInfoId);
             }
         }
+
         private int _PersonalInfoId;
 
         [DataMember]
@@ -41,6 +41,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.alias);
             }
         }
+
         private string _alias;
 
         [DataMember]
@@ -54,6 +55,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.street);
             }
         }
+
         private string _street;
 
         [DataMember]
@@ -67,6 +69,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.street2);
             }
         }
+
         private string _street2;
 
         [DataMember]
@@ -80,6 +83,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.city);
             }
         }
+
         private string _city;
 
         [DataMember]
@@ -93,6 +97,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.state);
             }
         }
+
         private StateEnum? _state;
 
         [DataMember]
@@ -106,6 +111,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.zip);
             }
         }
+
         private string _zip;
 
         [DataMember]
@@ -119,6 +125,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.phone);
             }
         }
+
         private string _phone;
 
         [DataMember]
@@ -132,6 +139,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.userId);
             }
         }
+
         private int? _userId;
 
         [DataMember]
@@ -145,6 +153,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Users);
             }
         }
+
         private ChangeTrackingCollection<User> _Users;
 
         [DataMember]

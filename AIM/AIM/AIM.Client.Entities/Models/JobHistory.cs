@@ -1,8 +1,8 @@
+using AIM.Service.Client.Models;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using AIM.Service.Client.Models;
-using Newtonsoft.Json;
 using TrackableEntities;
 using TrackableEntities.Client;
 
@@ -23,6 +23,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.jobHistoryId);
             }
         }
+
         private int _jobHistoryId;
 
         [DataMember]
@@ -36,6 +37,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.employerName);
             }
         }
+
         private string _employerName;
 
         [DataMember]
@@ -49,6 +51,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.position);
             }
         }
+
         private string _position;
 
         [DataMember]
@@ -62,6 +65,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.responsibilities);
             }
         }
+
         private string _responsibilities;
 
         [DataMember]
@@ -75,6 +79,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.supervisor);
             }
         }
+
         private string _supervisor;
 
         [DataMember]
@@ -88,6 +93,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.startingSalary);
             }
         }
+
         private decimal? _startingSalary;
 
         [DataMember]
@@ -101,6 +107,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.endingSalary);
             }
         }
+
         private decimal? _endingSalary;
 
         [DataMember]
@@ -114,6 +121,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.reasonForLeaving);
             }
         }
+
         private string _reasonForLeaving;
 
         [DataMember]
@@ -127,6 +135,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.dateFrom);
             }
         }
+
         private DateTime? _dateFrom;
 
         [DataMember]
@@ -140,6 +149,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.dateTo);
             }
         }
+
         private DateTime? _dateTo;
 
         [DataMember]
@@ -153,6 +163,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.street);
             }
         }
+
         private string _street;
 
         [DataMember]
@@ -166,6 +177,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.street2);
             }
         }
+
         private string _street2;
 
         [DataMember]
@@ -179,6 +191,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.city);
             }
         }
+
         private string _city;
 
         [DataMember]
@@ -192,6 +205,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.state);
             }
         }
+
         private StateEnum? _state;
 
         [DataMember]
@@ -205,6 +219,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.zip);
             }
         }
+
         private string _zip;
 
         [DataMember]
@@ -218,6 +233,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.phone);
             }
         }
+
         private string _phone;
 
         [DataMember]
@@ -231,6 +247,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.applicantId);
             }
         }
+
         private int? _applicantId;
 
         [DataMember]
@@ -244,6 +261,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Applicant);
             }
         }
+
         private Applicant _Applicant;
 
         [DataMember]

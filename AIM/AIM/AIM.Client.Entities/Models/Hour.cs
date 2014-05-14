@@ -1,7 +1,7 @@
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Newtonsoft.Json;
 using TrackableEntities;
 using TrackableEntities.Client;
 
@@ -27,6 +27,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.hoursId);
             }
         }
+
         private int _hoursId;
 
         [DataMember]
@@ -40,6 +41,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.applicantId);
             }
         }
+
         private int? _applicantId;
 
         [DataMember]
@@ -53,6 +55,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.monOpen);
             }
         }
+
         private TimeSpan? _monOpen;
 
         [DataMember]
@@ -66,6 +69,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.monClose);
             }
         }
+
         private TimeSpan? _monClose;
 
         [DataMember]
@@ -79,6 +83,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.tueOpen);
             }
         }
+
         private TimeSpan? _tueOpen;
 
         [DataMember]
@@ -92,6 +97,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.tueClose);
             }
         }
+
         private TimeSpan? _tueClose;
 
         [DataMember]
@@ -105,6 +111,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.wedOpen);
             }
         }
+
         private TimeSpan? _wedOpen;
 
         [DataMember]
@@ -118,6 +125,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.wedClose);
             }
         }
+
         private TimeSpan? _wedClose;
 
         [DataMember]
@@ -131,6 +139,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.thursOpen);
             }
         }
+
         private TimeSpan? _thursOpen;
 
         [DataMember]
@@ -144,6 +153,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.thursClose);
             }
         }
+
         private TimeSpan? _thursClose;
 
         [DataMember]
@@ -157,6 +167,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.friOpen);
             }
         }
+
         private TimeSpan? _friOpen;
 
         [DataMember]
@@ -170,6 +181,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.friClose);
             }
         }
+
         private TimeSpan? _friClose;
 
         [DataMember]
@@ -183,6 +195,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.satOpen);
             }
         }
+
         private TimeSpan? _satOpen;
 
         [DataMember]
@@ -196,6 +209,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.satClose);
             }
         }
+
         private TimeSpan? _satClose;
 
         [DataMember]
@@ -209,6 +223,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.sunOpen);
             }
         }
+
         private TimeSpan? _sunOpen;
 
         [DataMember]
@@ -222,6 +237,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.sunClose);
             }
         }
+
         private TimeSpan? _sunClose;
 
         [DataMember]
@@ -235,6 +251,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Applicant);
             }
         }
+
         private Applicant _Applicant;
 
         [DataMember]
@@ -248,6 +265,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Jobs);
             }
         }
+
         private ChangeTrackingCollection<Job> _Jobs;
 
         [DataMember]

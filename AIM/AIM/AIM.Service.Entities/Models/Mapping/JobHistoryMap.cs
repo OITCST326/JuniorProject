@@ -55,14 +55,13 @@ namespace AIM.Service.Entities.Models.Mapping
             this.Property(t => t.applicantId).HasColumnName("applicantId");
 
             // Tracking Properties
-			this.Ignore(t => t.TrackingState);
-			this.Ignore(t => t.ModifiedProperties);
+            this.Ignore(t => t.TrackingState);
+            this.Ignore(t => t.ModifiedProperties);
 
             // Relationships
             this.HasOptional(t => t.Applicant)
                 .WithMany(t => t.JobHistories)
                 .HasForeignKey(d => d.applicantId);
-
         }
     }
 }

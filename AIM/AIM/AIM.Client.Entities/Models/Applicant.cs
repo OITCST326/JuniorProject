@@ -1,7 +1,6 @@
-using System;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Newtonsoft.Json;
 using TrackableEntities;
 using TrackableEntities.Client;
 
@@ -33,6 +32,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.applicantId);
             }
         }
+
         private int _applicantId;
 
         [DataMember]
@@ -46,6 +46,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.educationId);
             }
         }
+
         private int? _educationId;
 
         [DataMember]
@@ -59,6 +60,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.jobHistoryId);
             }
         }
+
         private int? _jobHistoryId;
 
         [DataMember]
@@ -72,6 +74,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.referenceId);
             }
         }
+
         private int? _referenceId;
 
         [DataMember]
@@ -85,6 +88,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.userId);
             }
         }
+
         private int? _userId;
 
         [DataMember]
@@ -98,6 +102,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.applicationId);
             }
         }
+
         private int? _applicationId;
 
         [DataMember]
@@ -111,6 +116,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.answerId);
             }
         }
+
         private int? _answerId;
 
         [DataMember]
@@ -124,6 +130,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.hoursId);
             }
         }
+
         private int? _hoursId;
 
         [DataMember]
@@ -137,6 +144,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.ApplicantQuestionAnswers);
             }
         }
+
         private ChangeTrackingCollection<ApplicantQuestionAnswer> _ApplicantQuestionAnswers;
 
         [DataMember]
@@ -150,6 +158,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Applications);
             }
         }
+
         private ChangeTrackingCollection<Application> _Applications;
 
         [DataMember]
@@ -163,6 +172,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Educations);
             }
         }
+
         private ChangeTrackingCollection<Education> _Educations;
 
         [DataMember]
@@ -176,6 +186,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.JobHistories);
             }
         }
+
         private ChangeTrackingCollection<JobHistory> _JobHistories;
 
         [DataMember]
@@ -189,6 +200,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Hours);
             }
         }
+
         private ChangeTrackingCollection<Hour> _Hours;
 
         [DataMember]
@@ -202,6 +214,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.References);
             }
         }
+
         private ChangeTrackingCollection<Reference> _References;
 
         [DataMember]
@@ -215,6 +228,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Users);
             }
         }
+
         private ChangeTrackingCollection<User> _Users;
 
         [DataMember]

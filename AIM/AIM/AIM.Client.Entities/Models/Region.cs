@@ -1,7 +1,6 @@
-using System;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Newtonsoft.Json;
 using TrackableEntities;
 using TrackableEntities.Client;
 
@@ -28,6 +27,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.regionId);
             }
         }
+
         private int _regionId;
 
         [DataMember]
@@ -41,6 +41,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.regionName);
             }
         }
+
         private string _regionName;
 
         [DataMember]
@@ -54,6 +55,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.OpenJobs);
             }
         }
+
         private ChangeTrackingCollection<OpenJob> _OpenJobs;
 
         [DataMember]
@@ -67,6 +69,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Stores);
             }
         }
+
         private ChangeTrackingCollection<Store> _Stores;
 
         [DataMember]

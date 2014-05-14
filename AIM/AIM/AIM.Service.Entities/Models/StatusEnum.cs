@@ -7,16 +7,22 @@ namespace AIM.Service.Entities.Models
     {
         [EnumMember]
         InitalApplicationNonSubmitted = 0,
+
         [EnumMember]
         PhoneInterviewQueue = 1,
+
         [EnumMember]
         InPersonInterviewQueue = 2,
+
         [EnumMember]
         CheckReferenceQueue = 3,
+
         [EnumMember]
         Rejected = 4,
+
         [EnumMember]
         PendingReviewQueue = 5,
+
         [EnumMember]
         HiredStatus = 6
     }

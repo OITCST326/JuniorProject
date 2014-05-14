@@ -1,7 +1,6 @@
-using System;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Newtonsoft.Json;
 using TrackableEntities;
 using TrackableEntities.Client;
 
@@ -22,6 +21,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.questionId);
             }
         }
+
         private int _questionId;
 
         [DataMember]
@@ -35,6 +35,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.interviewQuestionsId);
             }
         }
+
         private int _interviewQuestionsId;
 
         [DataMember]
@@ -48,6 +49,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.numberOfQuestions);
             }
         }
+
         private int? _numberOfQuestions;
 
         [DataMember]
@@ -61,6 +63,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.InterviewQuestion);
             }
         }
+
         private InterviewQuestion _InterviewQuestion;
 
         [DataMember]
@@ -74,6 +77,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Question);
             }
         }
+
         private Question _Question;
 
         [DataMember]

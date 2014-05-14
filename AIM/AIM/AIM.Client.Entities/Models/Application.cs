@@ -1,8 +1,8 @@
+using AIM.Service.Client.Models;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using AIM.Service.Client.Models;
-using Newtonsoft.Json;
 using TrackableEntities;
 using TrackableEntities.Client;
 
@@ -23,6 +23,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.applicationId);
             }
         }
+
         private int _applicationId;
 
         [DataMember]
@@ -36,6 +37,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.applicantId);
             }
         }
+
         private int? _applicantId;
 
         [DataMember]
@@ -49,6 +51,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.dateCreated);
             }
         }
+
         private DateTime? _dateCreated;
 
         [DataMember]
@@ -62,6 +65,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.preEmploymentStatement);
             }
         }
+
         private string _preEmploymentStatement;
 
         [DataMember]
@@ -75,6 +79,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.jobId);
             }
         }
+
         private int? _jobId;
 
         [DataMember]
@@ -88,6 +93,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.status);
             }
         }
+
         private StatusEnum? _status;
 
         [DataMember]
@@ -101,6 +107,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.salaryExpectation);
             }
         }
+
         private string _salaryExpectation;
 
         [DataMember]
@@ -114,6 +121,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.isFullTime);
             }
         }
+
         private bool? _isFullTime;
 
         [DataMember]
@@ -127,6 +135,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.isDays);
             }
         }
+
         private bool? _isDays;
 
         [DataMember]
@@ -140,6 +149,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.isEvenings);
             }
         }
+
         private bool? _isEvenings;
 
         [DataMember]
@@ -153,6 +163,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.isWeekends);
             }
         }
+
         private bool? _isWeekends;
 
         [DataMember]
@@ -166,6 +177,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Applicant);
             }
         }
+
         private Applicant _Applicant;
 
         [DataMember]
@@ -179,6 +191,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Job);
             }
         }
+
         private Job _Job;
 
         [DataMember]

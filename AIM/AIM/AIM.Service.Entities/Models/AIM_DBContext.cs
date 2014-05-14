@@ -1,5 +1,5 @@
-using System.Data.Entity;
 using AIM.Service.Entities.Models.Mapping;
+using System.Data.Entity;
 
 namespace AIM.Service.Entities.Models
 {
@@ -18,23 +18,41 @@ namespace AIM.Service.Entities.Models
         }
 
         public DbSet<ApplicantQuestionAnswer> ApplicantQuestionAnswers { get; set; }
+
         public DbSet<Applicant> Applicants { get; set; }
+
         public DbSet<Application> Applications { get; set; }
+
         public DbSet<Education> Educations { get; set; }
+
         public DbSet<Employee> Employees { get; set; }
+
         public DbSet<Hour> Hours { get; set; }
+
         public DbSet<InterviewQuestion> InterviewQuestions { get; set; }
+
         public DbSet<JobHistory> JobHistories { get; set; }
+
         public DbSet<Job> Jobs { get; set; }
+
         public DbSet<OpenJob> OpenJobs { get; set; }
+
         public DbSet<PersonalInfo> PersonalInfoes { get; set; }
+
         public DbSet<QuestionInterviewQuestionMapping> QuestionInterviewQuestionMappings { get; set; }
+
         public DbSet<Questionnaire> Questionnaires { get; set; }
+
         public DbSet<QuestionQuestionnaire> QuestionQuestionnaires { get; set; }
+
         public DbSet<Question> Questions { get; set; }
+
         public DbSet<Reference> References { get; set; }
+
         public DbSet<Region> Regions { get; set; }
+
         public DbSet<Store> Stores { get; set; }
+
         public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

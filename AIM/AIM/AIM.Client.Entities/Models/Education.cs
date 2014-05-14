@@ -1,8 +1,8 @@
+using AIM.Service.Client.Models;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using AIM.Service.Client.Models;
-using Newtonsoft.Json;
 using TrackableEntities;
 using TrackableEntities.Client;
 
@@ -23,6 +23,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.educationId);
             }
         }
+
         private int _educationId;
 
         [DataMember]
@@ -36,6 +37,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.schoolName);
             }
         }
+
         private string _schoolName;
 
         [DataMember]
@@ -49,6 +51,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.degree);
             }
         }
+
         private string _degree;
 
         [DataMember]
@@ -62,6 +65,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.graduated);
             }
         }
+
         private DateTime? _graduated;
 
         [DataMember]
@@ -75,6 +79,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.yearsAttended);
             }
         }
+
         private string _yearsAttended;
 
         [DataMember]
@@ -88,6 +93,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.street);
             }
         }
+
         private string _street;
 
         [DataMember]
@@ -101,6 +107,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.street2);
             }
         }
+
         private string _street2;
 
         [DataMember]
@@ -114,6 +121,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.city);
             }
         }
+
         private string _city;
 
         [DataMember]
@@ -127,6 +135,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.state);
             }
         }
+
         private StateEnum? _state;
 
         [DataMember]
@@ -140,6 +149,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.zip);
             }
         }
+
         private string _zip;
 
         [DataMember]
@@ -153,6 +163,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.applicantId);
             }
         }
+
         private int? _applicantId;
 
         [DataMember]
@@ -166,6 +177,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Applicant);
             }
         }
+
         private Applicant _Applicant;
 
         [DataMember]

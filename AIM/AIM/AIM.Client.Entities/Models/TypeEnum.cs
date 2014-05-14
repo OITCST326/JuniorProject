@@ -7,8 +7,10 @@ namespace AIM.Service.Client.Models
     {
         [EnumMember]
         MultipleChoice = 0,
+
         [EnumMember]
         AllThatApply = 1,
+
         [EnumMember]
         FreeForm = 2
     }

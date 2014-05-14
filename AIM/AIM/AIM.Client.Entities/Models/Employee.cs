@@ -1,7 +1,7 @@
-using System.Collections.Generic;
-using System.Runtime.Serialization;
 using AIM.Service.Client.Models;
 using Newtonsoft.Json;
+using System.Collections.Generic;
+using System.Runtime.Serialization;
 using TrackableEntities;
 using TrackableEntities.Client;
 
@@ -27,6 +27,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.employeeId);
             }
         }
+
         private int _employeeId;
 
         [DataMember]
@@ -40,6 +41,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.permissions);
             }
         }
+
         private PermissionsEnum? _permissions;
 
         [DataMember]
@@ -53,6 +55,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.jobId);
             }
         }
+
         private int? _jobId;
 
         [DataMember]
@@ -66,6 +69,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Job);
             }
         }
+
         private Job _Job;
 
         [DataMember]
@@ -79,6 +83,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Users);
             }
         }
+
         private ChangeTrackingCollection<User> _Users;
 
         [DataMember]

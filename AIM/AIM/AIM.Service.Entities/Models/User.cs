@@ -1,9 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Runtime.Serialization;
 using Newtonsoft.Json;
-using TrackableEntities;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.Serialization;
+using TrackableEntities;
 
 namespace AIM.Service.Entities.Models
 {
@@ -14,51 +13,66 @@ namespace AIM.Service.Entities.Models
         [DataMember]
         [Display(Name = "User ID")]
         public int userId { get; set; }
+
         [DataMember]
         [Display(Name = "First Name")]
         public string firstName { get; set; }
+
         [DataMember]
         [Display(Name = "Middle Name")]
         public string middleName { get; set; }
+
         [DataMember]
         [Display(Name = "Last Name")]
         public string lastName { get; set; }
+
         [DataMember]
         [Display(Name = "Email Address")]
         public string email { get; set; }
+
         [DataMember]
         [Display(Name = "SSN")]
         public string socialSecurityNumber { get; set; }
+
         [DataMember]
         [Display(Name = "Personal Info ID")]
         public int? PersonalInfoId { get; set; }
+
         [DataMember]
         [Display(Name = "Applicant ID")]
         public int? applicantId { get; set; }
+
         [DataMember]
         [Display(Name = "Application ID")]
         public int? applicationId { get; set; }
+
         [DataMember]
         [Display(Name = "Employee ID")]
         public int? employeeId { get; set; }
+
         [DataMember]
         [Display(Name = "Username")]
         public string userName { get; set; }
+
         [DataMember]
         [Display(Name = "Password")]
         public string password { get; set; }
+
         [DataMember]
         [Display(Name = "Applicant")]
         public Applicant Applicant { get; set; }
+
         [DataMember]
         [Display(Name = "Employee")]
         public Employee Employee { get; set; }
+
         [DataMember]
         [Display(Name = "Personal Info")]
         public PersonalInfo PersonalInfo { get; set; }
 
         [DataMember]
         public TrackingState TrackingState { get; set; }
+
         [DataMember]
         public ICollection<string> ModifiedProperties { get; set; }
     }

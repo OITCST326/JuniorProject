@@ -22,8 +22,8 @@ namespace AIM.Service.Entities.Models.Mapping
             this.Property(t => t.hoursId).HasColumnName("hoursId");
 
             // Tracking Properties
-			this.Ignore(t => t.TrackingState);
-			this.Ignore(t => t.ModifiedProperties);
+            this.Ignore(t => t.TrackingState);
+            this.Ignore(t => t.ModifiedProperties);
         }
     }
 }

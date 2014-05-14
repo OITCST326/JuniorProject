@@ -1,7 +1,6 @@
-using System;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Newtonsoft.Json;
 using TrackableEntities;
 using TrackableEntities.Client;
 
@@ -22,6 +21,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.userId);
             }
         }
+
         private int _userId;
 
         [DataMember]
@@ -35,6 +35,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.firstName);
             }
         }
+
         private string _firstName;
 
         [DataMember]
@@ -48,6 +49,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.middleName);
             }
         }
+
         private string _middleName;
 
         [DataMember]
@@ -61,6 +63,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.lastName);
             }
         }
+
         private string _lastName;
 
         [DataMember]
@@ -74,6 +77,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.email);
             }
         }
+
         private string _email;
 
         [DataMember]
@@ -87,6 +91,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.socialSecurityNumber);
             }
         }
+
         private string _socialSecurityNumber;
 
         [DataMember]
@@ -100,6 +105,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.PersonalInfoId);
             }
         }
+
         private int? _PersonalInfoId;
 
         [DataMember]
@@ -113,6 +119,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.applicantId);
             }
         }
+
         private int? _applicantId;
 
         [DataMember]
@@ -126,6 +133,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.applicationId);
             }
         }
+
         private int? _applicationId;
 
         [DataMember]
@@ -139,6 +147,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.employeeId);
             }
         }
+
         private int? _employeeId;
 
         [DataMember]
@@ -152,6 +161,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.userName);
             }
         }
+
         private string _userName;
 
         [DataMember]
@@ -165,6 +175,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.password);
             }
         }
+
         private string _password;
 
         [DataMember]
@@ -178,6 +189,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Applicant);
             }
         }
+
         private Applicant _Applicant;
 
         [DataMember]
@@ -191,6 +203,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Employee);
             }
         }
+
         private Employee _Employee;
 
         [DataMember]
@@ -204,6 +217,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.PersonalInfo);
             }
         }
+
         private PersonalInfo _PersonalInfo;
 
         [DataMember]

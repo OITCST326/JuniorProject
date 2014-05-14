@@ -1,7 +1,6 @@
-using System;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Newtonsoft.Json;
 using TrackableEntities;
 using TrackableEntities.Client;
 
@@ -29,6 +28,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.jobId);
             }
         }
+
         private int _jobId;
 
         [DataMember]
@@ -42,6 +42,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.position);
             }
         }
+
         private string _position;
 
         [DataMember]
@@ -55,6 +56,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.description);
             }
         }
+
         private string _description;
 
         [DataMember]
@@ -68,6 +70,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.fullPartTime);
             }
         }
+
         private string _fullPartTime;
 
         [DataMember]
@@ -81,6 +84,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.salaryRange);
             }
         }
+
         private string _salaryRange;
 
         [DataMember]
@@ -94,6 +98,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.questionnaireId);
             }
         }
+
         private int? _questionnaireId;
 
         [DataMember]
@@ -107,6 +112,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.hoursId);
             }
         }
+
         private int? _hoursId;
 
         [DataMember]
@@ -120,6 +126,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.InterviewQuestionId);
             }
         }
+
         private int? _InterviewQuestionId;
 
         [DataMember]
@@ -133,6 +140,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Applications);
             }
         }
+
         private ChangeTrackingCollection<Application> _Applications;
 
         [DataMember]
@@ -146,6 +154,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Employees);
             }
         }
+
         private ChangeTrackingCollection<Employee> _Employees;
 
         [DataMember]
@@ -159,6 +168,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Hour);
             }
         }
+
         private Hour _Hour;
 
         [DataMember]
@@ -172,6 +182,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.InterviewQuestion);
             }
         }
+
         private InterviewQuestion _InterviewQuestion;
 
         [DataMember]
@@ -185,6 +196,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.Questionnaire);
             }
         }
+
         private Questionnaire _Questionnaire;
 
         [DataMember]
@@ -198,6 +210,7 @@ namespace AIM.Client.Entities.Models
                 NotifyPropertyChanged(m => m.OpenJobs);
             }
         }
+
         private ChangeTrackingCollection<OpenJob> _OpenJobs;
 
         [DataMember]

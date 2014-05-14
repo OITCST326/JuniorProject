@@ -18,8 +18,8 @@ namespace AIM.Service.Entities.Models.Mapping
             this.Property(t => t.answerJsonString).HasColumnName("answerJsonString");
 
             // Tracking Properties
-			this.Ignore(t => t.TrackingState);
-			this.Ignore(t => t.ModifiedProperties);
+            this.Ignore(t => t.TrackingState);
+            this.Ignore(t => t.ModifiedProperties);
 
             // Relationships
             this.HasOptional(t => t.Applicant)
@@ -28,7 +28,6 @@ namespace AIM.Service.Entities.Models.Mapping
             this.HasOptional(t => t.Question)
                 .WithMany(t => t.ApplicantQuestionAnswers)
                 .HasForeignKey(d => d.quesitonId);
-
         }
     }
 }

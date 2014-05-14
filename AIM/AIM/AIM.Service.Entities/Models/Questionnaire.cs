@@ -1,9 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Runtime.Serialization;
 using Newtonsoft.Json;
-using TrackableEntities;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.Serialization;
+using TrackableEntities;
 
 namespace AIM.Service.Entities.Models
 {
@@ -20,21 +19,26 @@ namespace AIM.Service.Entities.Models
         [DataMember]
         [Display(Name = "Questionnaire ID")]
         public int questionnaireId { get; set; }
+
         [DataMember]
         [Display(Name = "Question ID")]
         public int? questionId { get; set; }
+
         [DataMember]
         [Display(Name = "Job ID")]
         public int? jobId { get; set; }
+
         [DataMember]
         [Display(Name = "Jobs List")]
         public List<Job> Jobs { get; set; }
+
         [DataMember]
         [Display(Name = "Question Questionnaires List")]
         public List<QuestionQuestionnaire> QuestionQuestionnaires { get; set; }
 
         [DataMember]
         public TrackingState TrackingState { get; set; }
+
         [DataMember]
         public ICollection<string> ModifiedProperties { get; set; }
     }

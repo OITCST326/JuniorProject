@@ -1,12 +1,12 @@
-﻿using System;
+﻿using AIM.Service.Entities.Models;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.ServiceModel;
 using System.Threading.Tasks;
-using TrackableEntities.EF6;
 using TrackableEntities.Common;
-using AIM.Service.Entities.Models;
+using TrackableEntities.EF6;
 
 namespace AIM.Service.Administrative
 {
