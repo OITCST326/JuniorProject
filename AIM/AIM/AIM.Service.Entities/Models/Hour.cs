@@ -21,49 +21,49 @@ namespace AIM.Service.Entities.Models
         public int hoursId { get; set; }
         [DataMember]
         [Display(Name = "Applicant ID")]
-        public Nullable<int> applicantId { get; set; }
+        public int? applicantId { get; set; }
         [DataMember]
         [Display(Name = "Mon Open")]
-        public Nullable<System.TimeSpan> monOpen { get; set; }
+        public TimeSpan? monOpen { get; set; }
         [DataMember]
         [Display(Name = "Mon Close")]
-        public Nullable<System.TimeSpan> monClose { get; set; }
+        public TimeSpan? monClose { get; set; }
         [DataMember]
         [Display(Name = "Tue Open")]
-        public Nullable<System.TimeSpan> tueOpen { get; set; }
+        public TimeSpan? tueOpen { get; set; }
         [DataMember]
         [Display(Name = "Tue Close")]
-        public Nullable<System.TimeSpan> tueClose { get; set; }
+        public TimeSpan? tueClose { get; set; }
         [DataMember]
         [Display(Name = "Wed Open")]
-        public Nullable<System.TimeSpan> wedOpen { get; set; }
+        public TimeSpan? wedOpen { get; set; }
         [DataMember]
         [Display(Name = "Wed Close")]
-        public Nullable<System.TimeSpan> wedClose { get; set; }
+        public TimeSpan? wedClose { get; set; }
         [DataMember]
         [Display(Name = "Thurs Open")]
-        public Nullable<System.TimeSpan> thursOpen { get; set; }
+        public TimeSpan? thursOpen { get; set; }
         [DataMember]
         [Display(Name = "Thurs Close")]
-        public Nullable<System.TimeSpan> thursClose { get; set; }
+        public TimeSpan? thursClose { get; set; }
         [DataMember]
         [Display(Name = "Fri Open")]
-        public Nullable<System.TimeSpan> friOpen { get; set; }
+        public TimeSpan? friOpen { get; set; }
         [DataMember]
         [Display(Name = "Fri Close")]
-        public Nullable<System.TimeSpan> friClose { get; set; }
+        public TimeSpan? friClose { get; set; }
         [DataMember]
         [Display(Name = "Sat Open")]
-        public Nullable<System.TimeSpan> satOpen { get; set; }
+        public TimeSpan? satOpen { get; set; }
         [DataMember]
         [Display(Name = "Sat Close")]
-        public Nullable<System.TimeSpan> satClose { get; set; }
+        public TimeSpan? satClose { get; set; }
         [DataMember]
         [Display(Name = "Sun Open")]
-        public Nullable<System.TimeSpan> sunOpen { get; set; }
+        public TimeSpan? sunOpen { get; set; }
         [DataMember]
         [Display(Name = "Sun Close")]
-        public Nullable<System.TimeSpan> sunClose { get; set; }
+        public TimeSpan? sunClose { get; set; }
         [DataMember]
         [Display(Name = "Applicant")]
         public Applicant Applicant { get; set; }

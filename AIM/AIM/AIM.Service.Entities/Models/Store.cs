@@ -24,7 +24,7 @@ namespace AIM.Service.Entities.Models
         public string name { get; set; }
         [DataMember]
         [Display(Name = "Region ID")]
-        public Nullable<int> regionId { get; set; }
+        public int? regionId { get; set; }
         [DataMember]
         [Display(Name = "Street")]
         public string street { get; set; }
@@ -36,7 +36,7 @@ namespace AIM.Service.Entities.Models
         public string city { get; set; }
         [DataMember]
         [Display(Name = "State")]
-        public Nullable<int> state { get; set; }
+        public StateEnum? state { get; set; }
         [DataMember]
         [Display(Name = "Zip Code")]
         public string zip { get; set; }

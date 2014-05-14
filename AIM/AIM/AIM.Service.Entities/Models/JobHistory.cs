@@ -28,19 +28,19 @@ namespace AIM.Service.Entities.Models
         public string supervisor { get; set; }
         [DataMember]
         [Display(Name = "Starting Salary")]
-        public Nullable<decimal> startingSalary { get; set; }
+        public decimal? startingSalary { get; set; }
         [DataMember]
         [Display(Name = "Ending Salary")]
-        public Nullable<decimal> endingSalary { get; set; }
+        public decimal? endingSalary { get; set; }
         [DataMember]
         [Display(Name = "Reason For Leaving")]
         public string reasonForLeaving { get; set; }
         [DataMember]
         [Display(Name = "Date From")]
-        public Nullable<System.DateTime> dateFrom { get; set; }
+        public DateTime? dateFrom { get; set; }
         [DataMember]
         [Display(Name = "Date To")]
-        public Nullable<System.DateTime> dateTo { get; set; }
+        public DateTime? dateTo { get; set; }
         [DataMember]
         [Display(Name = "Street")]
         public string street { get; set; }
@@ -52,7 +52,7 @@ namespace AIM.Service.Entities.Models
         public string city { get; set; }
         [DataMember]
         [Display(Name = "State")]
-        public Nullable<int> state { get; set; }
+        public StateEnum? state { get; set; }
         [DataMember]
         [Display(Name = "Zip Code")]
         public string zip { get; set; }
@@ -61,7 +61,7 @@ namespace AIM.Service.Entities.Models
         public string phone { get; set; }
         [DataMember]
         [Display(Name = "Applicant ID")]
-        public Nullable<int> applicantId { get; set; }
+        public int? applicantId { get; set; }
         [DataMember]
         [Display(Name = "Applicant")]
         public Applicant Applicant { get; set; }

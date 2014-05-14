@@ -27,25 +27,25 @@ namespace AIM.Service.Entities.Models
         public int applicantId { get; set; }
         [DataMember]
         [Display(Name = "Education ID")]
-        public Nullable<int> educationId { get; set; }
+        public int? educationId { get; set; }
         [DataMember]
         [Display(Name = "Job History ID")]
-        public Nullable<int> jobHistoryId { get; set; }
+        public int? jobHistoryId { get; set; }
         [DataMember]
         [Display(Name = "Reference ID")]
-        public Nullable<int> referenceId { get; set; }
+        public int? referenceId { get; set; }
         [DataMember]
         [Display(Name = "User ID")]
-        public Nullable<int> userId { get; set; }
+        public int? userId { get; set; }
         [DataMember]
         [Display(Name = "Application ID")]
-        public Nullable<int> applicationId { get; set; }
+        public int? applicationId { get; set; }
         [DataMember]
         [Display(Name = "Answer ID")]
-        public Nullable<int> answerId { get; set; }
+        public int? answerId { get; set; }
         [DataMember]
         [Display(Name = "Hours ID")]
-        public Nullable<int> hoursId { get; set; }
+        public int? hoursId { get; set; }
         [DataMember]
         [Display(Name = "Applicant Question Answers List")]
         public List<ApplicantQuestionAnswer> ApplicantQuestionAnswers { get; set; }

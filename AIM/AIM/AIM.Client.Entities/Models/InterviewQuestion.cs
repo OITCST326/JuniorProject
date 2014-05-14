@@ -19,67 +19,67 @@ namespace AIM.Client.Entities.Models
 
         [DataMember]
         public int interviewQuestionsId
-		{ 
-		    get { return _interviewQuestionsId; }
-			set
-			{
-			    if (value == _interviewQuestionsId) return;
-				_interviewQuestionsId = value;
-				NotifyPropertyChanged(m => m.interviewQuestionsId);
-			}
-		}
+        {
+            get { return _interviewQuestionsId; }
+            set
+            {
+                if (value == _interviewQuestionsId) return;
+                _interviewQuestionsId = value;
+                NotifyPropertyChanged(m => m.interviewQuestionsId);
+            }
+        }
         private int _interviewQuestionsId;
 
         [DataMember]
-        public Nullable<int> questionId
-		{ 
-		    get { return _questionId; }
-			set
-			{
-			    if (value == _questionId) return;
-				_questionId = value;
-				NotifyPropertyChanged(m => m.questionId);
-			}
-		}
-        private Nullable<int> _questionId;
+        public int? questionId
+        {
+            get { return _questionId; }
+            set
+            {
+                if (value == _questionId) return;
+                _questionId = value;
+                NotifyPropertyChanged(m => m.questionId);
+            }
+        }
+        private int? _questionId;
 
         [DataMember]
-        public Nullable<int> jobId
-		{ 
-		    get { return _jobId; }
-			set
-			{
-			    if (value == _jobId) return;
-				_jobId = value;
-				NotifyPropertyChanged(m => m.jobId);
-			}
-		}
-        private Nullable<int> _jobId;
+        public int? jobId
+        {
+            get { return _jobId; }
+            set
+            {
+                if (value == _jobId) return;
+                _jobId = value;
+                NotifyPropertyChanged(m => m.jobId);
+            }
+        }
+        private int? _jobId;
 
         [DataMember]
         public ChangeTrackingCollection<Job> Jobs
-		{
-		    get { return _Jobs; }
-			set
-			{
-			    if (Equals(value, _Jobs)) return;
-				_Jobs = value;
-				NotifyPropertyChanged(m => m.Jobs);
-			}
-		}
+        {
+            get { return _Jobs; }
+            set
+            {
+                if (Equals(value, _Jobs)) return;
+                _Jobs = value;
+                NotifyPropertyChanged(m => m.Jobs);
+            }
+        }
         private ChangeTrackingCollection<Job> _Jobs;
 
         [DataMember]
         public ChangeTrackingCollection<QuestionInterviewQuestionMapping> QuestionInterviewQuestionMappings
-		{
-		    get { return _QuestionInterviewQuestionMappings; }
-			set
-			{
-			    if (Equals(value, _QuestionInterviewQuestionMappings)) return;
-				_QuestionInterviewQuestionMappings = value;
-				NotifyPropertyChanged(m => m.QuestionInterviewQuestionMappings);
-			}
-		}
+        {
+            get { return _QuestionInterviewQuestionMappings; }
+            set
+            {
+                if (Equals(value, _QuestionInterviewQuestionMappings)) return;
+                _QuestionInterviewQuestionMappings = value;
+                NotifyPropertyChanged(m => m.QuestionInterviewQuestionMappings);
+            }
+        }
         private ChangeTrackingCollection<QuestionInterviewQuestionMapping> _QuestionInterviewQuestionMappings;
 
         [DataMember]

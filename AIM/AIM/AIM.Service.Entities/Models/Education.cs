@@ -22,7 +22,7 @@ namespace AIM.Service.Entities.Models
         public string degree { get; set; }
         [DataMember]
         [Display(Name = "Date Graduated")]
-        public Nullable<System.DateTime> graduated { get; set; }
+        public DateTime? graduated { get; set; }
         [DataMember]
         [Display(Name = "Years Attended")]
         public string yearsAttended { get; set; }
@@ -37,13 +37,13 @@ namespace AIM.Service.Entities.Models
         public string city { get; set; }
         [DataMember]
         [Display(Name = "State")]
-        public Nullable<int> state { get; set; }
+        public StateEnum? state { get; set; }
         [DataMember]
         [Display(Name = "Zip Code")]
         public string zip { get; set; }
         [DataMember]
         [Display(Name = "Applicant ID")]
-        public Nullable<int> applicantId { get; set; }
+        public int? applicantId { get; set; }
         [DataMember]
         [Display(Name = "Applicant")]
         public Applicant Applicant { get; set; }

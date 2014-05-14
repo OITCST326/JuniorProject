@@ -13,67 +13,67 @@ namespace AIM.Client.Entities.Models
     {
         [DataMember]
         public int questionId
-		{ 
-		    get { return _questionId; }
-			set
-			{
-			    if (value == _questionId) return;
-				_questionId = value;
-				NotifyPropertyChanged(m => m.questionId);
-			}
-		}
+        {
+            get { return _questionId; }
+            set
+            {
+                if (value == _questionId) return;
+                _questionId = value;
+                NotifyPropertyChanged(m => m.questionId);
+            }
+        }
         private int _questionId;
 
         [DataMember]
         public int interviewQuestionsId
-		{ 
-		    get { return _interviewQuestionsId; }
-			set
-			{
-			    if (value == _interviewQuestionsId) return;
-				_interviewQuestionsId = value;
-				NotifyPropertyChanged(m => m.interviewQuestionsId);
-			}
-		}
+        {
+            get { return _interviewQuestionsId; }
+            set
+            {
+                if (value == _interviewQuestionsId) return;
+                _interviewQuestionsId = value;
+                NotifyPropertyChanged(m => m.interviewQuestionsId);
+            }
+        }
         private int _interviewQuestionsId;
 
         [DataMember]
-        public Nullable<int> numberOfQuestions
-		{ 
-		    get { return _numberOfQuestions; }
-			set
-			{
-			    if (value == _numberOfQuestions) return;
-				_numberOfQuestions = value;
-				NotifyPropertyChanged(m => m.numberOfQuestions);
-			}
-		}
-        private Nullable<int> _numberOfQuestions;
+        public int? numberOfQuestions
+        {
+            get { return _numberOfQuestions; }
+            set
+            {
+                if (value == _numberOfQuestions) return;
+                _numberOfQuestions = value;
+                NotifyPropertyChanged(m => m.numberOfQuestions);
+            }
+        }
+        private int? _numberOfQuestions;
 
         [DataMember]
         public InterviewQuestion InterviewQuestion
-		{
-		    get { return _InterviewQuestion; }
-			set
-			{
-			    if (value == _InterviewQuestion) return;
-				_InterviewQuestion = value;
-				NotifyPropertyChanged(m => m.InterviewQuestion);
-			}
-		}
+        {
+            get { return _InterviewQuestion; }
+            set
+            {
+                if (value == _InterviewQuestion) return;
+                _InterviewQuestion = value;
+                NotifyPropertyChanged(m => m.InterviewQuestion);
+            }
+        }
         private InterviewQuestion _InterviewQuestion;
 
         [DataMember]
         public Question Question
-		{
-		    get { return _Question; }
-			set
-			{
-			    if (value == _Question) return;
-				_Question = value;
-				NotifyPropertyChanged(m => m.Question);
-			}
-		}
+        {
+            get { return _Question; }
+            set
+            {
+                if (value == _Question) return;
+                _Question = value;
+                NotifyPropertyChanged(m => m.Question);
+            }
+        }
         private Question _Question;
 
         [DataMember]

@@ -45,6 +45,7 @@
     <Compile Include="Models\Job.cs" />
     <Compile Include="Models\JobHistory.cs" />
     <Compile Include="Models\OpenJob.cs" />
+    <Compile Include="Models\PermissionsEnum.cs" />
     <Compile Include="Models\PersonalInfo.cs" />
     <Compile Include="Models\Question.cs" />
     <Compile Include="Models\QuestionInterviewQuestionMapping.cs" />
@@ -52,7 +53,10 @@
     <Compile Include="Models\QuestionQuestionnaire.cs" />
     <Compile Include="Models\Reference.cs" />
     <Compile Include="Models\Region.cs" />
+    <Compile Include="Models\StateEnum.cs" />
+    <Compile Include="Models\StatusEnum.cs" />
     <Compile Include="Models\Store.cs" />
+    <Compile Include="Models\TypeEnum.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

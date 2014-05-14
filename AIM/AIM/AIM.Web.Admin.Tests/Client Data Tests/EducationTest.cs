@@ -1,4 +1,7 @@
+using AIM.Service.Client.Models;
+
 #region Includes
+
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -236,7 +239,7 @@ namespace TrackableEntities.ModelsTest
             Education education = new Education(); //Trial Mode
             //Education education = new Education("place user name here", "place license key here"); //License Mode
 
-            education.state = 35;
+            education.state = (StateEnum?) 35;
             Assert.AreNotEqual(0, education.state, "education.state failed");
             Assert.AreEqual(35, education.state, "education.state failed");
         }

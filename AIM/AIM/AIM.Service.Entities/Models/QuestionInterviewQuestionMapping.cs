@@ -19,7 +19,7 @@ namespace AIM.Service.Entities.Models
         public int interviewQuestionsId { get; set; }
         [DataMember]
         [Display(Name = "Number Of Questions")]
-        public Nullable<int> numberOfQuestions { get; set; }
+        public int? numberOfQuestions { get; set; }
         [DataMember]
         [Display(Name = "Interview Question")]
         public InterviewQuestion InterviewQuestion { get; set; }

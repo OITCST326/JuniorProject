@@ -28,7 +28,7 @@ namespace AIM.Service.Entities.Models
         public string refPhone { get; set; }
         [DataMember]
         [Display(Name = "Applicant ID")]
-        public Nullable<int> applicantId { get; set; }
+        public int? applicantId { get; set; }
         [DataMember]
         [Display(Name = "Applicant")]
         public Applicant Applicant { get; set; }

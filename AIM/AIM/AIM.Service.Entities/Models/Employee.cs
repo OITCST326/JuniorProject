@@ -21,10 +21,10 @@ namespace AIM.Service.Entities.Models
         public int employeeId { get; set; }
         [DataMember]
         [Display(Name = "Permissions")]
-        public Nullable<int> permissions { get; set; }
+        public PermissionsEnum? permissions { get; set; }
         [DataMember]
         [Display(Name = "Job ID")]
-        public Nullable<int> jobId { get; set; }
+        public int? jobId { get; set; }
         [DataMember]
         [Display(Name = "Job")]
         public Job Job { get; set; }

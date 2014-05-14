@@ -35,13 +35,13 @@ namespace AIM.Service.Entities.Models
         public string salaryRange { get; set; }
         [DataMember]
         [Display(Name = "Questionnaire ID")]
-        public Nullable<int> questionnaireId { get; set; }
+        public int? questionnaireId { get; set; }
         [DataMember]
         [Display(Name = "Hours ID")]
-        public Nullable<int> hoursId { get; set; }
+        public int? hoursId { get; set; }
         [DataMember]
         [Display(Name = "Interview Question ID")]
-        public Nullable<int> InterviewQuestionId { get; set; }
+        public int? InterviewQuestionId { get; set; }
         [DataMember]
         [Display(Name = "Applications List")]
         public List<Application> Applications { get; set; }

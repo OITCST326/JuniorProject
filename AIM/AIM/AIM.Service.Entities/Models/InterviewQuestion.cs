@@ -22,10 +22,10 @@ namespace AIM.Service.Entities.Models
         public int interviewQuestionsId { get; set; }
         [DataMember]
         [Display(Name = "Question ID")]
-        public Nullable<int> questionId { get; set; }
+        public int? questionId { get; set; }
         [DataMember]
         [Display(Name = "Job ID")]
-        public Nullable<int> jobId { get; set; }
+        public int? jobId { get; set; }
         [DataMember]
         [Display(Name = "Jobs List")]
         public List<Job> Jobs { get; set; }

@@ -26,10 +26,10 @@ namespace AIM.Service.Entities.Models
         public string qJsonProperties { get; set; }
         [DataMember]
         [Display(Name = "Questionnaire ID")]
-        public Nullable<int> questionnaireId { get; set; }
+        public int? questionnaireId { get; set; }
         [DataMember]
         [Display(Name = "Interview Questions ID")]
-        public int interviewQuestionsId { get; set; }
+        public int? interviewQuestionsId { get; set; }
         [DataMember]
         [Display(Name = "Applicant Question Answers")]
         public List<ApplicantQuestionAnswer> ApplicantQuestionAnswers { get; set; }

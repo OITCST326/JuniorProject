@@ -1,6 +1,6 @@
-using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
+using AIM.Service.Client.Models;
 using Newtonsoft.Json;
 using TrackableEntities;
 using TrackableEntities.Client;
@@ -18,67 +18,67 @@ namespace AIM.Client.Entities.Models
 
         [DataMember]
         public int employeeId
-		{ 
-		    get { return _employeeId; }
-			set
-			{
-			    if (value == _employeeId) return;
-				_employeeId = value;
-				NotifyPropertyChanged(m => m.employeeId);
-			}
-		}
+        {
+            get { return _employeeId; }
+            set
+            {
+                if (value == _employeeId) return;
+                _employeeId = value;
+                NotifyPropertyChanged(m => m.employeeId);
+            }
+        }
         private int _employeeId;
 
         [DataMember]
-        public Nullable<int> permissions
-		{ 
-		    get { return _permissions; }
-			set
-			{
-			    if (value == _permissions) return;
-				_permissions = value;
-				NotifyPropertyChanged(m => m.permissions);
-			}
-		}
-        private Nullable<int> _permissions;
+        public PermissionsEnum? permissions
+        {
+            get { return _permissions; }
+            set
+            {
+                if (value == _permissions) return;
+                _permissions = value;
+                NotifyPropertyChanged(m => m.permissions);
+            }
+        }
+        private PermissionsEnum? _permissions;
 
         [DataMember]
-        public Nullable<int> jobId
-		{ 
-		    get { return _jobId; }
-			set
-			{
-			    if (value == _jobId) return;
-				_jobId = value;
-				NotifyPropertyChanged(m => m.jobId);
-			}
-		}
-        private Nullable<int> _jobId;
+        public int? jobId
+        {
+            get { return _jobId; }
+            set
+            {
+                if (value == _jobId) return;
+                _jobId = value;
+                NotifyPropertyChanged(m => m.jobId);
+            }
+        }
+        private int? _jobId;
 
         [DataMember]
         public Job Job
-		{
-		    get { return _Job; }
-			set
-			{
-			    if (value == _Job) return;
-				_Job = value;
-				NotifyPropertyChanged(m => m.Job);
-			}
-		}
+        {
+            get { return _Job; }
+            set
+            {
+                if (value == _Job) return;
+                _Job = value;
+                NotifyPropertyChanged(m => m.Job);
+            }
+        }
         private Job _Job;
 
         [DataMember]
         public ChangeTrackingCollection<User> Users
-		{
-		    get { return _Users; }
-			set
-			{
-			    if (Equals(value, _Users)) return;
-				_Users = value;
-				NotifyPropertyChanged(m => m.Users);
-			}
-		}
+        {
+            get { return _Users; }
+            set
+            {
+                if (Equals(value, _Users)) return;
+                _Users = value;
+                NotifyPropertyChanged(m => m.Users);
+            }
+        }
         private ChangeTrackingCollection<User> _Users;
 
         [DataMember]

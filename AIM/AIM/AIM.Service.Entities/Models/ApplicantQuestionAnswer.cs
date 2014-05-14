@@ -16,10 +16,10 @@ namespace AIM.Service.Entities.Models
         public int answerId { get; set; }
         [DataMember]
         [Display(Name = "Applicant ID")]
-        public Nullable<int> applicantId { get; set; }
+        public int? applicantId { get; set; }
         [DataMember]
         [Display(Name = "Question ID")]
-        public Nullable<int> quesitonId { get; set; }
+        public int? quesitonId { get; set; }
         [DataMember]
         [Display(Name = "Answer Json String")]
         public string answerJsonString { get; set; }

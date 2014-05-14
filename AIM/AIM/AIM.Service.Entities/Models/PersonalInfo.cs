@@ -33,7 +33,7 @@ namespace AIM.Service.Entities.Models
         public string city { get; set; }
         [DataMember]
         [Display(Name = "State")]
-        public int state { get; set; }
+        public StateEnum? state { get; set; }
         [DataMember]
         [Display(Name = "Zip Code")]
         public string zip { get; set; }
@@ -42,7 +42,7 @@ namespace AIM.Service.Entities.Models
         public string phone { get; set; }
         [DataMember]
         [Display(Name = "User ID")]
-        public Nullable<int> userId { get; set; }
+        public int? userId { get; set; }
         [DataMember]
         [Display(Name = "Users List")]
         public List<User> Users { get; set; }

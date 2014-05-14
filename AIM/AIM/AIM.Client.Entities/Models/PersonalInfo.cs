@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
+using AIM.Service.Client.Models;
 using Newtonsoft.Json;
 using TrackableEntities;
 using TrackableEntities.Client;
@@ -18,132 +19,132 @@ namespace AIM.Client.Entities.Models
 
         [DataMember]
         public int PersonalInfoId
-		{ 
-		    get { return _PersonalInfoId; }
-			set
-			{
-			    if (value == _PersonalInfoId) return;
-				_PersonalInfoId = value;
-				NotifyPropertyChanged(m => m.PersonalInfoId);
-			}
-		}
+        {
+            get { return _PersonalInfoId; }
+            set
+            {
+                if (value == _PersonalInfoId) return;
+                _PersonalInfoId = value;
+                NotifyPropertyChanged(m => m.PersonalInfoId);
+            }
+        }
         private int _PersonalInfoId;
 
         [DataMember]
         public string alias
-		{ 
-		    get { return _alias; }
-			set
-			{
-			    if (value == _alias) return;
-				_alias = value;
-				NotifyPropertyChanged(m => m.alias);
-			}
-		}
+        {
+            get { return _alias; }
+            set
+            {
+                if (value == _alias) return;
+                _alias = value;
+                NotifyPropertyChanged(m => m.alias);
+            }
+        }
         private string _alias;
 
         [DataMember]
         public string street
-		{ 
-		    get { return _street; }
-			set
-			{
-			    if (value == _street) return;
-				_street = value;
-				NotifyPropertyChanged(m => m.street);
-			}
-		}
+        {
+            get { return _street; }
+            set
+            {
+                if (value == _street) return;
+                _street = value;
+                NotifyPropertyChanged(m => m.street);
+            }
+        }
         private string _street;
 
         [DataMember]
         public string street2
-		{ 
-		    get { return _street2; }
-			set
-			{
-			    if (value == _street2) return;
-				_street2 = value;
-				NotifyPropertyChanged(m => m.street2);
-			}
-		}
+        {
+            get { return _street2; }
+            set
+            {
+                if (value == _street2) return;
+                _street2 = value;
+                NotifyPropertyChanged(m => m.street2);
+            }
+        }
         private string _street2;
 
         [DataMember]
         public string city
-		{ 
-		    get { return _city; }
-			set
-			{
-			    if (value == _city) return;
-				_city = value;
-				NotifyPropertyChanged(m => m.city);
-			}
-		}
+        {
+            get { return _city; }
+            set
+            {
+                if (value == _city) return;
+                _city = value;
+                NotifyPropertyChanged(m => m.city);
+            }
+        }
         private string _city;
 
         [DataMember]
-        public int state
-		{ 
-		    get { return _state; }
-			set
-			{
-			    if (value == _state) return;
-				_state = value;
-				NotifyPropertyChanged(m => m.state);
-			}
-		}
-        private int _state;
+        public StateEnum? state
+        {
+            get { return _state; }
+            set
+            {
+                if (value == _state) return;
+                _state = value;
+                NotifyPropertyChanged(m => m.state);
+            }
+        }
+        private StateEnum? _state;
 
         [DataMember]
         public string zip
-		{ 
-		    get { return _zip; }
-			set
-			{
-			    if (value == _zip) return;
-				_zip = value;
-				NotifyPropertyChanged(m => m.zip);
-			}
-		}
+        {
+            get { return _zip; }
+            set
+            {
+                if (value == _zip) return;
+                _zip = value;
+                NotifyPropertyChanged(m => m.zip);
+            }
+        }
         private string _zip;
 
         [DataMember]
         public string phone
-		{ 
-		    get { return _phone; }
-			set
-			{
-			    if (value == _phone) return;
-				_phone = value;
-				NotifyPropertyChanged(m => m.phone);
-			}
-		}
+        {
+            get { return _phone; }
+            set
+            {
+                if (value == _phone) return;
+                _phone = value;
+                NotifyPropertyChanged(m => m.phone);
+            }
+        }
         private string _phone;
 
         [DataMember]
-        public Nullable<int> userId
-		{ 
-		    get { return _userId; }
-			set
-			{
-			    if (value == _userId) return;
-				_userId = value;
-				NotifyPropertyChanged(m => m.userId);
-			}
-		}
-        private Nullable<int> _userId;
+        public int? userId
+        {
+            get { return _userId; }
+            set
+            {
+                if (value == _userId) return;
+                _userId = value;
+                NotifyPropertyChanged(m => m.userId);
+            }
+        }
+        private int? _userId;
 
         [DataMember]
         public ChangeTrackingCollection<User> Users
-		{
-		    get { return _Users; }
-			set
-			{
-			    if (Equals(value, _Users)) return;
-				_Users = value;
-				NotifyPropertyChanged(m => m.Users);
-			}
-		}
+        {
+            get { return _Users; }
+            set
+            {
+                if (Equals(value, _Users)) return;
+                _Users = value;
+                NotifyPropertyChanged(m => m.Users);
+            }
+        }
         private ChangeTrackingCollection<User> _Users;
 
         [DataMember]
