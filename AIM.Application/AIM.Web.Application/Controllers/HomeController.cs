@@ -9,7 +9,7 @@ namespace AIM.Web.Application.Controllers
 {
     public class HomeController : Controller
     {
-        JobServiceClient _client = new JobServiceClient();
+        readonly JobServiceClient _client = new JobServiceClient();
 
         public ActionResult Index()
         {

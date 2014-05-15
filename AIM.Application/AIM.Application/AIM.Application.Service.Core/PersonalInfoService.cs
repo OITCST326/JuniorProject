@@ -1,10 +1,10 @@
-﻿using System;
+﻿using AIM.Application.Service.Entities.Models;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.ServiceModel;
 using System.Threading.Tasks;
-using AIM.Application.Service.Entities.Models;
 using TrackableEntities.Common;
 using TrackableEntities.EF6;
 

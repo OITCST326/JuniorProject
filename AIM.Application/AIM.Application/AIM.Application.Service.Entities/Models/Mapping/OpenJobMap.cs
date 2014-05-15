@@ -18,8 +18,8 @@ namespace AIM.Application.Service.Entities.Models.Mapping
             this.Property(t => t.regionId).HasColumnName("regionId");
 
             // Tracking Properties
-			this.Ignore(t => t.TrackingState);
-			this.Ignore(t => t.ModifiedProperties);
+            this.Ignore(t => t.TrackingState);
+            this.Ignore(t => t.ModifiedProperties);
 
             // Relationships
             this.HasRequired(t => t.Job)
@@ -31,7 +31,6 @@ namespace AIM.Application.Service.Entities.Models.Mapping
             this.HasRequired(t => t.Region)
                 .WithMany(t => t.OpenJobs)
                 .HasForeignKey(d => d.regionId);
-
         }
     }
 }

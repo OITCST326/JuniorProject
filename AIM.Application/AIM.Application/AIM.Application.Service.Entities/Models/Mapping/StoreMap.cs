@@ -37,14 +37,13 @@ namespace AIM.Application.Service.Entities.Models.Mapping
             this.Property(t => t.zip).HasColumnName("zip");
 
             // Tracking Properties
-			this.Ignore(t => t.TrackingState);
-			this.Ignore(t => t.ModifiedProperties);
+            this.Ignore(t => t.TrackingState);
+            this.Ignore(t => t.ModifiedProperties);
 
             // Relationships
             this.HasOptional(t => t.Region)
                 .WithMany(t => t.Stores)
                 .HasForeignKey(d => d.regionId);
-
         }
     }
 }

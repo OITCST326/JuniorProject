@@ -47,8 +47,8 @@ namespace AIM.Application.Service.Entities.Models.Mapping
             this.Property(t => t.password).HasColumnName("password");
 
             // Tracking Properties
-			this.Ignore(t => t.TrackingState);
-			this.Ignore(t => t.ModifiedProperties);
+            this.Ignore(t => t.TrackingState);
+            this.Ignore(t => t.ModifiedProperties);
 
             // Relationships
             this.HasOptional(t => t.Applicant)
@@ -60,7 +60,6 @@ namespace AIM.Application.Service.Entities.Models.Mapping
             this.HasOptional(t => t.PersonalInfo)
                 .WithMany(t => t.Users)
                 .HasForeignKey(d => d.PersonalInfoId);
-
         }
     }
 }

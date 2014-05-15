@@ -1,13 +1,13 @@
-﻿using System;
-using System.Linq;
+﻿using AIM.Application.Service.Entities.Models;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
+using System.Linq;
 using System.ServiceModel;
 using System.Threading.Tasks;
-using TrackableEntities.EF6;
 using TrackableEntities.Common;
-using AIM.Application.Service.Entities.Models;
+using TrackableEntities.EF6;
 
 namespace AIM.Application.Service.Core
 {
@@ -197,4 +197,3 @@ namespace AIM.Application.Service.Core
         }
     }
 }
-

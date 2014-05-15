@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using AIM.Application.Client.Entities.Models;
+using System.Collections.Generic;
 using System.ServiceModel;
 using System.Threading.Tasks;
-using AIM.Application.Client.Entities.Models;
 
 namespace AIM.Application.ConsoleClient
 {

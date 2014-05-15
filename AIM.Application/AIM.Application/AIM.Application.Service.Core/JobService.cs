@@ -1,11 +1,11 @@
-﻿using System;
+﻿using AIM.Application.Service.Entities.Models;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.ServiceModel;
 using System.Threading.Tasks;
-using AIM.Application.Service.Entities.Models;
 using TrackableEntities.Common;
 using TrackableEntities.EF6;
 
@@ -86,7 +86,7 @@ namespace AIM.Application.Service.Core
             OpenJob entity = await _dbContext.OpenJobs
                 .Include(oj => oj.Job)
                 .Include(oj => oj.Store)
-                .Include(oj => oj.Region)                
+                .Include(oj => oj.Region)
                 .SingleOrDefaultAsync(x => x.openJobsId == id);
             return entity;
         }

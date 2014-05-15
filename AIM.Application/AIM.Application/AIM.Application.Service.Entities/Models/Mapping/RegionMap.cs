@@ -20,8 +20,8 @@ namespace AIM.Application.Service.Entities.Models.Mapping
             this.Property(t => t.regionName).HasColumnName("regionName");
 
             // Tracking Properties
-			this.Ignore(t => t.TrackingState);
-			this.Ignore(t => t.ModifiedProperties);
+            this.Ignore(t => t.TrackingState);
+            this.Ignore(t => t.ModifiedProperties);
         }
     }
 }

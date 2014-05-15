@@ -1,7 +1,7 @@
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Newtonsoft.Json;
 using TrackableEntities;
 
 namespace AIM.Application.Service.Entities.Models
@@ -12,31 +12,43 @@ namespace AIM.Application.Service.Entities.Models
     {
         [DataMember]
         public int educationId { get; set; }
+
         [DataMember]
         public string schoolName { get; set; }
+
         [DataMember]
         public string degree { get; set; }
+
         [DataMember]
         public DateTime? graduated { get; set; }
+
         [DataMember]
         public string yearsAttended { get; set; }
+
         [DataMember]
         public string street { get; set; }
+
         [DataMember]
         public string street2 { get; set; }
+
         [DataMember]
         public string city { get; set; }
+
         [DataMember]
         public StateEnum? state { get; set; }
+
         [DataMember]
         public string zip { get; set; }
+
         [DataMember]
         public int? applicantId { get; set; }
+
         [DataMember]
         public Applicant Applicant { get; set; }
 
         [DataMember]
         public TrackingState TrackingState { get; set; }
+
         [DataMember]
         public ICollection<string> ModifiedProperties { get; set; }
     }

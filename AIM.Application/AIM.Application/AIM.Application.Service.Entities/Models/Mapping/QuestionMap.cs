@@ -18,8 +18,15 @@ namespace AIM.Application.Service.Entities.Models.Mapping
             this.Property(t => t.interviewQuestionsId).HasColumnName("interviewQuestionsId");
 
             // Tracking Properties
-			this.Ignore(t => t.TrackingState);
-			this.Ignore(t => t.ModifiedProperties);
+            this.Ignore(t => t.TrackingState);
+            this.Ignore(t => t.ModifiedProperties);
+
+            // Json Properties
+            this.Ignore(t => t.qJsonId);
+            this.Ignore(t => t.qJsonType);
+            this.Ignore(t => t.qJsonText);
+            this.Ignore(t => t.qJsonOptionList);
+            this.Ignore(t => t.qJsonAnswerList);
         }
     }
 }

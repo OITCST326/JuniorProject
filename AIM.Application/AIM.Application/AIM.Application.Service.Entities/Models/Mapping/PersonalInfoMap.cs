@@ -41,8 +41,8 @@ namespace AIM.Application.Service.Entities.Models.Mapping
             this.Property(t => t.userId).HasColumnName("userId");
 
             // Tracking Properties
-			this.Ignore(t => t.TrackingState);
-			this.Ignore(t => t.ModifiedProperties);
+            this.Ignore(t => t.TrackingState);
+            this.Ignore(t => t.ModifiedProperties);
         }
     }
 }

@@ -1,21 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.ServiceModel;
-using TrackableEntities.Client;
-//using AIM.Application.Client.Entities.Models;
+﻿//using AIM.Application.Client.Entities.Models;
 
 // This is an example which retrieves customers and orders from the Northwind
 // sample database. You should alter the code based on your own database schema.
 
 namespace AIM.Application.ConsoleClient
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             /* // Main method
-            
+
             Console.WriteLine("Press Enter to start");
             Console.ReadLine();
 
@@ -138,7 +133,7 @@ namespace AIM.Application.ConsoleClient
         }
 
         /* // Helper methods
-        
+
         private static void PrintCustomer(Customer c)
         {
             Console.WriteLine("{0} {1} {2} {3}",
