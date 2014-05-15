@@ -81,6 +81,20 @@ namespace AIM.Client.Entities.Models
         private Job _Job;
 
         [DataMember]
+        public bool isApproved
+        {
+            get { return _isApproved; }
+            set
+            {
+                if (value == _isApproved) return;
+                _isApproved = value;
+                NotifyPropertyChanged(m => m.isApproved);
+            }
+        }
+
+        private bool _isApproved;
+
+        [DataMember]
         public Store Store
         {
             get { return _Store; }

@@ -1,3 +1,4 @@
+using System;
 using AIM.Service.Client.Models;
 using Newtonsoft.Json;
 using System.Collections.Generic;
@@ -87,7 +88,7 @@ namespace AIM.Client.Entities.Models
         private string _city;
 
         [DataMember]
-        public StateEnum? state
+        public Nullable<StateEnum> state
         {
             get { return _state; }
             set
@@ -98,7 +99,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private StateEnum? _state;
+        private Nullable<StateEnum> _state;
 
         [DataMember]
         public string zip
@@ -129,7 +130,7 @@ namespace AIM.Client.Entities.Models
         private string _phone;
 
         [DataMember]
-        public int? userId
+        public Nullable<int> userId
         {
             get { return _userId; }
             set
@@ -140,7 +141,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _userId;
+        private Nullable<int> _userId;
 
         [DataMember]
         public ChangeTrackingCollection<User> Users

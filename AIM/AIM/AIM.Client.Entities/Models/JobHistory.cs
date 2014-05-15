@@ -83,7 +83,7 @@ namespace AIM.Client.Entities.Models
         private string _supervisor;
 
         [DataMember]
-        public decimal? startingSalary
+        public Nullable<decimal> startingSalary
         {
             get { return _startingSalary; }
             set
@@ -94,10 +94,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private decimal? _startingSalary;
+        private Nullable<decimal> _startingSalary;
 
         [DataMember]
-        public decimal? endingSalary
+        public Nullable<decimal> endingSalary
         {
             get { return _endingSalary; }
             set
@@ -108,7 +108,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private decimal? _endingSalary;
+        private Nullable<decimal> _endingSalary;
 
         [DataMember]
         public string reasonForLeaving
@@ -125,7 +125,7 @@ namespace AIM.Client.Entities.Models
         private string _reasonForLeaving;
 
         [DataMember]
-        public DateTime? dateFrom
+        public Nullable<DateTime> dateFrom
         {
             get { return _dateFrom; }
             set
@@ -136,10 +136,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private DateTime? _dateFrom;
+        private Nullable<DateTime> _dateFrom;
 
         [DataMember]
-        public DateTime? dateTo
+        public Nullable<DateTime> dateTo
         {
             get { return _dateTo; }
             set
@@ -150,7 +150,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private DateTime? _dateTo;
+        private Nullable<DateTime> _dateTo;
 
         [DataMember]
         public string street
@@ -195,7 +195,7 @@ namespace AIM.Client.Entities.Models
         private string _city;
 
         [DataMember]
-        public StateEnum? state
+        public Nullable<StateEnum> state
         {
             get { return _state; }
             set
@@ -206,7 +206,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private StateEnum? _state;
+        private Nullable<StateEnum> _state;
 
         [DataMember]
         public string zip
@@ -237,7 +237,7 @@ namespace AIM.Client.Entities.Models
         private string _phone;
 
         [DataMember]
-        public int? applicantId
+        public Nullable<int> applicantId
         {
             get { return _applicantId; }
             set
@@ -248,7 +248,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _applicantId;
+        private Nullable<int> _applicantId;
 
         [DataMember]
         public Applicant Applicant

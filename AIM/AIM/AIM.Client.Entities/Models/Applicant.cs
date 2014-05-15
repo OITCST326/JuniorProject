@@ -1,3 +1,4 @@
+using System;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
@@ -36,7 +37,7 @@ namespace AIM.Client.Entities.Models
         private int _applicantId;
 
         [DataMember]
-        public int? educationId
+        public Nullable<int> educationId
         {
             get { return _educationId; }
             set
@@ -47,10 +48,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _educationId;
+        private Nullable<int> _educationId;
 
         [DataMember]
-        public int? jobHistoryId
+        public Nullable<int> jobHistoryId
         {
             get { return _jobHistoryId; }
             set
@@ -61,10 +62,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _jobHistoryId;
+        private Nullable<int> _jobHistoryId;
 
         [DataMember]
-        public int? referenceId
+        public Nullable<int> referenceId
         {
             get { return _referenceId; }
             set
@@ -75,10 +76,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _referenceId;
+        private Nullable<int> _referenceId;
 
         [DataMember]
-        public int? userId
+        public Nullable<int> userId
         {
             get { return _userId; }
             set
@@ -89,10 +90,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _userId;
+        private Nullable<int> _userId;
 
         [DataMember]
-        public int? applicationId
+        public Nullable<int> applicationId
         {
             get { return _applicationId; }
             set
@@ -103,10 +104,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _applicationId;
+        private Nullable<int> _applicationId;
 
         [DataMember]
-        public int? answerId
+        public Nullable<int> answerId
         {
             get { return _answerId; }
             set
@@ -117,10 +118,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _answerId;
+        private Nullable<int> _answerId;
 
         [DataMember]
-        public int? hoursId
+        public Nullable<int> hoursId
         {
             get { return _hoursId; }
             set
@@ -131,7 +132,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _hoursId;
+        private Nullable<int> _hoursId;
 
         [DataMember]
         public ChangeTrackingCollection<ApplicantQuestionAnswer> ApplicantQuestionAnswers

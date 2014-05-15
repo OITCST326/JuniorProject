@@ -55,7 +55,7 @@ namespace AIM.Client.Entities.Models
         private string _degree;
 
         [DataMember]
-        public DateTime? graduated
+        public Nullable<DateTime> graduated
         {
             get { return _graduated; }
             set
@@ -66,7 +66,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private DateTime? _graduated;
+        private Nullable<DateTime> _graduated;
 
         [DataMember]
         public string yearsAttended
@@ -125,7 +125,7 @@ namespace AIM.Client.Entities.Models
         private string _city;
 
         [DataMember]
-        public StateEnum? state
+        public Nullable<StateEnum> state
         {
             get { return _state; }
             set
@@ -136,7 +136,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private StateEnum? _state;
+        private Nullable<StateEnum> _state;
 
         [DataMember]
         public string zip
@@ -153,7 +153,7 @@ namespace AIM.Client.Entities.Models
         private string _zip;
 
         [DataMember]
-        public int? applicantId
+        public Nullable<int> applicantId
         {
             get { return _applicantId; }
             set
@@ -164,7 +164,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _applicantId;
+        private Nullable<int> _applicantId;
 
         [DataMember]
         public Applicant Applicant

@@ -31,7 +31,7 @@ namespace AIM.Client.Entities.Models
         private int _hoursId;
 
         [DataMember]
-        public int? applicantId
+        public Nullable<int> applicantId
         {
             get { return _applicantId; }
             set
@@ -42,10 +42,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _applicantId;
+        private Nullable<int> _applicantId;
 
         [DataMember]
-        public TimeSpan? monOpen
+        public Nullable<TimeSpan> monOpen
         {
             get { return _monOpen; }
             set
@@ -56,10 +56,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private TimeSpan? _monOpen;
+        private Nullable<TimeSpan> _monOpen;
 
         [DataMember]
-        public TimeSpan? monClose
+        public Nullable<TimeSpan> monClose
         {
             get { return _monClose; }
             set
@@ -70,10 +70,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private TimeSpan? _monClose;
+        private Nullable<TimeSpan> _monClose;
 
         [DataMember]
-        public TimeSpan? tueOpen
+        public Nullable<TimeSpan> tueOpen
         {
             get { return _tueOpen; }
             set
@@ -84,10 +84,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private TimeSpan? _tueOpen;
+        private Nullable<TimeSpan> _tueOpen;
 
         [DataMember]
-        public TimeSpan? tueClose
+        public Nullable<TimeSpan> tueClose
         {
             get { return _tueClose; }
             set
@@ -98,10 +98,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private TimeSpan? _tueClose;
+        private Nullable<TimeSpan> _tueClose;
 
         [DataMember]
-        public TimeSpan? wedOpen
+        public Nullable<TimeSpan> wedOpen
         {
             get { return _wedOpen; }
             set
@@ -112,10 +112,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private TimeSpan? _wedOpen;
+        private Nullable<TimeSpan> _wedOpen;
 
         [DataMember]
-        public TimeSpan? wedClose
+        public Nullable<TimeSpan> wedClose
         {
             get { return _wedClose; }
             set
@@ -126,10 +126,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private TimeSpan? _wedClose;
+        private Nullable<TimeSpan> _wedClose;
 
         [DataMember]
-        public TimeSpan? thursOpen
+        public Nullable<TimeSpan> thursOpen
         {
             get { return _thursOpen; }
             set
@@ -140,10 +140,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private TimeSpan? _thursOpen;
+        private Nullable<TimeSpan> _thursOpen;
 
         [DataMember]
-        public TimeSpan? thursClose
+        public Nullable<TimeSpan> thursClose
         {
             get { return _thursClose; }
             set
@@ -154,10 +154,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private TimeSpan? _thursClose;
+        private Nullable<TimeSpan> _thursClose;
 
         [DataMember]
-        public TimeSpan? friOpen
+        public Nullable<TimeSpan> friOpen
         {
             get { return _friOpen; }
             set
@@ -168,10 +168,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private TimeSpan? _friOpen;
+        private Nullable<TimeSpan> _friOpen;
 
         [DataMember]
-        public TimeSpan? friClose
+        public Nullable<TimeSpan> friClose
         {
             get { return _friClose; }
             set
@@ -182,10 +182,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private TimeSpan? _friClose;
+        private Nullable<TimeSpan> _friClose;
 
         [DataMember]
-        public TimeSpan? satOpen
+        public Nullable<TimeSpan> satOpen
         {
             get { return _satOpen; }
             set
@@ -196,10 +196,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private TimeSpan? _satOpen;
+        private Nullable<TimeSpan> _satOpen;
 
         [DataMember]
-        public TimeSpan? satClose
+        public Nullable<TimeSpan> satClose
         {
             get { return _satClose; }
             set
@@ -210,10 +210,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private TimeSpan? _satClose;
+        private Nullable<TimeSpan> _satClose;
 
         [DataMember]
-        public TimeSpan? sunOpen
+        public Nullable<TimeSpan> sunOpen
         {
             get { return _sunOpen; }
             set
@@ -224,10 +224,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private TimeSpan? _sunOpen;
+        private Nullable<TimeSpan> _sunOpen;
 
         [DataMember]
-        public TimeSpan? sunClose
+        public Nullable<TimeSpan> sunClose
         {
             get { return _sunClose; }
             set
@@ -238,7 +238,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private TimeSpan? _sunClose;
+        private Nullable<TimeSpan> _sunClose;
 
         [DataMember]
         public Applicant Applicant

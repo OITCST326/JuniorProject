@@ -27,6 +27,10 @@ namespace AIM.Service.Entities.Models
         public int regionId { get; set; }
 
         [DataMember]
+        [Display(Name = "Approved")]
+        public bool isApproved { get; set; }
+
+        [DataMember]
         [Display(Name = "Job")]
         public Job Job { get; set; }
 

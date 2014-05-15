@@ -1,3 +1,4 @@
+using System;
 using AIM.Service.Client.Models;
 using Newtonsoft.Json;
 using System.Collections.Generic;
@@ -31,7 +32,7 @@ namespace AIM.Client.Entities.Models
         private int _employeeId;
 
         [DataMember]
-        public PermissionsEnum? permissions
+        public Nullable<PermissionsEnum> permissions
         {
             get { return _permissions; }
             set
@@ -42,10 +43,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private PermissionsEnum? _permissions;
+        private Nullable<PermissionsEnum> _permissions;
 
         [DataMember]
-        public int? jobId
+        public Nullable<int> jobId
         {
             get { return _jobId; }
             set
@@ -56,7 +57,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _jobId;
+        private Nullable<int> _jobId;
 
         [DataMember]
         public Job Job

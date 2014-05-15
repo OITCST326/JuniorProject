@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using AIM.Service.Entities.Models;
+
 namespace AIM.Web.Admin.ApplicationServiceReference {
     
     
@@ -19,7 +21,7 @@ namespace AIM.Web.Admin.ApplicationServiceReference {
         AIM.Service.Entities.Models.Applicant[] GetApplicantsList();
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IApplicationService/GetApplicant", ReplyAction="urn:trackable-entities:service/IApplicationService/GetApplicantResponse")]
-        AIM.Service.Entities.Models.Applicant GetApplicant(int id);
+        Applicant GetApplicant(int? id);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IApplicationService/UpdateApplicant", ReplyAction="urn:trackable-entities:service/IApplicationService/UpdateApplicantResponse")]
         AIM.Service.Entities.Models.Applicant UpdateApplicant(AIM.Service.Entities.Models.Applicant entity);
@@ -62,7 +64,7 @@ namespace AIM.Web.Admin.ApplicationServiceReference {
             return base.Channel.GetApplicantsList();
         }
         
-        public AIM.Service.Entities.Models.Applicant GetApplicant(int id) {
+        public Applicant GetApplicant(int? id) {
             return base.Channel.GetApplicant(id);
         }
         

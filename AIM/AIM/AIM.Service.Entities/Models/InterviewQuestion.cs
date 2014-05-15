@@ -1,3 +1,4 @@
+using System;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -22,11 +23,11 @@ namespace AIM.Service.Entities.Models
 
         [DataMember]
         [Display(Name = "Question ID")]
-        public int? questionId { get; set; }
+        public Nullable<int> questionId { get; set; }
 
         [DataMember]
         [Display(Name = "Job ID")]
-        public int? jobId { get; set; }
+        public Nullable<int> jobId { get; set; }
 
         [DataMember]
         [Display(Name = "Jobs List")]

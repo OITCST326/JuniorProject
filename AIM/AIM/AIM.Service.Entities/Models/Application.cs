@@ -17,7 +17,7 @@ namespace AIM.Service.Entities.Models
 
         [DataMember]
         [Display(Name = "Applicant ID")]
-        public int? applicantId { get; set; }
+        public Nullable<int> applicantId { get; set; }
 
         [DataMember]
         [Display(Name = "Date Created")]
@@ -29,11 +29,11 @@ namespace AIM.Service.Entities.Models
 
         [DataMember]
         [Display(Name = "Job ID")]
-        public int? jobId { get; set; }
+        public Nullable<int> jobId { get; set; }
 
         [DataMember]
         [Display(Name = "Status")]
-        public StatusEnum? status { get; set; }
+        public Nullable<StatusEnum> status { get; set; }
 
         [DataMember]
         [Display(Name = "Salary Expectation")]
@@ -41,19 +41,19 @@ namespace AIM.Service.Entities.Models
 
         [DataMember]
         [Display(Name = "Full Time")]
-        public bool? isFullTime { get; set; }
+        public bool isFullTime { get; set; }
 
         [DataMember]
         [Display(Name = "Days")]
-        public bool? isDays { get; set; }
+        public bool isDays { get; set; }
 
         [DataMember]
         [Display(Name = "Evenings")]
-        public bool? isEvenings { get; set; }
+        public bool isEvenings { get; set; }
 
         [DataMember]
         [Display(Name = "Weekends")]
-        public bool? isWeekends { get; set; }
+        public bool isWeekends { get; set; }
 
         [DataMember]
         [Display(Name = "Applicant")]

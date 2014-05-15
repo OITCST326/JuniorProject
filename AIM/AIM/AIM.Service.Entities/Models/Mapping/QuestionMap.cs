@@ -20,6 +20,13 @@ namespace AIM.Service.Entities.Models.Mapping
             // Tracking Properties
             this.Ignore(t => t.TrackingState);
             this.Ignore(t => t.ModifiedProperties);
+
+            // Json Properties
+            this.Ignore(t => t.qJsonId);
+            this.Ignore(t => t.qJsonType);
+            this.Ignore(t => t.qJsonText);
+            this.Ignore(t => t.qJsonOptionList);
+            this.Ignore(t => t.qJsonAnswerList);
         }
     }
 }

@@ -19,7 +19,7 @@ namespace AIM.Web.Admin.JobServiceReference {
         AIM.Service.Entities.Models.Job[] GetJobsList();
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IJobService/GetJob", ReplyAction="urn:trackable-entities:service/IJobService/GetJobResponse")]
-        AIM.Service.Entities.Models.Job GetJob(int id);
+        AIM.Service.Entities.Models.Job GetJob(System.Nullable<int> id);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IJobService/UpdateJob", ReplyAction="urn:trackable-entities:service/IJobService/UpdateJobResponse")]
         AIM.Service.Entities.Models.Job UpdateJob(AIM.Service.Entities.Models.Job entity);
@@ -65,7 +65,7 @@ namespace AIM.Web.Admin.JobServiceReference {
             return base.Channel.GetJobsList();
         }
         
-        public AIM.Service.Entities.Models.Job GetJob(int id) {
+        public AIM.Service.Entities.Models.Job GetJob(System.Nullable<int> id) {
             return base.Channel.GetJob(id);
         }
         

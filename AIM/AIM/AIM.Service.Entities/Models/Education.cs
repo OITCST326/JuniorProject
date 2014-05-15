@@ -45,7 +45,7 @@ namespace AIM.Service.Entities.Models
 
         [DataMember]
         [Display(Name = "State")]
-        public StateEnum? state { get; set; }
+        public Nullable<StateEnum> state { get; set; }
 
         [DataMember]
         [Display(Name = "Zip Code")]
@@ -53,7 +53,7 @@ namespace AIM.Service.Entities.Models
 
         [DataMember]
         [Display(Name = "Applicant ID")]
-        public int? applicantId { get; set; }
+        public Nullable<int> applicantId { get; set; }
 
         [DataMember]
         [Display(Name = "Applicant")]

@@ -1,3 +1,4 @@
+using System;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -27,31 +28,31 @@ namespace AIM.Service.Entities.Models
 
         [DataMember]
         [Display(Name = "Education ID")]
-        public int? educationId { get; set; }
+        public Nullable<int> educationId { get; set; }
 
         [DataMember]
         [Display(Name = "Job History ID")]
-        public int? jobHistoryId { get; set; }
+        public Nullable<int> jobHistoryId { get; set; }
 
         [DataMember]
         [Display(Name = "Reference ID")]
-        public int? referenceId { get; set; }
+        public Nullable<int> referenceId { get; set; }
 
         [DataMember]
         [Display(Name = "User ID")]
-        public int? userId { get; set; }
+        public Nullable<int> userId { get; set; }
 
         [DataMember]
         [Display(Name = "Application ID")]
-        public int? applicationId { get; set; }
+        public Nullable<int> applicationId { get; set; }
 
         [DataMember]
         [Display(Name = "Answer ID")]
-        public int? answerId { get; set; }
+        public Nullable<int> answerId { get; set; }
 
         [DataMember]
         [Display(Name = "Hours ID")]
-        public int? hoursId { get; set; }
+        public Nullable<int> hoursId { get; set; }
 
         [DataMember]
         [Display(Name = "Applicant Question Answers List")]

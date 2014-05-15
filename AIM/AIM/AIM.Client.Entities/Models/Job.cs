@@ -1,3 +1,4 @@
+using System;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
@@ -88,7 +89,7 @@ namespace AIM.Client.Entities.Models
         private string _salaryRange;
 
         [DataMember]
-        public int? questionnaireId
+        public Nullable<int> questionnaireId
         {
             get { return _questionnaireId; }
             set
@@ -99,10 +100,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _questionnaireId;
+        private Nullable<int> _questionnaireId;
 
         [DataMember]
-        public int? hoursId
+        public Nullable<int> hoursId
         {
             get { return _hoursId; }
             set
@@ -113,10 +114,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _hoursId;
+        private Nullable<int> _hoursId;
 
         [DataMember]
-        public int? InterviewQuestionId
+        public Nullable<int> InterviewQuestionId
         {
             get { return _InterviewQuestionId; }
             set
@@ -127,7 +128,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _InterviewQuestionId;
+        private Nullable<int> _InterviewQuestionId;
 
         [DataMember]
         public ChangeTrackingCollection<Application> Applications

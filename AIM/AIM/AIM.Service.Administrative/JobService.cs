@@ -18,7 +18,7 @@ namespace AIM.Service.Administrative
         Task<IEnumerable<Job>> GetJobsList();
 
         [OperationContract]
-        Task<Job> GetJob(int id);
+        Task<Job> GetJob(int? id);
 
         [OperationContract]
         Task<Job> UpdateJob(Job entity);
@@ -53,7 +53,7 @@ namespace AIM.Service.Administrative
             return entities;
         }
 
-        public async Task<Job> GetJob(int id)
+        public async Task<Job> GetJob(int? id)
         {
             Job entity = await _dbContext.Jobs
                 .SingleOrDefaultAsync(x => x.jobId == id);

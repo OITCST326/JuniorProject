@@ -1,3 +1,4 @@
+using System;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
@@ -95,7 +96,7 @@ namespace AIM.Client.Entities.Models
         private string _socialSecurityNumber;
 
         [DataMember]
-        public int? PersonalInfoId
+        public Nullable<int> PersonalInfoId
         {
             get { return _PersonalInfoId; }
             set
@@ -106,10 +107,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _PersonalInfoId;
+        private Nullable<int> _PersonalInfoId;
 
         [DataMember]
-        public int? applicantId
+        public Nullable<int> applicantId
         {
             get { return _applicantId; }
             set
@@ -120,10 +121,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _applicantId;
+        private Nullable<int> _applicantId;
 
         [DataMember]
-        public int? applicationId
+        public Nullable<int> applicationId
         {
             get { return _applicationId; }
             set
@@ -134,10 +135,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _applicationId;
+        private Nullable<int> _applicationId;
 
         [DataMember]
-        public int? employeeId
+        public Nullable<int> employeeId
         {
             get { return _employeeId; }
             set
@@ -148,7 +149,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _employeeId;
+        private Nullable<int> _employeeId;
 
         [DataMember]
         public string userName

@@ -24,17 +24,3 @@ C:\Users\Patrick\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Release\Trackable
 C:\Users\Patrick\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Release\TrackableEntities.Common.xml
 C:\Users\Patrick\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Release\AIM.Client.Entities.dll
 C:\Users\Patrick\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Release\AIM.Client.Entities.pdb
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Release\AIM.Client.Entities.dll.config
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Release\AIM.Client.Entities.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Release\AIM.Client.Entities.pdb
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Release\Newtonsoft.Json.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Release\TrackableEntities.Client.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Release\TrackableEntities.Common.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Release\Newtonsoft.Json.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Release\TrackableEntities.Client.pdb
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Release\TrackableEntities.Client.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Release\TrackableEntities.Common.pdb
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\bin\Release\TrackableEntities.Common.xml
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Release\AIM.Client.Entities.csprojResolveAssemblyReference.cache
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Release\AIM.Client.Entities.dll
-C:\Users\Chase\Documents\GitHub\JuniorProject\AIM\AIM\AIM.Client.Entities\obj\Release\AIM.Client.Entities.pdb

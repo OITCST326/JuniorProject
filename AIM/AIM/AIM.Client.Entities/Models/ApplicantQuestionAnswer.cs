@@ -26,7 +26,7 @@ namespace AIM.Client.Entities.Models
         private int _answerId;
 
         [DataMember]
-        public int? applicantId
+        public Nullable<int> applicantId
         {
             get { return _applicantId; }
             set
@@ -40,7 +40,7 @@ namespace AIM.Client.Entities.Models
         private Nullable<int> _applicantId;
 
         [DataMember]
-        public int? quesitonId
+        public Nullable<int> quesitonId
         {
             get { return _quesitonId; }
             set

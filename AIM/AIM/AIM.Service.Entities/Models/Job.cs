@@ -1,4 +1,5 @@
 using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
@@ -39,15 +40,15 @@ namespace AIM.Service.Entities.Models
 
         [DataMember]
         [Display(Name = "Questionnaire ID")]
-        public int? questionnaireId { get; set; }
+        public Nullable<int> questionnaireId { get; set; }
 
         [DataMember]
         [Display(Name = "Hours ID")]
-        public int? hoursId { get; set; }
+        public Nullable<int> hoursId { get; set; }
 
         [DataMember]
         [Display(Name = "Interview Question ID")]
-        public int? InterviewQuestionId { get; set; }
+        public Nullable<int> InterviewQuestionId { get; set; }
 
         [DataMember]
         [Display(Name = "Applications List")]

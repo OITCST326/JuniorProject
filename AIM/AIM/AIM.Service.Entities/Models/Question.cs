@@ -1,3 +1,4 @@
+using System;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -27,11 +28,11 @@ namespace AIM.Service.Entities.Models
 
         [DataMember]
         [Display(Name = "Questionnaire ID")]
-        public int? questionnaireId { get; set; }
+        public Nullable<int> questionnaireId { get; set; }
 
         [DataMember]
         [Display(Name = "Interview Questions ID")]
-        public int? interviewQuestionsId { get; set; }
+        public Nullable<int> interviewQuestionsId { get; set; }
 
         [DataMember]
         [Display(Name = "Applicant Question Answers")]
@@ -53,11 +54,11 @@ namespace AIM.Service.Entities.Models
 
         [DataMember]
         [Display(Name = "Question Id")]
-        public int qJsonId { get; set; }
+        public Nullable<int> qJsonId { get; set; }
 
         [DataMember]
         [Display(Name = "Question Type")]
-        public TypeEnum qJsonType { get; set; }
+        public Nullable<TypeEnum> qJsonType { get; set; }
 
         [DataMember]
         [Display(Name = "Question")]

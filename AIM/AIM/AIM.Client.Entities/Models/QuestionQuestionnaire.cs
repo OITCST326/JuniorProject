@@ -1,3 +1,4 @@
+using System;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
@@ -39,7 +40,7 @@ namespace AIM.Client.Entities.Models
         private int _questionnaireId;
 
         [DataMember]
-        public int? numberOfQuestions
+        public Nullable<int> numberOfQuestions
         {
             get { return _numberOfQuestions; }
             set
@@ -50,7 +51,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _numberOfQuestions;
+        private Nullable<int> _numberOfQuestions;
 
         [DataMember]
         public Questionnaire Questionnaire

@@ -1,3 +1,4 @@
+using System;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
@@ -31,7 +32,7 @@ namespace AIM.Client.Entities.Models
         private int _questionnaireId;
 
         [DataMember]
-        public int? questionId
+        public Nullable<int> questionId
         {
             get { return _questionId; }
             set
@@ -42,10 +43,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _questionId;
+        private Nullable<int> _questionId;
 
         [DataMember]
-        public int? jobId
+        public Nullable<int> jobId
         {
             get { return _jobId; }
             set
@@ -56,7 +57,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _jobId;
+        private Nullable<int> _jobId;
 
         [DataMember]
         public ChangeTrackingCollection<Job> Jobs

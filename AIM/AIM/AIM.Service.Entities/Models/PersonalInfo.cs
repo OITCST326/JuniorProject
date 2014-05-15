@@ -1,3 +1,4 @@
+using System;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -37,7 +38,7 @@ namespace AIM.Service.Entities.Models
 
         [DataMember]
         [Display(Name = "State")]
-        public StateEnum? state { get; set; }
+        public Nullable<StateEnum> state { get; set; }
 
         [DataMember]
         [Display(Name = "Zip Code")]
@@ -49,7 +50,7 @@ namespace AIM.Service.Entities.Models
 
         [DataMember]
         [Display(Name = "User ID")]
-        public int? userId { get; set; }
+        public Nullable<int> userId { get; set; }
 
         [DataMember]
         [Display(Name = "Users List")]

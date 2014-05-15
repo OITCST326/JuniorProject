@@ -83,7 +83,7 @@ namespace AIM.Client.Entities.Models
         private Nullable<int> _jobId;
 
         [DataMember]
-        public StatusEnum? status
+        public Nullable<StatusEnum> status
         {
             get { return _status; }
             set
@@ -94,7 +94,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private StatusEnum? _status;
+        private Nullable<StatusEnum> _status;
 
         [DataMember]
         public string salaryExpectation
@@ -111,7 +111,7 @@ namespace AIM.Client.Entities.Models
         private string _salaryExpectation;
 
         [DataMember]
-        public bool? isFullTime
+        public bool isFullTime
         {
             get { return _isFullTime; }
             set
@@ -122,10 +122,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private bool? _isFullTime;
+        private bool _isFullTime;
 
         [DataMember]
-        public bool? isDays
+        public bool isDays
         {
             get { return _isDays; }
             set
@@ -136,10 +136,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private bool? _isDays;
+        private bool _isDays;
 
         [DataMember]
-        public bool? isEvenings
+        public bool isEvenings
         {
             get { return _isEvenings; }
             set
@@ -150,10 +150,10 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private bool? _isEvenings;
+        private bool _isEvenings;
 
         [DataMember]
-        public bool? isWeekends
+        public bool isWeekends
         {
             get { return _isWeekends; }
             set
@@ -164,7 +164,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private bool? _isWeekends;
+        private bool _isWeekends;
 
         [DataMember]
         public Applicant Applicant

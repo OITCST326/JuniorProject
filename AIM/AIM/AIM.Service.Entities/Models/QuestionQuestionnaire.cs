@@ -1,3 +1,4 @@
+using System;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -20,7 +21,7 @@ namespace AIM.Service.Entities.Models
 
         [DataMember]
         [Display(Name = "Number Of Questions")]
-        public int? numberOfQuestions { get; set; }
+        public Nullable<int> numberOfQuestions { get; set; }
 
         [DataMember]
         [Display(Name = "Questionnaire")]

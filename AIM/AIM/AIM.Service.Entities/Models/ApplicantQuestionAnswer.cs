@@ -1,3 +1,4 @@
+using System;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -16,11 +17,11 @@ namespace AIM.Service.Entities.Models
 
         [DataMember]
         [Display(Name = "Applicant ID")]
-        public int? applicantId { get; set; }
+        public Nullable<int> applicantId { get; set; }
 
         [DataMember]
         [Display(Name = "Question ID")]
-        public int? quesitonId { get; set; }
+        public Nullable<int> quesitonId { get; set; }
 
         [DataMember]
         [Display(Name = "Answer Json String")]

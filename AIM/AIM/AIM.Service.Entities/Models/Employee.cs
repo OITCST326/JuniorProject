@@ -1,3 +1,4 @@
+using System;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -21,11 +22,11 @@ namespace AIM.Service.Entities.Models
 
         [DataMember]
         [Display(Name = "Permissions")]
-        public PermissionsEnum? permissions { get; set; }
+        public Nullable<PermissionsEnum> permissions { get; set; }
 
         [DataMember]
         [Display(Name = "Job ID")]
-        public int? jobId { get; set; }
+        public Nullable<int> jobId { get; set; }
 
         [DataMember]
         [Display(Name = "Job")]

@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using AIM.Service.Entities.Models;
+
 namespace AIM.Web.Admin.QuestionServiceReference {
     
     
@@ -19,7 +21,7 @@ namespace AIM.Web.Admin.QuestionServiceReference {
         AIM.Service.Entities.Models.Question[] GetQuestionsList();
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IQuestionService/GetQuestion", ReplyAction="urn:trackable-entities:service/IQuestionService/GetQuestionResponse")]
-        AIM.Service.Entities.Models.Question GetQuestion(int id);
+        Question GetQuestion(int? id);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:trackable-entities:service/IQuestionService/UpdateQuestion", ReplyAction="urn:trackable-entities:service/IQuestionService/UpdateQuestionResponse")]
         AIM.Service.Entities.Models.Question UpdateQuestion(AIM.Service.Entities.Models.Question entity);
@@ -77,7 +79,7 @@ namespace AIM.Web.Admin.QuestionServiceReference {
             return base.Channel.GetQuestionsList();
         }
         
-        public AIM.Service.Entities.Models.Question GetQuestion(int id) {
+        public Question GetQuestion(int? id) {
             return base.Channel.GetQuestion(id);
         }
         

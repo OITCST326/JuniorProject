@@ -1,3 +1,5 @@
+using System;
+using System.Linq;
 using AIM.Service.Client.Models;
 using Newtonsoft.Json;
 using System.Collections.Generic;
@@ -47,7 +49,7 @@ namespace AIM.Client.Entities.Models
         private string _qJsonProperties;
 
         [DataMember]
-        public int? questionnaireId
+        public Nullable<int> questionnaireId
         {
             get { return _questionnaireId; }
             set
@@ -58,7 +60,7 @@ namespace AIM.Client.Entities.Models
             }
         }
 
-        private int? _questionnaireId;
+        private Nullable<int> _questionnaireId;
 
         [DataMember]
         public int interviewQuestionsId
@@ -123,18 +125,73 @@ namespace AIM.Client.Entities.Models
         public TrackingState TrackingState { get; set; }
 
         [DataMember]
-        public int qJsonId { get; set; }
+        public Nullable<int> qJsonId
+        {
+            get { return _qJsonId; }
+            set
+            {
+                if (value == _qJsonId) return;
+                _qJsonId = value;
+                NotifyPropertyChanged(m => m.questionnaireId);
+            }
+        }
+
+        private Nullable<int> _qJsonId;
 
         [DataMember]
-        public TypeEnum qJsonType { get; set; }
+        public Nullable<TypeEnum> qJsonType
+        {
+            get { return _qJsonType; }
+            set
+            {
+                if (value == _qJsonType) return;
+                _qJsonType = value;
+                NotifyPropertyChanged(m => m.qJsonType);
+            }
+        }
+
+        private Nullable<TypeEnum> _qJsonType;
 
         [DataMember]
-        public string qJsonText { get; set; }
+        public string qJsonText
+        {
+            get { return _qJsonText;  }
+            set
+            {
+                if (value == _qJsonText) return;
+                _qJsonText = value;
+                NotifyPropertyChanged(m => m.qJsonText);
+            }
+        }
+
+        private string _qJsonText;
 
         [DataMember]
-        public IList<string> qJsonOptionList { get; set; }
+        public IList<string> qJsonOptionList
+        {
+            get { return _qJsonOptionList; }
+            set
+            {
+                if (value.Equals(_qJsonOptionList)) return;
+                _qJsonOptionList = value;
+                NotifyPropertyChanged(m => m.qJsonOptionList);
+            }
+        }
+
+        private IList<string> _qJsonOptionList = new List<string>();
 
         [DataMember]
-        public IList<string> qJsonAnswerList { get; set; }
+        public IList<string> qJsonAnswerList
+        {
+            get { return _qJsonAnswerList; }
+            set
+            {
+                if (value.Equals(_qJsonAnswerList)) return;
+                _qJsonAnswerList = value;
+                NotifyPropertyChanged(m => m.qJsonAnswerList);
+            }
+        }
+
+        private IList<string> _qJsonAnswerList = new List<string>();
     }
 }
