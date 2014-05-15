@@ -40,13 +40,16 @@
                 <thead>
                     <tr>
                         <th>
-                            @Html.DisplayNameFor(model => model.qJsonProperties)
+                            @Html.DisplayNameFor(model => model.qJsonText)
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.questionnaireId)
+                            @Html.DisplayNameFor(model => model.qJsonType)
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.interviewQuestionsId)
+                            @Html.DisplayNameFor(model => model.qJsonOptionList)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.qJsonAnswerList)
                         </th>
                         <th></th>
                         <th></th>
@@ -58,13 +61,16 @@
                     {
                         <tr>
                             <td class="center">
-                                @Html.DisplayFor(modelItem => item.qJsonProperties)
+                                @Html.DisplayFor(modelItem => item.qJsonText)
                             </td>
                             <td class="center">
-                                @Html.DisplayFor(modelItem => item.questionnaireId)
+                                @Html.DisplayFor(modelItem => item.qJsonType)
                             </td>
                             <td class="center">
-                                @Html.DisplayFor(modelItem => item.interviewQuestionsId)
+                                @Html.DisplayFor(modelItem => item.qJsonOptionList)
+                            </td>
+                            <td class="center">
+                                @Html.DisplayFor(modelItem => item.qJsonAnswerList)
                             </td>
                             <td class="center">
                                 <div>
